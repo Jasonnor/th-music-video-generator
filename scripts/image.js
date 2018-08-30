@@ -13,7 +13,7 @@ function changeImage(charaName) {
         if (imageList.length > 0) {
             var imageURL = imageList[Math.floor(Math.random() * imageList.length)];
             var body = document.getElementsByTagName('body')[0];
-            body.style.backgroundImage = 'url(\'' + imageURL + '\')';
+            body.style.backgroundImage = 'url(\'.' + imageURL + '\')';
         }
     });
 }
