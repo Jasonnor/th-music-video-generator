@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,51 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
+
 <body>
-    
+    <!-- Top Info -->
+    <div id="title">
+        <span id="track"></span>
+        <div id="timer">0:00</div>
+        <div id="duration">0:00</div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controlsOuter">
+        <div class="controlsInner">
+            <div id="loading"></div>
+            <div class="btn" id="playBtn"></div>
+            <div class="btn" id="pauseBtn"></div>
+            <div class="btn" id="prevBtn"></div>
+            <div class="btn" id="nextBtn"></div>
+        </div>
+        <div class="btn" id="playlistBtn"></div>
+        <div class="btn" id="volumeBtn"></div>
+    </div>
+
+    <!-- Progress -->
+    <div id="waveform"></div>
+    <div id="bar"></div>
+    <div id="progress"></div>
+
+    <!-- Playlist -->
+    <div id="playlist">
+        <div id="list"></div>
+    </div>
+
+    <!-- Volume -->
+    <div id="volume" class="fadeout">
+        <div id="barFull" class="bar"></div>
+        <div id="barEmpty" class="bar"></div>
+        <div id="sliderBtn"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
+    <script src="/scripts/siriwave.js" defer></script>
+    <script src="/scripts/player.js" defer></script>
 </body>
+
 </html>
