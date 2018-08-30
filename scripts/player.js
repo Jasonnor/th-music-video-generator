@@ -28,13 +28,18 @@ var Player = function (playlist) {
 
   // Setup the playlist display.
   playlist.forEach(function (song) {
-    var div = document.createElement('div');
-    div.className = 'list-song';
-    div.innerHTML = song.title;
-    div.onclick = function () {
+    var li = document.createElement('li');
+    li.className = 'pure-menu-item';
+    var a = document.createElement('a');
+    a.href = '#';
+    //a.className = 'list-song';
+    a.className = 'pure-menu-link playlist-item';
+    a.innerHTML = song.title;
+    a.onclick = function () {
       player.skipTo(playlist.indexOf(song));
     };
-    list.appendChild(div);
+    li.appendChild(a);
+    list.appendChild(li);
   });
 };
 Player.prototype = {
@@ -237,7 +242,7 @@ Player.prototype = {
     setTimeout(function () {
       playlist.style.display = display;
     }, (display === 'block') ? 0 : 500);
-    playlist.className = (display === 'block') ? 'fadein' : 'fadeout';
+    playlist.className = (display === 'block') ? 'pure-menu pure-menu-scrollable fadein' : 'pure-menu pure-menu-scrollable fadeout';
   },
 
   /**
