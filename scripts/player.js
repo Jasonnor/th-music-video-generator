@@ -55,7 +55,7 @@ Player.prototype = {
       sound = data.howl;
     } else {
       sound = data.howl = new Howl({
-        src: ['./audio/' + data.file + '.mp3'],
+        src: [data.file],
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
         onplay: function () {
           // Display the duration.
@@ -265,18 +265,23 @@ Player.prototype = {
   }
 };
 
-// Setup our new audio player class and pass it the playlist.
-var player = new Player([{
-    title: '明治十七年の上海アリス',
-    file: 'th06/07. 明治十七年の上海アリス',
-    howl: null
-  },
-  {
-    title: '亡き王女の為のセプテット',
-    file: 'th06/13. 亡き王女の為のセプテット',
-    howl: null
-  }
-]);
+
+var songList = [];
+var player;
+
+firebase.database().ref('games').once('value').then(function (games) {
+  games.val().forEach(game => {
+    game.songs.forEach(song => {
+      var songObj = {}
+      songObj['title'] = song.name;
+      songObj['file'] = song.path;
+      songObj['howl'] = null;
+      songList.push(songObj);
+    });
+  });
+  // Setup our new audio player class and pass it the playlist.
+  player = new Player(songList);
+});
 
 // Bind our player controls.
 playBtn.addEventListener('click', function () {
