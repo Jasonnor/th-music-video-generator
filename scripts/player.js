@@ -24,7 +24,7 @@ var Player = function (playlist) {
   this.index = 0;
 
   // Display the title of the first track.
-  track.innerHTML = '1. ' + playlist[0].title;
+  track.innerHTML = playlist[0].title;
 
   // Setup the playlist display.
   playlist.forEach(function (song) {
@@ -98,7 +98,8 @@ Player.prototype = {
     sound.play();
 
     // Update the track display.
-    track.innerHTML = (index + 1) + '. ' + data.title;
+    //track.innerHTML = (index + 1) + '. ' + data.title;
+    track.innerHTML = data.title;
 
     // Show the pause button.
     if (sound.state() === 'loaded') {
@@ -273,7 +274,7 @@ firebase.database().ref('games').once('value').then(function (games) {
   games.val().forEach(game => {
     game.songs.forEach(song => {
       var songObj = {}
-      songObj['title'] = song.name;
+      songObj['title'] = song.name.split(".")[1];
       songObj['file'] = song.path;
       songObj['howl'] = null;
       songList.push(songObj);
