@@ -283,6 +283,7 @@ firebase.database().ref('games').once('value').then(function (games) {
       songObj['title'] = song.name.split(".")[1];
       songObj['file'] = song.path;
       songObj['howl'] = null;
+      songObj['character'] = song.character;
       songList.push(songObj);
     });
   });

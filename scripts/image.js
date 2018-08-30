@@ -1,7 +1,9 @@
 function changeImage(charaName) {
+    console.log("Change image to character " + charaName);
     var imageList = []
     firebase.database().ref('images').once('value').then(function (charas) {
         charas.val().forEach(chara => {
+            console.log(chara.name);
             if (chara.name == charaName) {
                 chara.images.forEach(image => {
                     imageList.push(image.path);
