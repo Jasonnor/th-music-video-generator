@@ -105,6 +105,7 @@ Player.prototype = {
     // Update the track display.
     //track.innerHTML = (index + 1) + '. ' + data.title;
     track.innerHTML = data.title;
+    changeImage(data.character);
 
     // Show the pause button.
     if (sound.state() === 'loaded') {
