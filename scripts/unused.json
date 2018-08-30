@@ -1,0 +1,475 @@
+
+    {
+      "name": "東方靈異伝",
+      "path": "/audio/th01",
+      "songs": [
+        {
+          "name": "1.A Sacred Lot.mp3",
+          "path": "/audio/th01/1.A Sacred Lot.mp3"
+        },
+        {
+          "name": "10.the Legend of KAGE.mp3",
+          "path": "/audio/th01/10.the Legend of KAGE.mp3"
+        },
+        {
+          "name": "11.いざ、倒れ逝くその時まで.mp3",
+          "path": "/audio/th01/11.いざ、倒れ逝くその時まで.mp3"
+        },
+        {
+          "name": "12.Civilization of Magic.mp3",
+          "path": "/audio/th01/12.Civilization of Magic.mp3"
+        },
+        {
+          "name": "13.星幽天使.mp3",
+          "path": "/audio/th01/13.星幽天使.mp3"
+        },
+        {
+          "name": "14.アイリス.mp3",
+          "path": "/audio/th01/14.アイリス.mp3"
+        },
+        {
+          "name": "15.テーマ·オブ·イースタンストーリー.mp3",
+          "path": "/audio/th01/15.テーマ·オブ·イースタンストーリー.mp3"
+        },
+        {
+          "name": "2.永遠の巫女.mp3",
+          "path": "/audio/th01/2.永遠の巫女.mp3"
+        },
+        {
+          "name": "3.The Positive and Negative.mp3",
+          "path": "/audio/th01/3.The Positive and Negative.mp3"
+        },
+        {
+          "name": "4.Highly Responsive to Prayers.mp3",
+          "path": "/audio/th01/4.Highly Responsive to Prayers.mp3"
+        },
+        {
+          "name": "5.東方怪奇談.mp3",
+          "path": "/audio/th01/5.東方怪奇談.mp3"
+        },
+        {
+          "name": "6.天使伝説.mp3",
+          "path": "/audio/th01/6.天使伝説.mp3"
+        },
+        {
+          "name": "7.Oriental Magician.mp3",
+          "path": "/audio/th01/7.Oriental Magician.mp3"
+        },
+        {
+          "name": "8.破邪の小太刀.mp3",
+          "path": "/audio/th01/8.破邪の小太刀.mp3"
+        },
+        {
+          "name": "9.魔鏡.mp3",
+          "path": "/audio/th01/9.魔鏡.mp3"
+        }
+      ]
+    },
+    {
+      "name": "東方封魔録",
+      "path": "/audio/th02",
+      "songs": [
+        {
+          "name": "1.東方封魔録 ～ 浄土曼荼羅.mp3",
+          "path": "/audio/th02/1.東方封魔録 ～ 浄土曼荼羅.mp3"
+        },
+        {
+          "name": "10.東方封魔録 ～ 幽幻乱舞.mp3",
+          "path": "/audio/th02/10.東方封魔録 ～ 幽幻乱舞.mp3"
+        },
+        {
+          "name": "11.Complete Darkness.mp3",
+          "path": "/audio/th02/11.Complete Darkness.mp3"
+        },
+        {
+          "name": "12.エキストララブ.mp3",
+          "path": "/audio/th02/12.エキストララブ.mp3"
+        },
+        {
+          "name": "13.戦車むすめのみるゆめ.mp3",
+          "path": "/audio/th02/13.戦車むすめのみるゆめ.mp3"
+        },
+        {
+          "name": "14.遠野の森.mp3",
+          "path": "/audio/th02/14.遠野の森.mp3"
+        },
+        {
+          "name": "15.昔話わんだーらんど.mp3",
+          "path": "/audio/th02/15.昔話わんだーらんど.mp3"
+        },
+        {
+          "name": "16.博麗神社境内.mp3",
+          "path": "/audio/th02/16.博麗神社境内.mp3"
+        },
+        {
+          "name": "17.陽落ちて.mp3",
+          "path": "/audio/th02/17.陽落ちて.mp3"
+        },
+        {
+          "name": "18.封魔終演.mp3",
+          "path": "/audio/th02/18.封魔終演.mp3"
+        },
+        {
+          "name": "2.博麗 ～ Eastern Wind.mp3",
+          "path": "/audio/th02/2.博麗 ～ Eastern Wind.mp3"
+        },
+        {
+          "name": "3.She's in a temper!!.mp3",
+          "path": "/audio/th02/3.She's in a temper!!.mp3"
+        },
+        {
+          "name": "4.End of Daylight.mp3",
+          "path": "/audio/th02/4.End of Daylight.mp3"
+        },
+        {
+          "name": "5.やみのちから.mp3",
+          "path": "/audio/th02/5.やみのちから.mp3"
+        },
+        {
+          "name": "6.幻夢界.mp3",
+          "path": "/audio/th02/6.幻夢界.mp3"
+        },
+        {
+          "name": "7.死を賭して.mp3",
+          "path": "/audio/th02/7.死を賭して.mp3"
+        },
+        {
+          "name": "8.ひもろぎ、むらさきにもえ.mp3",
+          "path": "/audio/th02/8.ひもろぎ、むらさきにもえ.mp3"
+        },
+        {
+          "name": "9.恋色マジック.mp3",
+          "path": "/audio/th02/9.恋色マジック.mp3"
+        }
+      ]
+    },
+	{
+      "name": "東方夢時空",
+      "path": "/audio/th03",
+      "songs": [
+        {
+          "name": "1.夢は時空を超えて.mp3",
+          "path": "/audio/th03/1.夢は時空を超えて.mp3"
+        },
+        {
+          "name": "10.勝利デモ.mp3",
+          "path": "/audio/th03/10.勝利デモ.mp3"
+        },
+        {
+          "name": "11.魔法決戦！　～ Fight it out!.mp3",
+          "path": "/audio/th03/11.魔法決戦！　～ Fight it out!.mp3"
+        },
+        {
+          "name": "12.非統一魔法世界論.mp3",
+          "path": "/audio/th03/12.非統一魔法世界論.mp3"
+        },
+        {
+          "name": "13.Sailor of Time.mp3",
+          "path": "/audio/th03/13.Sailor of Time.mp3"
+        },
+        {
+          "name": "14.魔法鐘愛.mp3",
+          "path": "/audio/th03/14.魔法鐘愛.mp3"
+        },
+        {
+          "name": "15.Strawberry Crisis!!.mp3",
+          "path": "/audio/th03/15.Strawberry Crisis!!.mp3"
+        },
+        {
+          "name": "16.久遠の夢.mp3",
+          "path": "/audio/th03/16.久遠の夢.mp3"
+        },
+        {
+          "name": "17.東方の青い空.mp3",
+          "path": "/audio/th03/17.東方の青い空.mp3"
+        },
+        {
+          "name": "18.永遠の満月.mp3",
+          "path": "/audio/th03/18.永遠の満月.mp3"
+        },
+        {
+          "name": "19.Maple Dream....mp3",
+          "path": "/audio/th03/19.Maple Dream....mp3"
+        },
+        {
+          "name": "2.Selection.mp3",
+          "path": "/audio/th03/2.Selection.mp3"
+        },
+        {
+          "name": "20.ゲームオーバー.mp3",
+          "path": "/audio/th03/20.ゲームオーバー.mp3"
+        },
+        {
+          "name": "21.霊人の休日.mp3",
+          "path": "/audio/th03/21.霊人の休日.mp3"
+        },
+        {
+          "name": "22.時の風.mp3",
+          "path": "/audio/th03/22.時の風.mp3"
+        },
+        {
+          "name": "23.スターボウドリーム.mp3",
+          "path": "/audio/th03/23.スターボウドリーム.mp3"
+        },
+        {
+          "name": "24.Phantasmagoria.mp3",
+          "path": "/audio/th03/24.Phantasmagoria.mp3"
+        },
+        {
+          "name": "3.東方妖恋談.mp3",
+          "path": "/audio/th03/3.東方妖恋談.mp3"
+        },
+        {
+          "name": "4.Reincarnation.mp3",
+          "path": "/audio/th03/4.Reincarnation.mp3"
+        },
+        {
+          "name": "5.Dim. Dream.mp3",
+          "path": "/audio/th03/5.Dim. Dream.mp3"
+        },
+        {
+          "name": "6.Tabula rasa　～ 空白少女.mp3",
+          "path": "/audio/th03/6.Tabula rasa　～ 空白少女.mp3"
+        },
+        {
+          "name": "7.Maniacal Princess.mp3",
+          "path": "/audio/th03/7.Maniacal Princess.mp3"
+        },
+        {
+          "name": "8.夢消失　～ Lost Dream.mp3",
+          "path": "/audio/th03/8.夢消失　～ Lost Dream.mp3",
+		  "character": "カナ・アナベラル"
+        },
+        {
+          "name": "9.夢幻遊戯　～ Dream War.mp3",
+          "path": "/audio/th03/9.夢幻遊戯　～ Dream War.mp3"
+        }
+      ]
+    },
+    {
+      "name": "東方幻想郷",
+      "path": "/audio/th04",
+      "songs": [
+        {
+          "name": "1.幻想郷　～　Lotus Land Story.mp3",
+          "path": "/audio/th04/Disc A/1.幻想郷　～　Lotus Land Story.mp3"
+        },
+        {
+          "name": "10.少女綺想曲　～　Capriccio.mp3",
+          "path": "/audio/th04/Disc A/10.少女綺想曲　～　Capriccio.mp3"
+        },
+        {
+          "name": "11.星の器　～　Casket of Star.mp3",
+          "path": "/audio/th04/Disc A/11.星の器　～　Casket of Star.mp3"
+        },
+        {
+          "name": "12.Lotus Love.mp3",
+          "path": "/audio/th04/Disc A/12.Lotus Love.mp3"
+        },
+        {
+          "name": "13.眠れる恐怖　～　Sleeping Terror.mp3",
+          "path": "/audio/th04/Disc A/13.眠れる恐怖　～　Sleeping Terror.mp3",
+		  "character": "旧作幽香"
+        },
+        {
+          "name": "14.Dream　Land.mp3",
+          "path": "/audio/th04/Disc A/14.Dream　Land.mp3"
+        },
+        {
+          "name": "15.幽夢　～　Inanimate Dream.mp3",
+          "path": "/audio/th04/Disc A/15.幽夢　～　Inanimate Dream.mp3",
+		  "character": "旧作幽香"
+        },
+        {
+          "name": "2.Witching Dream.mp3",
+          "path": "/audio/th04/Disc A/2.Witching Dream.mp3"
+        },
+        {
+          "name": "3.Selene's light.mp3",
+          "path": "/audio/th04/Disc A/3.Selene's light.mp3"
+        },
+        {
+          "name": "4.装飾戦　～　Decoration Battle.mp3",
+          "path": "/audio/th04/Disc A/4.装飾戦　～　Decoration Battle.mp3"
+        },
+        {
+          "name": "5.Break the Sabbath.mp3",
+          "path": "/audio/th04/Disc A/5.Break the Sabbath.mp3"
+        },
+        {
+          "name": "6.紅響曲　～　Scarlet Phoneme.mp3",
+          "path": "/audio/th04/Disc A/6.紅響曲　～　Scarlet Phoneme.mp3"
+        },
+        {
+          "name": "7.Bad Apple!!.mp3",
+          "path": "/audio/th04/Disc A/7.Bad Apple!!.mp3"
+        },
+        {
+          "name": "8.霊戦　～　Perdition crisis.mp3",
+          "path": "/audio/th04/Disc A/8.霊戦　～　Perdition crisis.mp3"
+        },
+        {
+          "name": "1.禁じざるをえない遊戯.mp3",
+          "path": "/audio/th04/Disc B/1.禁じざるをえない遊戯.mp3"
+        },
+        {
+          "name": "9.アリスマエステラ.mp3",
+          "path": "/audio/th04/Disc A/9.アリスマエステラ.mp3"
+        },
+        {
+          "name": "10.Incomplete Plot.mp3",
+          "path": "/audio/th04/Disc B/10.Incomplete Plot.mp3"
+        },
+        {
+          "name": "11.Border Land.mp3",
+          "path": "/audio/th04/Disc B/11.Border Land.mp3"
+        },
+        {
+          "name": "12.Magic Shop of Raspberry.mp3",
+          "path": "/audio/th04/Disc B/12.Magic Shop of Raspberry.mp3"
+        },
+        {
+          "name": "13.Crescent Dream.mp3",
+          "path": "/audio/th04/Disc B/13.Crescent Dream.mp3"
+        },
+        {
+          "name": "14.装飾戦　～　Decoration Battle （未使用バージョン).mp3",
+          "path": "/audio/th04/Disc B/14.装飾戦　～　Decoration Battle （未使用バージョン).mp3"
+        },
+        {
+          "name": "15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
+          "path": "/audio/th04/Disc B/15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
+		  "character": "旧作幽香"
+        },
+        {
+          "name": "2.メイド幻想　～　Icemilk Magic.mp3",
+          "path": "/audio/th04/Disc B/2.メイド幻想　～　Icemilk Magic.mp3"
+        },
+        {
+          "name": "3.かわいい悪魔　～　Innocence.mp3",
+          "path": "/audio/th04/Disc B/3.かわいい悪魔　～　Innocence.mp3"
+        },
+        {
+          "name": "4.Days.mp3",
+          "path": "/audio/th04/Disc B/4.Days.mp3"
+        },
+        {
+          "name": "5.Peaceful.mp3",
+          "path": "/audio/th04/Disc B/5.Peaceful.mp3"
+        },
+        {
+          "name": "6.Arcadian Dream.mp3",
+          "path": "/audio/th04/Disc B/6.Arcadian Dream.mp3"
+        },
+        {
+          "name": "7.幻想の住人.mp3",
+          "path": "/audio/th04/Disc B/7.幻想の住人.mp3"
+        },
+        {
+          "name": "8.Lotus Road.mp3",
+          "path": "/audio/th04/Disc B/8.Lotus Road.mp3"
+        },
+        {
+          "name": "9.Dreamy pilot.mp3",
+          "path": "/audio/th04/Disc B/9.Dreamy pilot.mp3"
+        }
+      ]
+    },
+    {
+      "name": "東方怪綺談",
+      "path": "/audio/th05",
+      "songs": [
+        {
+          "name": "1.怪綺談 ～ Mystic Square.mp3",
+          "path": "/audio/th05/1.怪綺談 ～ Mystic Square.mp3"
+        },
+        {
+          "name": "10.真紅の少女 ～ Crimson Dead!!.mp3",
+          "path": "/audio/th05/10.真紅の少女 ～ Crimson Dead!!.mp3"
+        },
+        {
+          "name": "11.裏切りの少女 ～ Judas Kiss.mp3",
+          "path": "/audio/th05/11.裏切りの少女 ～ Judas Kiss.mp3"
+        },
+        {
+          "name": "12.the Last Judgement.mp3",
+          "path": "/audio/th05/12.the Last Judgement.mp3"
+        },
+        {
+          "name": "13.悲しき人形 ～ Doll of Misery.mp3",
+          "path": "/audio/th05/13.悲しき人形 ～ Doll of Misery.mp3"
+        },
+        {
+          "name": "14.世界の果て ～ World's End.mp3",
+          "path": "/audio/th05/14.世界の果て ～ World's End.mp3"
+        },
+        {
+          "name": "15.神話幻想 ～ Infinite Being.mp3",
+          "path": "/audio/th05/15.神話幻想 ～ Infinite Being.mp3"
+        },
+        {
+          "name": "16.不思議の国のアリス.mp3",
+          "path": "/audio/th05/16.不思議の国のアリス.mp3"
+        },
+        {
+          "name": "17.the Grimoire of Alice.mp3",
+          "path": "/audio/th05/17.the Grimoire of Alice.mp3"
+        },
+        {
+          "name": "18.神社.mp3",
+          "path": "/audio/th05/18.神社.mp3"
+        },
+        {
+          "name": "19.Endless.mp3",
+          "path": "/audio/th05/19.Endless.mp3"
+        },
+        {
+          "name": "2.Dream Express.mp3",
+          "path": "/audio/th05/2.Dream Express.mp3"
+        },
+        {
+          "name": "20.久遠の楽園.mp3",
+          "path": "/audio/th05/20.久遠の楽園.mp3"
+        },
+        {
+          "name": "21.Mystic Dream.mp3",
+          "path": "/audio/th05/21.Mystic Dream.mp3"
+        },
+        {
+          "name": "22.魂の休らむ場所.mp3",
+          "path": "/audio/th05/22.魂の休らむ場所.mp3"
+        },
+        {
+          "name": "23.Peaceful Romancer.mp3",
+          "path": "/audio/th05/23.Peaceful Romancer.mp3"
+        },
+        {
+          "name": "3.魔方陣 ～ Magic Square.mp3",
+          "path": "/audio/th05/3.魔方陣 ～ Magic Square.mp3"
+        },
+        {
+          "name": "4.夢想時空.mp3",
+          "path": "/audio/th05/4.夢想時空.mp3"
+        },
+        {
+          "name": "5.霊天 ～ Spiritual Heaven.mp3",
+          "path": "/audio/th05/5.霊天 ～ Spiritual Heaven.mp3"
+        },
+        {
+          "name": "6.Romantic Children.mp3",
+          "path": "/audio/th05/6.Romantic Children.mp3"
+        },
+        {
+          "name": "7.プラスチックマインド.mp3",
+          "path": "/audio/th05/7.プラスチックマインド.mp3"
+        },
+        {
+          "name": "8.メイプルワイズ.mp3",
+          "path": "/audio/th05/8.メイプルワイズ.mp3"
+        },
+        {
+          "name": "9.禁断の魔法 ～ Forbidden Magic.mp3",
+          "path": "/audio/th05/9.禁断の魔法 ～ Forbidden Magic.mp3"
+        }
+      ]
+    },
