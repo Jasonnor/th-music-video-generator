@@ -397,3 +397,11 @@ body {
     opacity: 0;
   }
 }
+
+.playlist-item {
+  color: #e6e6e6;
+}
+
+.playlist-item:hover {
+  color: #525252;
+}
