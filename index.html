@@ -57,6 +57,19 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDmPHweR82MHPChLXyOqrwOaLe8L8FyYGA",
+            authDomain: "th-music-video-generator.firebaseapp.com",
+            databaseURL: "https://th-music-video-generator.firebaseio.com",
+            projectId: "th-music-video-generator",
+            storageBucket: "th-music-video-generator.appspot.com",
+            messagingSenderId: "766682158017"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
     <script src="/scripts/siriwave.js" defer></script>
     <script src="/scripts/player.js" async></script>
