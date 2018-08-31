@@ -31,26 +31,44 @@ const changeImage = async (charaName, sleep) => {
 }
 
 const changeVideo = async (charaName) => {
-    videoPlayer.source = {
+    googleApiClientReady();
+    await delay(1000);
+    keyword = '東方紅魔郷 Stage1 Lunatic';
+    var request = gapi.client.youtube.search.list({
+        part: 'snippet',
         type: 'video',
-        sources: [{
-            src: 'gMysfDV9UXA',
-            provider: 'youtube',
-        }]
-    };
-    await delay(1000);
-    videoPlayer.currentTime = 40;
-    videoPlayer.play();
-    await delay(1000);
-    videoPlayer.pause();
-    await delay(3500);
-    changeImage(charaName, false);
-    await delay(6500);
-    var vp = document.getElementById('videoPlayer');
-    vp.style.display = 'block';
-    var wrapper = document.getElementById('wrapper');
-    wrapper.style.backgroundImage = '';
-    videoPlayer.play();
+        videoDuration: 'medium',
+        q: keyword
+    });
+    request.execute(async (response) => {
+        console.log(response.result);
+        var randomIndex = Math.floor(Math.random() * 5) = 0
+        //response.result.items[randomIndex].snippet.title;
+        var videoId = response.result.items[randomIndex].id.videoId;
+        console.log(videoId);
+        await delay(1000);
+        videoPlayer.source = {
+            type: 'video',
+            sources: [{
+                src: videoId,
+                provider: 'youtube',
+            }]
+        };
+        await delay(1000);
+        videoPlayer.currentTime = 40;
+        await delay(2500);
+        changeImage(charaName, false);
+        await delay(4500);
+        videoPlayer.play();
+        await delay(1000);
+        videoPlayer.pause();
+        await delay(1000);
+        var vp = document.getElementById('videoPlayer');
+        vp.style.display = 'block';
+        var wrapper = document.getElementById('wrapper');
+        wrapper.style.backgroundImage = '';
+        videoPlayer.play();
+    });
 }
 
 const videoPlayer = new Plyr('#videoPlayer', {
@@ -61,6 +79,13 @@ const videoPlayer = new Plyr('#videoPlayer', {
     clickToPlay: false,
     resetOnEnd: true
 });
+
+var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
+
+function googleApiClientReady() {
+    gapi.client.setApiKey(googleAPI);
+    gapi.client.load('youtube', 'v3');
+}
 
 function setOpacity(object, opacityPct) {
     object.style.opacity = opacityPct / 100;
