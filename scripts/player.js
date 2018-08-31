@@ -38,8 +38,8 @@ var Player = function (playlist) {
       ul.style.backgroundImage = 'url(\'./images/title/th' + ('00' + ulth).slice(-2) + '.jpg\')';
       ulth++;
     } else {
-      var a = document.createElement('a');
-      a.href = '#';
+      // Song
+      var a = document.createElement('div');
       a.innerHTML = song.title;
       a.className = 'pure-menu-link playlist-item';
       a.onclick = function () {

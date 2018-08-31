@@ -383,6 +383,7 @@ body {
 
 .playlist-item {
   color: #e6e6e6;
+  cursor: pointer;
 }
 
 .playlist-item:hover {
