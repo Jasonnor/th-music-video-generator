@@ -378,3 +378,10 @@ body {
 .playlist-item:hover {
   color: #525252;
 }
+
+.playlist-title {
+  color: #e6e6e6;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0em 0em 1em rgba(255, 255, 255, 0.5);
+}

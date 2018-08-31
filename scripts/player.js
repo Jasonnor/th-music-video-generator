@@ -30,15 +30,19 @@ var Player = function (playlist) {
   playlist.forEach(function (song) {
     var li = document.createElement('li');
     li.className = 'pure-menu-item';
-    var a = document.createElement('a');
-    a.href = '#';
-    //a.className = 'list-song';
-    a.className = 'pure-menu-link playlist-item';
-    a.innerHTML = song.title;
-    a.onclick = function () {
-      player.skipTo(playlist.indexOf(song));
-    };
-    li.appendChild(a);
+    if (song.file == null) {
+      li.innerHTML = song.title;
+      li.className += ' pure-menu-disabled playlist-title';
+    } else {
+      var a = document.createElement('a');
+      a.href = '#';
+      a.innerHTML = song.title;
+      a.className = 'pure-menu-link playlist-item';
+      a.onclick = function () {
+        player.skipTo(playlist.indexOf(song));
+      };
+      li.appendChild(a);
+    }
     list.appendChild(li);
   });
 };
@@ -53,6 +57,10 @@ Player.prototype = {
 
     index = typeof index === 'number' ? index : self.index;
     var data = self.playlist[index];
+    if (data.file == null) {
+      self.skip('next');
+      return;
+    }
 
     // If we already loaded this track, use the current one.
     // Otherwise, setup and load a new Howl.
@@ -278,6 +286,10 @@ var player;
 
 firebase.database().ref('games').once('value').then(function (games) {
   games.val().forEach(game => {
+    var songObj = {}
+    songObj['title'] = game.name;
+    songObj['file'] = null;
+    songList.push(songObj);
     game.songs.forEach(song => {
       var songObj = {}
       songObj['title'] = song.name.split(".")[1];
