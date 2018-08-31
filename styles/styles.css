@@ -310,13 +310,13 @@ body {
 
 /* Fade-In */
 .fadeout {
-  webkit-animation: fadeout 0.5s;
+  -webkit-animation: fadeout 0.5s;
   -ms-animation: fadeout 0.5s;
   animation: fadeout 0.5s;
 }
 
 .fadein {
-  webkit-animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
   -ms-animation: fadein 0.5s;
   animation: fadein 0.5s;
 }
