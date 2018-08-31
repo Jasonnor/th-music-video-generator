@@ -236,7 +236,7 @@ body {
 
 /* Plylist */
 #playlist {
-  width: 100%;
+  width: 700px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -379,6 +379,15 @@ body {
   to {
     opacity: 0;
   }
+}
+
+#closePlaylist {
+  position: fixed;
+  left: 620px;
+  top: 10px;
+  color: #FFF;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .playlist-item {

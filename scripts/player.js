@@ -35,7 +35,9 @@ var Player = function (playlist) {
       li.className += ' pure-menu-disabled playlist-title';
       ul = document.createElement('ul');
       ul.className = 'pure-menu-list';
-      ul.style.backgroundImage = 'url(\'./images/title/th' + ('00' + ulth).slice(-2) + '.jpg\')';
+      if (ulth > 5) {
+        ul.style.backgroundImage = 'url(\'./images/title/th' + ('00' + ulth).slice(-2) + '.jpg\')';
+      }
       ulth++;
     } else {
       // Song
@@ -335,6 +337,9 @@ volumeBtn.addEventListener('click', function () {
 });
 volume.addEventListener('click', function () {
   player.toggleVolume();
+});
+closePlaylist.addEventListener('click', function () {
+  player.togglePlaylist();
 });
 
 // Setup the event listeners to enable dragging of volume slider.
