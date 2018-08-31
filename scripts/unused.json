@@ -473,3 +473,16 @@
         }
       ]
     },
+        {
+          "name": "19. 春風の夢.mp3",
+          "path": "/audio/th07/19. 春風の夢.mp3",
+          "character": "東方妖々夢"
+        },
+        {
+          "name": "19. 月見草.mp3",
+          "path": "/audio/th08/19. 月見草.mp3"
+        },
+        {
+          "name": "01. 花映塚　～ Higan Retour.mp3",
+          "path": "/audio/th09/01. 花映塚　～ Higan Retour.mp3"
+        },
