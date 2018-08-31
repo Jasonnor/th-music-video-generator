@@ -19,6 +19,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.3/plyr.css" integrity="sha256-rufXFXaVZSvt3zXMGOG17EoglendvXvURMiR5lX9O8g="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -29,6 +31,11 @@
             <span id="track"></span>
             <div id="timer">0:00</div>
             <div id="duration">0:00</div>
+        </div>
+
+        <!-- Video -->
+        <div class="plyr__video-embed" id="videoPlayer" style="display: none">
+            <iframe src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&iv_load_policy=3&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"></iframe>
         </div>
 
         <!-- Controls -->
@@ -76,6 +83,8 @@
         firebase.initializeApp(config);
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.3/plyr.min.js" integrity="sha256-LAq55x/UUQNWhiFLlHHGGivmJx4sVm70ls05hcmhLQ8="
+        crossorigin="anonymous" defer></script>
     <script src="./scripts/siriwave.js" defer></script>
     <script src="./scripts/player.js" async></script>
     <script src="./scripts/video.js" async></script>

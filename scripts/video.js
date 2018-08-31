@@ -19,14 +19,48 @@ const changeImage = async (charaName, sleep) => {
             var imageURL = imageList[Math.floor(Math.random() * imageList.length)];
             //var body = document.getElementsByTagName('body')[0];
             //body.style.backgroundImage = 'url(\'.' + imageURL + '\')';
+            var vp = document.getElementById('videoPlayer');
+            vp.style.display = 'none';
+            videoPlayer.poster = imageURL;
             fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
         }
     });
     if (sleep == true) {
-        await delay(5000);
-        changeImage(charaName, false);
+        changeVideo(charaName);
     }
 }
+
+const changeVideo = async (charaName) => {
+    videoPlayer.source = {
+        type: 'video',
+        sources: [{
+            src: 'gMysfDV9UXA',
+            provider: 'youtube',
+        }]
+    };
+    await delay(1000);
+    videoPlayer.currentTime = 40;
+    videoPlayer.play();
+    await delay(1000);
+    videoPlayer.pause();
+    await delay(3500);
+    changeImage(charaName, false);
+    await delay(6500);
+    var vp = document.getElementById('videoPlayer');
+    vp.style.display = 'block';
+    var wrapper = document.getElementById('wrapper');
+    wrapper.style.backgroundImage = '';
+    videoPlayer.play();
+}
+
+const videoPlayer = new Plyr('#videoPlayer', {
+    controls: [],
+    autoplay: true,
+    autopause: false,
+    muted: true,
+    clickToPlay: false,
+    resetOnEnd: true
+});
 
 function setOpacity(object, opacityPct) {
     object.style.opacity = opacityPct / 100;
