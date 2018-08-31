@@ -1,4 +1,10 @@
-function changeImage(charaName) {
+const delay = ms => {
+    return new Promise(resolve => {
+        setTimeout(resolve, ms);
+    });
+};
+
+const changeImage = async (charaName, sleep) => {
     console.log("Change image to character " + charaName);
     var imageList = []
     firebase.database().ref('images').once('value').then(function (charas) {
@@ -15,4 +21,8 @@ function changeImage(charaName) {
             body.style.backgroundImage = 'url(\'.' + imageURL + '\')';
         }
     });
+    if (sleep == true) {
+        await delay(5000);
+        changeImage(charaName, false);
+    }
 }

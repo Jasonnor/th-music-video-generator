@@ -1,13 +1,3 @@
-/*!
- *  Howler.js Audio Player Demo
- *  howlerjs.com
- *
- *  (c) 2013-2018, James Simpson of GoldFire Studios
- *  goldfirestudios.com
- *
- *  MIT License
- */
-
 // Cache references to DOM elements.
 var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'bar', 'wave', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
 elms.forEach(function (elm) {
@@ -27,7 +17,7 @@ var Player = function (playlist) {
 
   // Display the title of the first track.
   track.innerHTML = playlist[this.index].title;
-  changeImage(playlist[this.index].character);
+  changeImage(playlist[this.index].character, false);
 
   // Setup the playlist display.
   playlist.forEach(function (song) {
@@ -116,7 +106,7 @@ Player.prototype = {
     // Update the track display.
     //track.innerHTML = (index + 1) + '. ' + data.title;
     track.innerHTML = data.title;
-    changeImage(data.character);
+    changeImage(data.character, true);
 
     // Show the pause button.
     if (sound.state() === 'loaded') {
