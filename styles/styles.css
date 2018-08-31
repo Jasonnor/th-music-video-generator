@@ -241,7 +241,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
 
@@ -391,8 +390,18 @@ body {
 }
 
 .playlist-title {
-  color: #e6e6e6;
+  opacity: 1;
+  color: #fff;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 0em 0em 1em rgba(255, 255, 255, 0.5);
+  text-shadow: 0em 0em 1em rgba(255, 255, 255);
+}
+
+ul {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.65);
 }

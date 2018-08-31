@@ -19,13 +19,24 @@ var Player = function (playlist) {
   track.innerHTML = playlist[this.index].title;
   changeImage(playlist[this.index].character, false);
 
+  var ul = null;
+  var ulth = 1;
+  var pl = document.getElementById('playlist')
   // Setup the playlist display.
   playlist.forEach(function (song) {
     var li = document.createElement('li');
     li.className = 'pure-menu-item';
     if (song.file == null) {
+      // Title
+      if (ul != null) {
+        pl.appendChild(ul);
+      }
       li.innerHTML = song.title;
       li.className += ' pure-menu-disabled playlist-title';
+      ul = document.createElement('ul');
+      ul.className = 'pure-menu-list';
+      ul.style.backgroundImage = 'url(\'./images/title/th' + ('00' + ulth).slice(-2) + '.jpg\')';
+      ulth++;
     } else {
       var a = document.createElement('a');
       a.href = '#';
@@ -36,8 +47,9 @@ var Player = function (playlist) {
       };
       li.appendChild(a);
     }
-    list.appendChild(li);
+    ul.appendChild(li);
   });
+  pl.appendChild(ul);
 };
 Player.prototype = {
   /**
