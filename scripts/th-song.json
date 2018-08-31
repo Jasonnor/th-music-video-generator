@@ -32,11 +32,6 @@
       "path": "/audio/th03",
       "songs": [
         {
-          "name": "15.Strawberry Crisis!!.mp3",
-          "path": "/audio/th03/15.Strawberry Crisis!!.mp3",
-          "character": "岡崎夢美"
-        },
-        {
           "name": "3.東方妖恋談.mp3",
           "path": "/audio/th03/3.東方妖恋談.mp3",
           "character": "博麗靈夢"
@@ -50,6 +45,11 @@
           "name": "8.夢消失　～ Lost Dream.mp3",
           "path": "/audio/th03/8.夢消失　～ Lost Dream.mp3",
           "character": "カナ・アナベラル"
+        },
+        {
+          "name": "15.Strawberry Crisis!!.mp3",
+          "path": "/audio/th03/15.Strawberry Crisis!!.mp3",
+          "character": "岡崎夢美"
         }
       ]
     },
