@@ -21,10 +21,13 @@ elms.forEach(function (elm) {
  */
 var Player = function (playlist) {
   this.playlist = playlist;
-  this.index = 0;
+  do {
+    this.index = Math.floor(Math.random() * playlist.length);
+  } while (playlist[this.index].file == null);
 
   // Display the title of the first track.
-  track.innerHTML = playlist[0].title;
+  track.innerHTML = playlist[this.index].title;
+  changeImage(playlist[this.index].character);
 
   // Setup the playlist display.
   playlist.forEach(function (song) {
