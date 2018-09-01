@@ -236,7 +236,8 @@ body {
 
 /* Plylist */
 #playlist {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   height: 100%;
   position: absolute;
   top: 0;
