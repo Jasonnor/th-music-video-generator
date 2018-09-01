@@ -332,7 +332,7 @@
         {
           "name": "12. アルティメットトゥルース.mp3",
           "path": "/audio/th07/12. アルティメットトゥルース.mp3",
-          "character": "西行寺幽々子"
+          "character": "魂魄妖夢 西行寺幽々子"
         },
         {
           "name": "13. 幽雅に咲かせ、墨染の桜　～ Border of Life.mp3",
@@ -377,83 +377,103 @@
       "songs": [
         {
           "name": "01. 永夜抄　～ Eastern Night.mp3",
-          "path": "/audio/th08/01. 永夜抄　～ Eastern Night.mp3"
+          "path": "/audio/th08/01. 永夜抄　～ Eastern Night.mp3",
+          "character": "東方永夜抄"
         },
         {
           "name": "02. 幻視の夜　～ Ghostly Eyes.mp3",
-          "path": "/audio/th08/02. 幻視の夜　～ Ghostly Eyes.mp3"
+          "path": "/audio/th08/02. 幻視の夜　～ Ghostly Eyes.mp3",
+          "character": "リグル・ナイトバグ"
         },
         {
           "name": "03. 蠢々秋月　～ Mooned Insect.mp3",
-          "path": "/audio/th08/03. 蠢々秋月　～ Mooned Insect.mp3"
+          "path": "/audio/th08/03. 蠢々秋月　～ Mooned Insect.mp3",
+          "character": "リグル・ナイトバグ"
         },
         {
           "name": "04. 夜雀の歌声　～ Night Bird.mp3",
-          "path": "/audio/th08/04. 夜雀の歌声　～ Night Bird.mp3"
+          "path": "/audio/th08/04. 夜雀の歌声　～ Night Bird.mp3",
+          "character": "ミスティア・ローレライ"
         },
         {
           "name": "05. もう歌しか聞こえない.mp3",
-          "path": "/audio/th08/05. もう歌しか聞こえない.mp3"
+          "path": "/audio/th08/05. もう歌しか聞こえない.mp3",
+          "character": "ミスティア・ローレライ"
         },
         {
           "name": "06. 懐かしき東方の血　～ Old World.mp3",
-          "path": "/audio/th08/06. 懐かしき東方の血　～ Old World.mp3"
+          "path": "/audio/th08/06. 懐かしき東方の血　～ Old World.mp3",
+          "character": "上白沢慧音"
         },
         {
           "name": "07. プレインエイジア.mp3",
-          "path": "/audio/th08/07. プレインエイジア.mp3"
+          "path": "/audio/th08/07. プレインエイジア.mp3",
+          "character": "上白沢慧音"
         },
         {
           "name": "08. 永夜の報い　～ Imperishable Night.mp3",
-          "path": "/audio/th08/08. 永夜の報い　～ Imperishable Night.mp3"
+          "path": "/audio/th08/08. 永夜の報い　～ Imperishable Night.mp3",
+          "character": "東方永夜抄"
         },
         {
           "name": "09. 少女綺想曲　～ Dream Battle.mp3",
-          "path": "/audio/th08/09. 少女綺想曲　～ Dream Battle.mp3"
+          "path": "/audio/th08/09. 少女綺想曲　～ Dream Battle.mp3",
+          "character": "博麗霊夢"
         },
         {
           "name": "10. 恋色マスタースパーク.mp3",
-          "path": "/audio/th08/10. 恋色マスタースパーク.mp3"
+          "path": "/audio/th08/10. 恋色マスタースパーク.mp3",
+          "character": "霧雨魔理沙"
         },
         {
           "name": "11. シンデレラケージ　～ Kagome-Kagome.mp3",
-          "path": "/audio/th08/11. シンデレラケージ　～ Kagome-Kagome.mp3"
+          "path": "/audio/th08/11. シンデレラケージ　～ Kagome-Kagome.mp3",
+          "character": "因幡てゐ"
         },
         {
           "name": "12. 狂気の瞳　～ Invisible Full Moon.mp3",
-          "path": "/audio/th08/12. 狂気の瞳　～ Invisible Full Moon.mp3"
+          "path": "/audio/th08/12. 狂気の瞳　～ Invisible Full Moon.mp3",
+          "character": "鈴仙・優曇華院・イナバ"
         },
         {
           "name": "13. ヴォヤージュ1969.mp3",
-          "path": "/audio/th08/13. ヴォヤージュ1969.mp3"
+          "path": "/audio/th08/13. ヴォヤージュ1969.mp3",
+          "character": "八意永琳 蓬莱山輝夜"
         },
         {
           "name": "14. 千年幻想郷　～ History of the Moon.mp3",
-          "path": "/audio/th08/14. 千年幻想郷　～ History of the Moon.mp3"
+          "path": "/audio/th08/14. 千年幻想郷　～ History of the Moon.mp3",
+          "character": "八意永琳"
         },
         {
           "name": "15. 竹取飛翔　～ Lunatic Princess.mp3",
-          "path": "/audio/th08/15. 竹取飛翔　～ Lunatic Princess.mp3"
+          "path": "/audio/th08/15. 竹取飛翔　～ Lunatic Princess.mp3",
+          "character": "蓬莱山輝夜"
         },
         {
           "name": "16. ヴォヤージュ1970.mp3",
-          "path": "/audio/th08/16. ヴォヤージュ1970.mp3"
+          "path": "/audio/th08/16. ヴォヤージュ1970.mp3",
+          "character": "八意永琳 蓬莱山輝夜"
         },
         {
           "name": "17. エクステンドアッシュ　～ 蓬莱人.mp3",
-          "path": "/audio/th08/17. エクステンドアッシュ　～ 蓬莱人.mp3"
+          "path": "/audio/th08/17. エクステンドアッシュ　～ 蓬莱人.mp3",
+          "character": "上白沢慧音 藤原妹紅"
         },
         {
           "name": "18. 月まで届け、不死の煙.mp3",
-          "path": "/audio/th08/18. 月まで届け、不死の煙.mp3"
+          "path": "/audio/th08/18. 月まで届け、不死の煙.mp3",
+          "character": "藤原妹紅"
         },
         {
           "name": "20. Eternal Dream　～ 幽玄の槭樹.mp3",
-          "path": "/audio/th08/20. Eternal Dream　～ 幽玄の槭樹.mp3"
+          "path": "/audio/th08/20. Eternal Dream　～ 幽玄の槭樹.mp3",
+          "character": "東方永夜抄"
         },
         {
           "name": "21. 東方妖怪小町.mp3",
-          "path": "/audio/th08/21. 東方妖怪小町.mp3"
+          "path": "/audio/th08/21. 東方妖怪小町.mp3",
+          "character": "東方永夜抄"
         }
       ]
     },
@@ -518,20 +538,8 @@
           "path": "/audio/th09/15. 六十年目の東方裁判　～ Fate of Sixty Years.mp3"
         },
         {
-          "name": "16. 花の映る塚.mp3",
-          "path": "/audio/th09/16. 花の映る塚.mp3"
-        },
-        {
-          "name": "17. 此岸の塚.mp3",
-          "path": "/audio/th09/17. 此岸の塚.mp3"
-        },
-        {
           "name": "18. 花は幻想のままに.mp3",
           "path": "/audio/th09/18. 花は幻想のままに.mp3"
-        },
-        {
-          "name": "19. 魂の花　～ Another Dream....mp3",
-          "path": "/audio/th09/19. 魂の花　～ Another Dream....mp3"
         }
       ]
     },
@@ -539,18 +547,6 @@
       "name": "東方文花帖",
       "path": "/audio/th09.5",
       "songs": [
-        {
-          "name": "01. 天狗の手帖　〜 Mysterious Note.mp3",
-          "path": "/audio/th09.5/01. 天狗の手帖　〜 Mysterious Note.mp3"
-        },
-        {
-          "name": "02. 風の循環　～ Wind Tour.mp3",
-          "path": "/audio/th09.5/02. 風の循環　～ Wind Tour.mp3"
-        },
-        {
-          "name": "03. 天狗が見ている　～ Black Eyes.mp3",
-          "path": "/audio/th09.5/03. 天狗が見ている　～ Black Eyes.mp3"
-        },
         {
           "name": "04. 東の国の眠らない夜.mp3",
           "path": "/audio/th09.5/04. 東の国の眠らない夜.mp3"
@@ -628,18 +624,6 @@
         {
           "name": "15. ネイティブフェイス.mp3",
           "path": "/audio/th10/15. ネイティブフェイス.mp3"
-        },
-        {
-          "name": "16. 麓の神社.mp3",
-          "path": "/audio/th10/16. 麓の神社.mp3"
-        },
-        {
-          "name": "17. 神は恵みの雨を降らす　～ Sylphid Dream.mp3",
-          "path": "/audio/th10/17. 神は恵みの雨を降らす　～ Sylphid Dream.mp3"
-        },
-        {
-          "name": "18. プレイヤーズスコア.mp3",
-          "path": "/audio/th10/18. プレイヤーズスコア.mp3"
         }
       ]
     },
@@ -647,10 +631,6 @@
       "name": "東方地霊殿",
       "path": "/audio/th11",
       "songs": [
-        {
-          "name": "01. 地霊達の起床.mp3",
-          "path": "/audio/th11/01. 地霊達の起床.mp3"
-        },
         {
           "name": "02. 暗闇の風穴.mp3",
           "path": "/audio/th11/02. 暗闇の風穴.mp3"
@@ -706,14 +686,6 @@
         {
           "name": "15. ハルトマンの妖怪少女.mp3",
           "path": "/audio/th11/15. ハルトマンの妖怪少女.mp3"
-        },
-        {
-          "name": "16. 地霊達の帰宅.mp3",
-          "path": "/audio/th11/16. 地霊達の帰宅.mp3"
-        },
-        {
-          "name": "17. エネルギー黎明 ～ Future Dream.mp3",
-          "path": "/audio/th11/17. エネルギー黎明 ～ Future Dream.mp3"
         }
       ]
     },
@@ -721,10 +693,6 @@
       "name": "東方星蓮船",
       "path": "/audio/th12",
       "songs": [
-        {
-          "name": "01. 青空の影.mp3",
-          "path": "/audio/th12/01. 青空の影.mp3"
-        },
         {
           "name": "02. 春の湊に.mp3",
           "path": "/audio/th12/02. 春の湊に.mp3"
@@ -780,14 +748,6 @@
         {
           "name": "15. 平安のエイリアン.mp3",
           "path": "/audio/th12/15. 平安のエイリアン.mp3"
-        },
-        {
-          "name": "16. 妖怪寺.mp3",
-          "path": "/audio/th12/16. 妖怪寺.mp3"
-        },
-        {
-          "name": "17. 空の帰り道　～ Sky Dream.mp3",
-          "path": "/audio/th12/17. 空の帰り道　～ Sky Dream.mp3"
         }
       ]
     },
@@ -795,10 +755,6 @@
       "name": "ダブルスポイラー",
       "path": "/audio/th12.5",
       "songs": [
-        {
-          "name": "01. ニュースハウンド.mp3",
-          "path": "/audio/th12.5/01. ニュースハウンド.mp3"
-        },
         {
           "name": "02. あなたの町の怪事件.mp3",
           "path": "/audio/th12.5/02. あなたの町の怪事件.mp3"
@@ -808,20 +764,12 @@
           "path": "/audio/th12.5/03. 妖怪モダンコロニー.mp3"
         },
         {
-          "name": "04. ネメシスの要塞.mp3",
-          "path": "/audio/th12.5/04. ネメシスの要塞.mp3"
-        },
-        {
           "name": "05. 無間の鐘　～ Infinite Nightmare.mp3",
           "path": "/audio/th12.5/05. 無間の鐘　～ Infinite Nightmare.mp3"
         },
         {
           "name": "06. 妖怪の山　～ Mysterious Mountain.mp3",
           "path": "/audio/th12.5/06. 妖怪の山　～ Mysterious Mountain.mp3"
-        },
-        {
-          "name": "07. 曲名不明.mp3",
-          "path": "/audio/th12.5/07. 曲名不明.mp3"
         }
       ]
     },
@@ -829,10 +777,6 @@
       "name": "妖精大戦争",
       "path": "/audio/th12.8",
       "songs": [
-        {
-          "name": "01. 春の氷精.mp3",
-          "path": "/audio/th12.8/01. 春の氷精.mp3"
-        },
         {
           "name": "02. 可愛い大戦争のリフレーン.mp3",
           "path": "/audio/th12.8/02. 可愛い大戦争のリフレーン.mp3"
@@ -854,10 +798,6 @@
           "path": "/audio/th12.8/06. 妖精大戦争　～ Faily Wars.mp3"
         },
         {
-          "name": "07. 春の氷精　- 静 -.mp3",
-          "path": "/audio/th12.8/07. 春の氷精　- 静 -.mp3"
-        },
-        {
           "name": "08. ルーズレイン.mp3",
           "path": "/audio/th12.8/08. ルーズレイン.mp3"
         },
@@ -875,10 +815,6 @@
       "name": "東方神霊廟",
       "path": "/audio/th13",
       "songs": [
-        {
-          "name": "01. 欲深き霊魂.mp3",
-          "path": "/audio/th13/01. 欲深き霊魂.mp3"
-        },
         {
           "name": "02. 死霊の夜桜.mp3",
           "path": "/audio/th13/02. 死霊の夜桜.mp3"
@@ -926,10 +862,6 @@
         {
           "name": "13. 聖徳伝説　～ True Administrator.mp3",
           "path": "/audio/th13/13. 聖徳伝説　～ True Administrator.mp3"
-        },
-        {
-          "name": "14. 神社の新しい風.mp3",
-          "path": "/audio/th13/14. 神社の新しい風.mp3"
         },
         {
           "name": "15. デザイアドリーム.mp3",
@@ -1010,10 +942,6 @@
           "path": "/audio/th14/15. 始原のビート　～ Pristine Beat.mp3"
         },
         {
-          "name": "16. 小槌の魔力.mp3",
-          "path": "/audio/th14/16. 小槌の魔力.mp3"
-        },
-        {
           "name": "17. 不思議な不思議な道具達.mp3",
           "path": "/audio/th14/17. 不思議な不思議な道具達.mp3"
         }
@@ -1023,10 +951,6 @@
       "name": "弾幕アマノジャク",
       "path": "/audio/th14.3",
       "songs": [
-        {
-          "name": "01. 反則の狼煙を上げろ.mp3",
-          "path": "/audio/th14.3/01. 反則の狼煙を上げろ.mp3"
-        },
         {
           "name": "02. 不可能弾幕には反則を.mp3",
           "path": "/audio/th14.3/02. 不可能弾幕には反則を.mp3"
@@ -1124,14 +1048,6 @@
         {
           "name": "15. パンデモニックプラネット.mp3",
           "path": "/audio/th15/15. パンデモニックプラネット.mp3"
-        },
-        {
-          "name": "16. 神社から見える月.mp3",
-          "path": "/audio/th15/16. 神社から見える月.mp3"
-        },
-        {
-          "name": "17. 宇宙巫女帰還する.mp3",
-          "path": "/audio/th15/17. 宇宙巫女帰還する.mp3"
         }
       ]
     },
@@ -1198,10 +1114,6 @@
         {
           "name": "15. 秘神マターラ　～ Hidden Star in All Seasons..mp3",
           "path": "/audio/th16/15. 秘神マターラ　～ Hidden Star in All Seasons..mp3"
-        },
-        {
-          "name": "16. 不自然な自然.mp3",
-          "path": "/audio/th16/16. 不自然な自然.mp3"
         },
         {
           "name": "17. 白い旅人.mp3",
