@@ -4,12 +4,12 @@ const delay = ms => {
     });
 };
 
-const changeImage = async (charaName, sleep) => {
-    console.log('Change image to character ' + charaName);
+const changeImage = async (info, sleep) => {
+    console.log('Change image to character ' + info.character);
     var imageList = []
     firebase.database().ref('images').once('value').then(function (charas) {
         charas.val().forEach(chara => {
-            if (chara.name == charaName) {
+            if (chara.name == info.character) {
                 chara.images.forEach(image => {
                     imageList.push(image.path);
                 });
@@ -26,41 +26,69 @@ const changeImage = async (charaName, sleep) => {
         }
     });
     if (sleep == true) {
-        changeVideo(charaName);
+        changeVideo(info);
     }
 }
 
-const changeVideo = async (charaName) => {
+const changeVideo = async (info) => {
     googleApiClientReady();
     await delay(1000);
-    keyword = '東方紅魔郷 Stage1' + ' Lunatic';
-    var request = gapi.client.youtube.search.list({
-        part: 'snippet',
-        type: 'video',
-        videoDuration: 'medium',
-        q: keyword
-    });
-    request.execute(async (response) => {
-        //var randomIndex = Math.floor(Math.random() * 5);
-        var randomIndex = 0;
-        //response.result.items[randomIndex].snippet.title;
-        var videoId = response.result.items[randomIndex].id.videoId;
-        console.log(videoId);
+    if (info.keyword) {
+        var request = gapi.client.youtube.search.list({
+            part: 'snippet',
+            type: 'video',
+            videoDuration: 'medium',
+            q: info.keyword.replace('BOSS', '')
+        });
+        request.execute(async (response) => {
+            //var randomIndex = Math.floor(Math.random() * 5);
+            var randomIndex = 0;
+            //response.result.items[randomIndex].snippet.title;
+            var videoId = response.result.items[randomIndex].id.videoId;
+            console.log(response.result.items[randomIndex]);
+            await delay(1000);
+            videoPlayer.source = {
+                type: 'video',
+                sources: [{
+                    src: videoId,
+                    provider: 'youtube',
+                }]
+            };
+            videoPlayer.on('ended', event => {
+                changeImage(info, true);
+            });
+            await delay(1000);
+            videoPlayer.currentTime = 40;
+            //await delay(2500);
+            //changeImage(info, false);
+            //await delay(4500);
+            videoPlayer.play();
+            await delay(1000);
+            videoPlayer.pause();
+            await delay(1000);
+            var vp = document.getElementById('videoPlayer');
+            vp.style.display = 'block';
+            var wrapper = document.getElementById('wrapper');
+            wrapper.style.backgroundImage = '';
+            fadeInImage('videoPlayer', '', 'body');
+            videoPlayer.play();
+        });
+    } else if (info.video_id) {
         await delay(1000);
         videoPlayer.source = {
             type: 'video',
             sources: [{
-                src: videoId,
+                src: info.video_id,
                 provider: 'youtube',
             }]
         };
         videoPlayer.on('ended', event => {
-            changeImage(charaName, true);
+            changeImage(info, true);
         });
         await delay(1000);
         videoPlayer.currentTime = 40;
         //await delay(2500);
-        //changeImage(charaName, false);
+        //changeImage(info, false);
         //await delay(4500);
         videoPlayer.play();
         await delay(1000);
@@ -72,7 +100,7 @@ const changeVideo = async (charaName) => {
         wrapper.style.backgroundImage = '';
         fadeInImage('videoPlayer', '', 'body');
         videoPlayer.play();
-    });
+    }
 }
 
 const videoPlayer = new Plyr('#videoPlayer', {

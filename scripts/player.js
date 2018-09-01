@@ -17,7 +17,7 @@ var Player = function (playlist) {
 
   // Display the title of the first track.
   track.innerHTML = playlist[this.index].title;
-  changeImage(playlist[this.index].character, false);
+  changeImage(playlist[this.index].info, false);
 
   var ul = null;
   var ulth = 1;
@@ -128,7 +128,7 @@ Player.prototype = {
 
     // Play video
     if (videoPlayer.stopped || isNewSong) {
-      changeImage(data.character, true);
+      changeImage(data.info, true);
     } else if (videoPlayer.paused) {
       videoPlayer.play();
     }
@@ -325,7 +325,7 @@ firebase.database().ref('games').once('value').then(function (games) {
       }
       songObj['file'] = song.path;
       songObj['howl'] = null;
-      songObj['character'] = song.character;
+      songObj['info'] = song;
       songList.push(songObj);
     });
   });
