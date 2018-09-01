@@ -25,10 +25,10 @@ const changeImage = async (info, sleep) => {
             fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
-            var key = 'AIzaSyCt3hhmX2vdoUQBI0olkZLhYruPcsyL-3U';
+            var key = 'AIzaSyDsBfG_e2-6GwUSHZZZy2D-ihy0Ro0z2bk';
             var a = info.character;
             var url = 'https://www.googleapis.com/customsearch/v1?key=' + key + '&cx=' + cx + '&q=' + a +
-                '&searchType=image&imgSize=large';
+                '&searchType=image&imgSize=large&safe=active';
             fetch(url).then(function (response) {
                     return response.json();
                 })
@@ -121,8 +121,8 @@ const changeVideo = async (info) => {
         fadeInImage('videoPlayer', '', 'body');
         videoPlayer.play();
     } else {
-        await delay(4000);
-        changeImage(info, true);
+        await delay(9000);
+        changeImage(info, false);
     }
 }
 
