@@ -308,6 +308,9 @@ firebase.database().ref('games').once('value').then(function (games) {
     game.songs.forEach(song => {
       var songObj = {}
       songObj['title'] = song.name.split(".")[1];
+      if (songObj['title'] == ' U') {
+        songObj['title'] = ' U.N.オーエンは彼女なのか？'
+      }
       songObj['file'] = song.path;
       songObj['howl'] = null;
       songObj['character'] = song.character;
