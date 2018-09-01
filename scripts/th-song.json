@@ -188,13 +188,13 @@
           "name": "04. ルーネイトエルフ.mp3",
           "path": "/audio/th06/04. ルーネイトエルフ.mp3",
           "character": "大妖精",
-          "keyword": "東方紅魔郷 LUNATIC stage2"
+          "keyword": "touhou 6 LUNATIC stage 2"
         },
         {
           "name": "05. おてんば恋娘.mp3",
           "path": "/audio/th06/05. おてんば恋娘.mp3",
           "character": "チルノ",
-          "keyword": "東方紅魔郷 LUNATIC stage2 BOSS"
+          "keyword": "touhou 6 LUNATIC stage 2 BOSS"
         },
         {
           "name": "06. 上海紅茶館　～ Chinese Tea.mp3",
@@ -842,25 +842,25 @@
           "name": "04. 閉ざせし雲の通い路.mp3",
           "path": "/audio/th12/04. 閉ざせし雲の通い路.mp3",
           "character": "多々良小傘",
-          "keyword": "touhot12 LUNATIC stage2"
+          "keyword": "touhou 12 LUNATIC stage2"
         },
         {
           "name": "05. 万年置き傘にご注意を.mp3",
           "path": "/audio/th12/05. 万年置き傘にご注意を.mp3",
           "character": "多々良小傘",
-          "keyword": "touhot12 LUNATIC stage2 BOSS"
+          "keyword": "touhou 12 LUNATIC stage2 BOSS"
         },
         {
           "name": "06. スカイルーイン.mp3",
           "path": "/audio/th12/06. スカイルーイン.mp3",
           "character": "雲居一輪",
-          "keyword": "touhot12 LUNATIC stage3"
+          "keyword": "touhou 12 LUNATIC stage3"
         },
         {
           "name": "07. 時代親父とハイカラ少女.mp3",
           "path": "/audio/th12/07. 時代親父とハイカラ少女.mp3",
           "character": "雲居一輪",
-          "keyword": "touhot12 LUNATIC stage3 BOSS"
+          "keyword": "touhou 12 LUNATIC stage3 BOSS"
         },
         {
           "name": "08. 幽霊客船の時空を越えた旅.mp3",
@@ -1060,13 +1060,13 @@
           "name": "10. 夢殿大祀廟.mp3",
           "path": "/audio/th13/10. 夢殿大祀廟.mp3",
           "character": "蘇我屠自古",
-          "keyword": "東方神霊廟 LUNATIC stage5"
+          "keyword": "touhou 13 LUNATIC stage5"
         },
         {
           "name": "11. 大神神話伝.mp3",
           "path": "/audio/th13/11. 大神神話伝.mp3",
           "character": "物部布都",
-          "keyword": "東方神霊廟 LUNATIC stage5 BOSS"
+          "keyword": "touhou 13 LUNATIC stage5 BOSS"
         },
         {
           "name": "12. 小さな欲望の星空.mp3",
@@ -1209,27 +1209,27 @@
           "name": "02. 不可能弾幕には反則を.mp3",
           "path": "/audio/th14.3/02. 不可能弾幕には反則を.mp3",
           "character": "鬼人正邪",
-		  "video_id": "E-GAJIUvfM8",
-		  "time": 28
+          "video_id": "E-GAJIUvfM8",
+          "time": 28
         },
         {
           "name": "03. ミッドナイトスペルカード.mp3",
           "path": "/audio/th14.3/03. ミッドナイトスペルカード.mp3",
           "character": "鬼人正邪",
-		  "keyword": "弾幕アマノジャク  4日"
+          "keyword": "弾幕アマノジャク  4日"
         },
         {
           "name": "04. ロマンチック逃飛行.mp3",
           "path": "/audio/th14.3/04. ロマンチック逃飛行.mp3",
           "character": "鬼人正邪",
-		  "keyword": "弾幕アマノジャク  7日"
+          "keyword": "弾幕アマノジャク  7日"
         },
         {
           "name": "05. 永遠の三日天下.mp3",
           "path": "/audio/th14.3/05. 永遠の三日天下.mp3",
           "character": "鬼人正邪",
-		  "video_id": "cBBH1EiUcQQ",
-		  "time": 59
+          "video_id": "cBBH1EiUcQQ",
+          "time": 59
         }
       ]
     },
@@ -1343,85 +1343,85 @@
           "name": "02. 希望の星は青霄に昇る.mp3",
           "path": "/audio/th16/02. 希望の星は青霄に昇る.mp3",
           "character": "エタニティラルバ",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 6
+          "video_id": "gP0VzbxQseU",
+          "time": 6
         },
         {
           "name": "03. 真夏の妖精の夢.mp3",
           "path": "/audio/th16/03. 真夏の妖精の夢.mp3",
           "character": "エタニティラルバ",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 109
+          "video_id": "gP0VzbxQseU",
+          "time": 109
         },
         {
           "name": "04. 色無き風は妖怪の山に.mp3",
           "path": "/audio/th16/04. 色無き風は妖怪の山に.mp3",
           "character": "坂田ネムノ",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 163
+          "video_id": "gP0VzbxQseU",
+          "time": 163
         },
         {
           "name": "05. 山奥のエンカウンター.mp3",
           "path": "/audio/th16/05. 山奥のエンカウンター.mp3",
           "character": "坂田ネムノ",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 282
+          "video_id": "gP0VzbxQseU",
+          "time": 282
         },
         {
           "name": "06. 桜色の海を泳いで.mp3",
           "path": "/audio/th16/06. 桜色の海を泳いで.mp3",
           "character": "リリーホワイト",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 374
+          "video_id": "gP0VzbxQseU",
+          "time": 374
         },
         {
           "name": "07. 一対の神獣.mp3",
           "path": "/audio/th16/07. 一対の神獣.mp3",
           "character": "高麗野あうん",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 504
+          "video_id": "gP0VzbxQseU",
+          "time": 504
         },
         {
           "name": "08. 幻想のホワイトトラベラー.mp3",
           "path": "/audio/th16/08. 幻想のホワイトトラベラー.mp3",
           "character": "矢田寺成美",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 609
+          "video_id": "gP0VzbxQseU",
+          "time": 609
         },
         {
           "name": "09. 魔法の笠地蔵.mp3",
           "path": "/audio/th16/09. 魔法の笠地蔵.mp3",
           "character": "矢田寺成美",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 777
+          "video_id": "gP0VzbxQseU",
+          "time": 777
         },
         {
           "name": "10. 禁断の扉の向こうは、この世かあの世か.mp3",
           "path": "/audio/th16/10. 禁断の扉の向こうは、この世かあの世か.mp3",
           "character": "爾子田里乃",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 970
+          "video_id": "gP0VzbxQseU",
+          "time": 970
         },
         {
           "name": "11. クレイジーバックダンサーズ.mp3",
           "path": "/audio/th16/11. クレイジーバックダンサーズ.mp3",
           "character": "爾子田里乃 丁礼田舞",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 1044
+          "video_id": "gP0VzbxQseU",
+          "time": 1044
         },
         {
           "name": "12. イントゥ・バックドア.mp3",
           "path": "/audio/th16/12. イントゥ・バックドア.mp3",
           "character": "摩多羅隠岐奈",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 1189
+          "video_id": "gP0VzbxQseU",
+          "time": 1189
         },
         {
           "name": "13. 秘匿されたフォーシーズンズ.mp3",
           "path": "/audio/th16/13. 秘匿されたフォーシーズンズ.mp3",
           "character": "摩多羅隠岐奈",
-		  "video_id": "gP0VzbxQseU",
-		  "time": 1249
+          "video_id": "gP0VzbxQseU",
+          "time": 1249
         },
         {
           "name": "14. もうドアには入れない.mp3",
