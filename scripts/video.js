@@ -83,6 +83,9 @@ const videoPlayer = new Plyr('#videoPlayer', {
     clickToPlay: false,
     resetOnEnd: true
 });
+videoPlayer.once('ready', event => {
+    videoPlayer.stop();
+});
 
 var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
 
