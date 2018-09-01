@@ -41,7 +41,6 @@ const changeVideo = async (charaName) => {
         q: keyword
     });
     request.execute(async (response) => {
-        console.log(response.result);
         //var randomIndex = Math.floor(Math.random() * 5);
         var randomIndex = 0;
         //response.result.items[randomIndex].snippet.title;
@@ -55,12 +54,14 @@ const changeVideo = async (charaName) => {
                 provider: 'youtube',
             }]
         };
+        videoPlayer.on('ended', event => {
+            changeImage(charaName, true);
+        });
         await delay(1000);
         videoPlayer.currentTime = 40;
-        await delay(2500);
-        changeImage(charaName, false);
+        //await delay(2500);
+        //changeImage(charaName, false);
         //await delay(4500);
-        await delay(1500);
         videoPlayer.play();
         await delay(1000);
         videoPlayer.pause();
