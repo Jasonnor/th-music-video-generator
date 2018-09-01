@@ -28,7 +28,7 @@ const changeImage = async (info, sleep) => {
             var key = 'AIzaSyCt3hhmX2vdoUQBI0olkZLhYruPcsyL-3U';
             var a = info.character;
             var url = 'https://www.googleapis.com/customsearch/v1?key=' + key + '&cx=' + cx + '&q=' + a +
-                '&searchType=image&safe=high';
+                '&searchType=image&imgSize=large';
             fetch(url).then(function (response) {
                     return response.json();
                 })
