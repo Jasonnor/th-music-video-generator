@@ -23,6 +23,23 @@ const changeImage = async (info, sleep) => {
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
             fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
+        } else {
+            var cx = '009797881502979873179:yxcz0y7drxo';
+            var key = 'AIzaSyCt3hhmX2vdoUQBI0olkZLhYruPcsyL-3U';
+            var a = info.character;
+            var url = 'https://www.googleapis.com/customsearch/v1?key=' + key + '&cx=' + cx + '&q=' + a +
+                '&searchType=image&safe=high';
+            fetch(url).then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    console.log(data);
+                    var imageURL = data.items[Math.floor(Math.random() * data.items.length)].link;
+                    var vp = document.getElementById('videoPlayer');
+                    vp.style.display = 'none';
+                    videoPlayer.poster = imageURL;
+                    fadeInImage('wrapper', 'url(\'' + imageURL + '\')', 'body');
+                });
         }
     });
     if (sleep == true) {
