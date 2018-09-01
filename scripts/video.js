@@ -59,6 +59,14 @@ const changeVideo = async (info) => {
             var randomIndex = 0;
             var videoId = response.result.items[randomIndex].id.videoId;
             console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
+            videoPlayer.destroy();
+            videoPlayer = new Plyr('#videoPlayer', {
+                controls: [],
+                autoplay: false,
+                muted: true,
+                clickToPlay: false
+            });
+            await delay(1000);
             videoPlayer.source = {
                 type: 'video',
                 sources: [{
@@ -66,7 +74,7 @@ const changeVideo = async (info) => {
                     provider: 'youtube',
                 }]
             };
-            videoPlayer.on('ended', event => {
+            videoPlayer.once('ended', event => {
                 changeImage(info, true);
             });
             // Delay time for images 4s:6s
@@ -95,9 +103,6 @@ const changeVideo = async (info) => {
                 provider: 'youtube',
             }]
         };
-        videoPlayer.on('ended', event => {
-            changeImage(info, true);
-        });
         // Delay time for images 4s:6s
         await delay(1000);
         // Set time to half for boss, and buffer video
@@ -122,13 +127,11 @@ const changeVideo = async (info) => {
 
 var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
 
-const videoPlayer = new Plyr('#videoPlayer', {
+var videoPlayer = new Plyr('#videoPlayer', {
     controls: [],
-    autoplay: true,
-    autopause: false,
+    autoplay: false,
     muted: true,
-    clickToPlay: false,
-    resetOnEnd: true
+    clickToPlay: false
 });
 videoPlayer.once('ready', event => {
     videoPlayer.stop();
