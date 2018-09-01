@@ -19,10 +19,10 @@ const changeImage = async (info, sleep) => {
             fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
-            var key = 'AIzaSyDsBfG_e2-6GwUSHZZZy2D-ihy0Ro0z2bk';
+            var key = 'AIzaSyBtVo8I5SRmB2bmuFP0JX1H1q5dotej5XQ';
             var a = info.character;
-            var url = 'https://www.googleapis.com/customsearch/v1?key=' + key + '&cx=' + cx + '&q=' + a +
-                '&searchType=image&imgSize=large&safe=active';
+            var url = 'https://www.googleapis.com/customsearch/v1/siterestrict?key=' + key + '&cx=' + cx + '&q=' + a +
+                '&searchType=image&imgSize=large&safe=medium';
             fetch(url).then(function (response) {
                     return response.json();
                 })
