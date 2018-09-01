@@ -321,6 +321,12 @@ body {
   animation: fadein 0.5s;
 }
 
+.fadein-2s {
+  -webkit-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
