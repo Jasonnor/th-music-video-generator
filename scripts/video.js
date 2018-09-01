@@ -34,18 +34,18 @@ const changeVideo = async (info) => {
     googleApiClientReady();
     await delay(1000);
     if (info.keyword) {
+        console.log('Crawler Keyword: ' + info.keyword)
         var request = gapi.client.youtube.search.list({
             part: 'snippet',
             type: 'video',
-            videoDuration: 'medium',
+            videoDuration: 'any',
             q: info.keyword.replace('BOSS', '')
         });
         request.execute(async (response) => {
             //var randomIndex = Math.floor(Math.random() * 5);
             var randomIndex = 0;
-            //response.result.items[randomIndex].snippet.title;
             var videoId = response.result.items[randomIndex].id.videoId;
-            console.log(response.result.items[randomIndex]);
+            console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
             await delay(1000);
             videoPlayer.source = {
                 type: 'video',
@@ -57,11 +57,11 @@ const changeVideo = async (info) => {
             videoPlayer.on('ended', event => {
                 changeImage(info, true);
             });
+            await delay(2500);
+            changeImage(info, false);
+            await delay(4500);
+            videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
             await delay(1000);
-            videoPlayer.currentTime = 40;
-            //await delay(2500);
-            //changeImage(info, false);
-            //await delay(4500);
             videoPlayer.play();
             await delay(1000);
             videoPlayer.pause();
@@ -86,10 +86,10 @@ const changeVideo = async (info) => {
             changeImage(info, true);
         });
         await delay(1000);
-        videoPlayer.currentTime = 40;
-        //await delay(2500);
-        //changeImage(info, false);
-        //await delay(4500);
+        videoPlayer.currentTime = (info.time) ? info.time : (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
+        await delay(2500);
+        changeImage(info, false);
+        await delay(4500);
         videoPlayer.play();
         await delay(1000);
         videoPlayer.pause();
