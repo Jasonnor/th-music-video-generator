@@ -8,6 +8,7 @@ const changeImage = async (info, sleep) => {
     console.log('Change image to character ' + info.character);
     var imageList = []
     firebase.database().ref('images').once('value').then(function (charas) {
+        // Read image path from firebase
         charas.val().forEach(chara => {
             if (chara.name == info.character) {
                 chara.images.forEach(image => {
@@ -16,9 +17,8 @@ const changeImage = async (info, sleep) => {
             }
         });
         if (imageList.length > 0) {
+            // Get random image
             var imageURL = imageList[Math.floor(Math.random() * imageList.length)];
-            //var body = document.getElementsByTagName('body')[0];
-            //body.style.backgroundImage = 'url(\'.' + imageURL + '\')';
             var vp = document.getElementById('videoPlayer');
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
@@ -32,8 +32,10 @@ const changeImage = async (info, sleep) => {
 
 const changeVideo = async (info) => {
     googleApiClientReady();
+    // Wait for google API
     await delay(1000);
     if (info.keyword) {
+        // Using Crawler Keyword
         console.log('Crawler Keyword: ' + info.keyword)
         var request = gapi.client.youtube.search.list({
             part: 'snippet',
@@ -46,7 +48,6 @@ const changeVideo = async (info) => {
             var randomIndex = 0;
             var videoId = response.result.items[randomIndex].id.videoId;
             console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
-            await delay(1000);
             videoPlayer.source = {
                 type: 'video',
                 sources: [{
@@ -57,24 +58,25 @@ const changeVideo = async (info) => {
             videoPlayer.on('ended', event => {
                 changeImage(info, true);
             });
-            await delay(2500);
-            changeImage(info, false);
-            await delay(4500);
-            videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
+            // Delay time for images 4s:6s
             await delay(1000);
+            // Set time to half for boss, and buffer video
+            videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
+            await delay(3000);
+            // Second Image
+            changeImage(info, false);
+            await delay(4000);
             videoPlayer.play();
             await delay(1000);
             videoPlayer.pause();
             await delay(1000);
-            var vp = document.getElementById('videoPlayer');
-            vp.style.display = 'block';
-            var wrapper = document.getElementById('wrapper');
-            wrapper.style.backgroundImage = '';
+            document.getElementById('videoPlayer').style.display = 'block';
+            document.getElementById('wrapper').style.backgroundImage = '';
             fadeInImage('videoPlayer', '', 'body');
             videoPlayer.play();
         });
     } else if (info.video_id) {
-        await delay(1000);
+        // Using Video ID
         videoPlayer.source = {
             type: 'video',
             sources: [{
@@ -85,41 +87,23 @@ const changeVideo = async (info) => {
         videoPlayer.on('ended', event => {
             changeImage(info, true);
         });
+        // Delay time for images 4s:6s
         await delay(1000);
+        // Set time to half for boss, and buffer video
         videoPlayer.currentTime = (info.time) ? info.time : (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
-        await delay(2500);
+        await delay(3000);
+        // Second Image
         changeImage(info, false);
-        await delay(4500);
+        await delay(4000);
         videoPlayer.play();
         await delay(1000);
         videoPlayer.pause();
         await delay(1000);
-        var vp = document.getElementById('videoPlayer');
-        vp.style.display = 'block';
-        var wrapper = document.getElementById('wrapper');
-        wrapper.style.backgroundImage = '';
+        document.getElementById('videoPlayer').style.display = 'block';
+        document.getElementById('wrapper').style.backgroundImage = '';
         fadeInImage('videoPlayer', '', 'body');
         videoPlayer.play();
     }
-}
-
-const videoPlayer = new Plyr('#videoPlayer', {
-    controls: [],
-    autoplay: true,
-    autopause: false,
-    muted: true,
-    clickToPlay: false,
-    resetOnEnd: true
-});
-videoPlayer.once('ready', event => {
-    videoPlayer.stop();
-});
-
-var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
-
-function googleApiClientReady() {
-    gapi.client.setApiKey(googleAPI);
-    gapi.client.load('youtube', 'v3');
 }
 
 function setOpacity(object, opacityPct) {
@@ -154,3 +138,22 @@ function fadeInImage(foregroundId, newImage, backgroundId) {
     var startMS = (new Date()).getTime();
     foreground.timer = window.setTimeout('changeOpacity(\'' + foregroundId + '\',1000,' + startMS + ',0,100)', 10);
 }
+
+function googleApiClientReady() {
+    gapi.client.setApiKey(googleAPI);
+    gapi.client.load('youtube', 'v3');
+}
+
+var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
+
+const videoPlayer = new Plyr('#videoPlayer', {
+    controls: [],
+    autoplay: true,
+    autopause: false,
+    muted: true,
+    clickToPlay: false,
+    resetOnEnd: true
+});
+videoPlayer.once('ready', event => {
+    videoPlayer.stop();
+});
