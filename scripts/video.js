@@ -120,6 +120,9 @@ const changeVideo = async (info) => {
         document.getElementById('wrapper').style.backgroundImage = '';
         fadeInImage('videoPlayer', '', 'body');
         videoPlayer.play();
+    } else {
+        await delay(4000);
+        changeImage(info, true);
     }
 }
 
