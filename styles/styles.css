@@ -88,6 +88,41 @@ body {
   margin: 0 -170px;
 }
 
+@media only screen and (max-width: 700px) {
+  #closePlaylist {
+    left: auto !important;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #track {
+    font-size: 32px;
+  }
+
+  #timer,
+  #duration {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .controlsInner {
+    width: 200px;
+    margin: 0 -100px;
+  }
+
+  #track {
+    font-size: 24px;
+  }
+
+  #timer,
+  #duration {
+    font-size: 18px;
+    top: 50px;
+  }
+}
+
 .btn {
   position: absolute;
   cursor: pointer;
