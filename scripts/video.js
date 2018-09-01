@@ -1,9 +1,3 @@
-const delay = ms => {
-    return new Promise(resolve => {
-        setTimeout(resolve, ms);
-    });
-};
-
 const changeImage = async (info, sleep) => {
     console.log('Change image to character ' + info.character);
     var imageList = []
@@ -78,7 +72,7 @@ const changeVideo = async (info) => {
             // Delay time for images 4s:6s
             await delay(1000);
             // Set time to half for boss, and buffer video
-            videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
+            videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
             await delay(3000);
             // Second Image
             changeImage(info, false);
@@ -107,7 +101,7 @@ const changeVideo = async (info) => {
         // Delay time for images 4s:6s
         await delay(1000);
         // Set time to half for boss, and buffer video
-        videoPlayer.currentTime = (info.time) ? info.time : (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) : 20;
+        videoPlayer.currentTime = (info.time) ? info.time : 20;
         await delay(3000);
         // Second Image
         changeImage(info, false);
@@ -124,44 +118,6 @@ const changeVideo = async (info) => {
         await delay(9000);
         changeImage(info, false);
     }
-}
-
-function setOpacity(object, opacityPct) {
-    object.style.opacity = opacityPct / 100;
-}
-
-function changeOpacity(id, msDuration, msStart, fromO, toO) {
-    var object = document.getElementById(id);
-    var opacity = object.style.opacity * 100;
-    var msNow = (new Date()).getTime();
-    opacity = fromO + (toO - fromO) * (msNow - msStart) / msDuration;
-    if (opacity < 0)
-        setOpacity(object, 0)
-    else if (opacity > 100)
-        setOpacity(object, 100)
-    else {
-        setOpacity(object, opacity);
-        object.timer = window.setTimeout('changeOpacity(\'' + id + '\',' + msDuration + ',' + msStart + ',' + fromO + ',' + toO + ')', 1);
-    }
-}
-
-function fadeInImage(foregroundId, newImage, backgroundId) {
-    var foreground = document.getElementById(foregroundId);
-    var background = document.getElementById(backgroundId);
-    if (background) {
-        background.style.backgroundImage = foreground.style.backgroundImage;
-        background.style.backgroundRepeat = 'no-repeat';
-    }
-    setOpacity(foreground, 0);
-    foreground.style.backgroundImage = newImage;
-    if (foreground.timer) window.clearTimeout(foreground.timer);
-    var startMS = (new Date()).getTime();
-    foreground.timer = window.setTimeout('changeOpacity(\'' + foregroundId + '\',1000,' + startMS + ',0,100)', 10);
-}
-
-function googleApiClientReady() {
-    gapi.client.setApiKey(googleAPI);
-    gapi.client.load('youtube', 'v3');
 }
 
 var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
