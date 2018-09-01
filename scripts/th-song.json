@@ -182,7 +182,7 @@
           "name": "03. 妖魔夜行.mp3",
           "path": "/audio/th06/03. 妖魔夜行.mp3",
           "character": "ルーミア",
-          "keyword": "東方紅魔郷 LUNATIC stage1"
+          "keyword": "東方紅魔郷 LUNATIC stage1 BOSS"
         },
         {
           "name": "04. ルーネイトエルフ.mp3",
@@ -194,7 +194,7 @@
           "name": "05. おてんば恋娘.mp3",
           "path": "/audio/th06/05. おてんば恋娘.mp3",
           "character": "チルノ",
-          "keyword": "東方紅魔郷 LUNATIC stage2"
+          "keyword": "東方紅魔郷 LUNATIC stage2 BOSS"
         },
         {
           "name": "06. 上海紅茶館　～ Chinese Tea.mp3",
@@ -206,7 +206,7 @@
           "name": "07. 明治十七年の上海アリス.mp3",
           "path": "/audio/th06/07. 明治十七年の上海アリス.mp3",
           "character": "紅美鈴",
-          "keyword": "東方紅魔郷 LUNATIC stage3"
+          "keyword": "東方紅魔郷 LUNATIC stage3 BOSS"
         },
         {
           "name": "08. ヴワル魔法図書館.mp3",
@@ -218,7 +218,7 @@
           "name": "09. ラクトガール　～ 少女密室.mp3",
           "path": "/audio/th06/09. ラクトガール　～ 少女密室.mp3",
           "character": "パチュリー・ノーレッジ",
-          "keyword": "東方紅魔郷 LUNATIC stage4"
+          "keyword": "東方紅魔郷 LUNATIC stage4 BOSS"
         },
         {
           "name": "10. メイドと血の懐中時計.mp3",
@@ -230,7 +230,7 @@
           "name": "11. 月時計　～ ルナ・ダイアル.mp3",
           "path": "/audio/th06/11. 月時計　～ ルナ・ダイアル.mp3",
           "character": "十六夜咲夜",
-          "keyword": "東方紅魔郷 LUNATIC stage5"
+          "keyword": "東方紅魔郷 LUNATIC stage5 BOSS"
         },
         {
           "name": "12. ツェペシュの幼き末裔.mp3",
@@ -242,7 +242,7 @@
           "name": "13. 亡き王女の為のセプテット.mp3",
           "path": "/audio/th06/13. 亡き王女の為のセプテット.mp3",
           "character": "レミリア・スカーレット",
-          "keyword": "東方紅魔郷 LUNATIC stage6"
+          "keyword": "東方紅魔郷 LUNATIC stage6 BOSS"
         },
         {
           "name": "14. 魔法少女達の百年祭.mp3",
@@ -254,7 +254,7 @@
           "name": "15. U.N.オーエンは彼女なのか？.mp3",
           "path": "/audio/th06/15. U.N.オーエンは彼女なのか？.mp3",
           "character": "フランドール・スカーレット",
-          "keyword": "東方紅魔郷 EX"
+          "keyword": "東方紅魔郷 EX BOSS"
         },
         {
           "name": "16. 紅より儚い永遠.mp3",
