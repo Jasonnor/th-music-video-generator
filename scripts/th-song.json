@@ -395,20 +395,8 @@
       "path": "/audio/th07.5",
       "songs": [
         {
-          "name": "D01. 遍参.mp3",
-          "path": "/audio/th07.5/D01. 遍参.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "D02. 東方妖恋談.mp3",
           "path": "/audio/th07.5/D02. 東方妖恋談.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "D03. 月輪.mp3",
-          "path": "/audio/th07.5/D03. 月輪.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -419,20 +407,8 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "D05. あゆのかぜ.mp3",
-          "path": "/audio/th07.5/D05. あゆのかぜ.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "D06. メイドと血と懐中時計.mp3",
           "path": "/audio/th07.5/D06. メイドと血と懐中時計.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "D07. Intermezzo.mp3",
-          "path": "/audio/th07.5/D07. Intermezzo.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -443,20 +419,8 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "D09. 魔所.mp3",
-          "path": "/audio/th07.5/D09. 魔所.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "D10. ラクトガール ~ 少女密室.mp3",
           "path": "/audio/th07.5/D10. ラクトガール ~ 少女密室.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "D11. 裏心.mp3",
-          "path": "/audio/th07.5/D11. 裏心.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -479,12 +443,6 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "D15. 夏明き.mp3",
-          "path": "/audio/th07.5/D15. 夏明き.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "N01. 萃夢想.mp3",
           "path": "/audio/th07.5/N01. 萃夢想.mp3",
           "character": "東方萃夢想",
@@ -497,20 +455,8 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "N03. 森閑.mp3",
-          "path": "/audio/th07.5/N03. 森閑.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "N04. 魔女達の舞踏会.mp3",
           "path": "/audio/th07.5/N04. 魔女達の舞踏会.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "N05. 紅夜.mp3",
-          "path": "/audio/th07.5/N05. 紅夜.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -521,20 +467,8 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "N07. 幽境.mp3",
-          "path": "/audio/th07.5/N07. 幽境.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "N08. 人形裁判.mp3",
           "path": "/audio/th07.5/N08. 人形裁判.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "N09. 珍客.mp3",
-          "path": "/audio/th07.5/N09. 珍客.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -545,32 +479,14 @@
           "keyword": "東方萃夢想"
         },
         {
-          "name": "N11. 禍機.mp3",
-          "path": "/audio/th07.5/N11. 禍機.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "N12. 東方妖々夢 ~ Ancient Temple.mp3",
           "path": "/audio/th07.5/N12. 東方妖々夢 ~ Ancient Temple.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
         {
-          "name": "N13. 仰空.mp3",
-          "path": "/audio/th07.5/N13. 仰空.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
           "name": "N14. Demystify Feast.mp3",
           "path": "/audio/th07.5/N14. Demystify Feast.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "N15. 戦迅.mp3",
-          "path": "/audio/th07.5/N15. 戦迅.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -589,12 +505,6 @@
         {
           "name": "N18. 御伽の国の鬼が島.mp3",
           "path": "/audio/th07.5/N18. 御伽の国の鬼が島.mp3",
-          "character": "東方萃夢想",
-          "keyword": "東方萃夢想"
-        },
-        {
-          "name": "N19. 東方萃夢想.mp3",
-          "path": "/audio/th07.5/N19. 東方萃夢想.mp3",
           "character": "東方萃夢想",
           "keyword": "東方萃夢想"
         },
@@ -959,68 +869,14 @@
           "keyword": "東方緋想天"
         },
         {
-          "name": "O02. 日常坐臥.mp3",
-          "path": "/audio/th10.5/O02. 日常坐臥.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
           "name": "O03. 地の色は黄色.mp3",
           "path": "/audio/th10.5/O03. 地の色は黄色.mp3",
           "character": "東方緋想天",
           "keyword": "東方緋想天"
         },
         {
-          "name": "O04. 甲論乙駁.mp3",
-          "path": "/audio/th10.5/O04. 甲論乙駁.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O05. 風光明媚.mp3",
-          "path": "/audio/th10.5/O05. 風光明媚.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O06. 香る樹葉花.mp3",
-          "path": "/audio/th10.5/O06. 香る樹葉花.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
           "name": "O07. 踊る水飛沫.mp3",
           "path": "/audio/th10.5/O07. 踊る水飛沫.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O08. 以魚駆蠅.mp3",
-          "path": "/audio/th10.5/O08. 以魚駆蠅.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O09. 冷吟閑酔.mp3",
-          "path": "/audio/th10.5/O09. 冷吟閑酔.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O10. 嘲りの遊戯.mp3",
-          "path": "/audio/th10.5/O10. 嘲りの遊戯.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O11. 放縦不羈.mp3",
-          "path": "/audio/th10.5/O11. 放縦不羈.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "O12. 雲外蒼天.mp3",
-          "path": "/audio/th10.5/O12. 雲外蒼天.mp3",
           "character": "東方緋想天",
           "keyword": "東方緋想天"
         },
@@ -1049,20 +905,8 @@
           "keyword": "東方緋想天"
         },
         {
-          "name": "O17. 暮色蒼然.mp3",
-          "path": "/audio/th10.5/O17. 暮色蒼然.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
           "name": "O18. 東方緋想天.mp3",
           "path": "/audio/th10.5/O18. 東方緋想天.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "P01. 緋想天.mp3",
-          "path": "/audio/th10.5/P01. 緋想天.mp3",
           "character": "東方緋想天",
           "keyword": "東方緋想天"
         },
@@ -1141,24 +985,6 @@
         {
           "name": "P14. 彼岸帰航 ~ Riverside View.mp3",
           "path": "/audio/th10.5/P14. 彼岸帰航 ~ Riverside View.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "P15. 黒い海に紅く ~ Legendary Fish.mp3",
-          "path": "/audio/th10.5/P15. 黒い海に紅く ~ Legendary Fish.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "P16. 有頂天変 ~ Wonderful Heaven.mp3",
-          "path": "/audio/th10.5/P16. 有頂天変 ~ Wonderful Heaven.mp3",
-          "character": "東方緋想天",
-          "keyword": "東方緋想天"
-        },
-        {
-          "name": "P17. 東方緋想天.mp3",
-          "path": "/audio/th10.5/P17. 東方緋想天.mp3",
           "character": "東方緋想天",
           "keyword": "東方緋想天"
         }
@@ -1355,12 +1181,6 @@
           "keyword": "東方非想天則"
         },
         {
-          "name": "02. 萃夢想.mp3",
-          "path": "/audio/th12.3/02. 萃夢想.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
           "name": "03. 信仰は儚き人間の為に.mp3",
           "path": "/audio/th12.3/03. 信仰は儚き人間の為に.mp3",
           "character": "東方非想天則",
@@ -1427,56 +1247,14 @@
           "keyword": "東方非想天則"
         },
         {
-          "name": "14. 伝説の巨神.mp3",
-          "path": "/audio/th12.3/14. 伝説の巨神.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
           "name": "15. ぼくらの非想天則.mp3",
           "path": "/audio/th12.3/15. ぼくらの非想天則.mp3",
           "character": "東方非想天則",
           "keyword": "東方非想天則"
         },
         {
-          "name": "16. 人形のある風景.mp3",
-          "path": "/audio/th12.3/16. 人形のある風景.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
           "name": "17. 悠久の蒸気機関.mp3",
           "path": "/audio/th12.3/17. 悠久の蒸気機関.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
-          "name": "18. アンノウンＸ　～ Unfound Adventure.mp3",
-          "path": "/audio/th12.3/18. アンノウンＸ　～ Unfound Adventure.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
-          "name": "19. ぼくらの非想天則 (Full ver.).mp3",
-          "path": "/audio/th12.3/19. ぼくらの非想天則 (Full ver.).mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
-          "name": "20. 巨大な影と小さな結末.mp3",
-          "path": "/audio/th12.3/20. 巨大な影と小さな結末.mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
-          "name": "21. ぼくらの非想天則(カラオケver.).mp3",
-          "path": "/audio/th12.3/21. ぼくらの非想天則(カラオケver.).mp3",
-          "character": "東方非想天則",
-          "keyword": "東方非想天則"
-        },
-        {
-          "name": "22. 北東妖恋談(仮).mp3",
-          "path": "/audio/th12.3/22. 北東妖恋談(仮).mp3",
           "character": "東方非想天則",
           "keyword": "東方非想天則"
         }
@@ -1680,12 +1458,6 @@
           "keyword": "東方心綺楼"
         },
         {
-          "name": "A02. 人気のある場所.mp3",
-          "path": "/audio/th13.5/A02. 人気のある場所.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
           "name": "A03. 春色小径 ~ Colorful Path.mp3",
           "path": "/audio/th13.5/A03. 春色小径 ~ Colorful Path.mp3",
           "character": "東方心綺楼",
@@ -1734,20 +1506,8 @@
           "keyword": "東方心綺楼"
         },
         {
-          "name": "A11. 人気のない場所.mp3",
-          "path": "/audio/th13.5/A11. 人気のない場所.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
           "name": "A12. 佐渡のニッ岩.mp3",
           "path": "/audio/th13.5/A12. 佐渡のニッ岩.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "A13. 本日の一面記事.mp3",
-          "path": "/audio/th13.5/A13. 本日の一面記事.mp3",
           "character": "東方心綺楼",
           "keyword": "東方心綺楼"
         },
@@ -1758,62 +1518,8 @@
           "keyword": "東方心綺楼"
         },
         {
-          "name": "A15. 丑三つ時の里.mp3",
-          "path": "/audio/th13.5/A15. 丑三つ時の里.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
           "name": "A16. 亡失のエモーション.mp3",
           "path": "/audio/th13.5/A16. 亡失のエモーション.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "A17. 暁雲.mp3",
-          "path": "/audio/th13.5/A17. 暁雲.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B01. 心綺楼祭囃子.mp3",
-          "path": "/audio/th13.5/B01. 心綺楼祭囃子.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B02. 演者選択.mp3",
-          "path": "/audio/th13.5/B02. 演者選択.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B03. 使われなかった場所.mp3",
-          "path": "/audio/th13.5/B03. 使われなかった場所.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B14. ラストワード発動.mp3",
-          "path": "/audio/th13.5/B14. ラストワード発動.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B15. 官板黄昏新聞.mp3",
-          "path": "/audio/th13.5/B15. 官板黄昏新聞.mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B16. 亡失のエモーション (Arrange Version).mp3",
-          "path": "/audio/th13.5/B16. 亡失のエモーション (Arrange Version).mp3",
-          "character": "東方心綺楼",
-          "keyword": "東方心綺楼"
-        },
-        {
-          "name": "B17. Bonus Track.mp3",
-          "path": "/audio/th13.5/B17. Bonus Track.mp3",
           "character": "東方心綺楼",
           "keyword": "東方心綺楼"
         }
@@ -1958,110 +1664,14 @@
       "path": "/audio/th14.5",
       "songs": [
         {
-          "name": "O1.心揺さぶる都市伝説.mp3",
-          "path": "/audio/th14.5/O1.心揺さぶる都市伝説.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O10.対蹠地の鐘.mp3",
-          "path": "/audio/th14.5/O10.対蹠地の鐘.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O11.可能性を信じて.mp3",
-          "path": "/audio/th14.5/O11.可能性を信じて.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O12.竹林インフレイム.mp3",
-          "path": "/audio/th14.5/O12.竹林インフレイム.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O13.真実を知る者.mp3",
-          "path": "/audio/th14.5/O13.真実を知る者.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
           "name": "O14.華狭間のバトルフィールド.mp3",
           "path": "/audio/th14.5/O14.華狭間のバトルフィールド.mp3",
           "character": "東方深秘録",
           "keyword": "東方深秘録"
         },
         {
-          "name": "O15.外界フォークロア.mp3",
-          "path": "/audio/th14.5/O15.外界フォークロア.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
           "name": "O16.ラストオカルティズム ~ 現し世の秘術師.mp3",
           "path": "/audio/th14.5/O16.ラストオカルティズム ~ 現し世の秘術師.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O17.各々の結末.mp3",
-          "path": "/audio/th14.5/O17.各々の結末.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O18.明かされる深秘.mp3",
-          "path": "/audio/th14.5/O18.明かされる深秘.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O2.幻想郷ふしぎ発見.mp3",
-          "path": "/audio/th14.5/O2.幻想郷ふしぎ発見.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O3.ボールのある日常.mp3",
-          "path": "/audio/th14.5/O3.ボールのある日常.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O4.オカルトアラカルト.mp3",
-          "path": "/audio/th14.5/O4.オカルトアラカルト.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O5.顕現した伝承の形.mp3",
-          "path": "/audio/th14.5/O5.顕現した伝承の形.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O6.七玉蒐集ショウダウン.mp3",
-          "path": "/audio/th14.5/O6.七玉蒐集ショウダウン.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O7.時代の風の訪れ.mp3",
-          "path": "/audio/th14.5/O7.時代の風の訪れ.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O8.公正なる奪い合い.mp3",
-          "path": "/audio/th14.5/O8.公正なる奪い合い.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "O9.価値がわからない.mp3",
-          "path": "/audio/th14.5/O9.価値がわからない.mp3",
           "character": "東方深秘録",
           "keyword": "東方深秘録"
         },
@@ -2134,66 +1744,6 @@
         {
           "name": "P12.輝く針の小人族 ~ Little Princess.mp3",
           "path": "/audio/th14.5/P12.輝く針の小人族 ~ Little Princess.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "P13.華狭間のバトルフィールド.mp3",
-          "path": "/audio/th14.5/P13.華狭間のバトルフィールド.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "P14.ラストオカルティズム ~ 現し世の秘術師.mp3",
-          "path": "/audio/th14.5/P14.ラストオカルティズム ~ 現し世の秘術師.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "P15.明かされる深秘.mp3",
-          "path": "/audio/th14.5/P15.明かされる深秘.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z1. 狂気の瞳 ~ Invisible Full Moon.mp3",
-          "path": "/audio/th14.5/Z1. 狂気の瞳 ~ Invisible Full Moon.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z2. ネオ竹林インフレイム.mp3",
-          "path": "/audio/th14.5/Z2. ネオ竹林インフレイム.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z3. 億万劫の鐘.mp3",
-          "path": "/audio/th14.5/Z3. 億万劫の鐘.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z4. オカルトアトラクト.mp3",
-          "path": "/audio/th14.5/Z4. オカルトアトラクト.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z5. 境界フォークロア.mp3",
-          "path": "/audio/th14.5/Z5. 境界フォークロア.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z6. アンノウンX ~ Occultly Madness.mp3",
-          "path": "/audio/th14.5/Z6. アンノウンX ~ Occultly Madness.mp3",
-          "character": "東方深秘録",
-          "keyword": "東方深秘録"
-        },
-        {
-          "name": "Z7. 相貌の狂い ~ Horrible Night.mp3",
-          "path": "/audio/th14.5/Z7. 相貌の狂い ~ Horrible Night.mp3",
           "character": "東方深秘録",
           "keyword": "東方深秘録"
         }
@@ -2300,14 +1850,8 @@
       "path": "/audio/th15.5",
       "songs": [
         {
-          "name": "A01. 異変の種子.mp3",
-          "path": "/audio/th15.5/A01. 異変の種子.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A02. 憑依投合.mp3",
-          "path": "/audio/th15.5/A02. 憑依投合.mp3",
+          "name": "B16. 舞い散る憑依華吹雪.mp3",
+          "path": "/audio/th15.5/B16. 舞い散る憑依華吹雪.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         },
@@ -2324,12 +1868,6 @@
           "keyword": "東方憑依華"
         },
         {
-          "name": "A05. 連帯責人.mp3",
-          "path": "/audio/th15.5/A05. 連帯責人.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
           "name": "A06. 聖輦船空を往く.mp3",
           "path": "/audio/th15.5/A06. 聖輦船空を往く.mp3",
           "character": "東方憑依華",
@@ -2342,18 +1880,6 @@
           "keyword": "東方憑依華"
         },
         {
-          "name": "A08. 疑惑の芽生え.mp3",
-          "path": "/audio/th15.5/A08. 疑惑の芽生え.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A09. 合縁奇縁.mp3",
-          "path": "/audio/th15.5/A09. 合縁奇縁.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
           "name": "A10. 恒常不変の参廟祀.mp3",
           "path": "/audio/th15.5/A10. 恒常不変の参廟祀.mp3",
           "character": "東方憑依華",
@@ -2362,12 +1888,6 @@
         {
           "name": "A11. 光輝く天球儀.mp3",
           "path": "/audio/th15.5/A11. 光輝く天球儀.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A12. 異心同体.mp3",
-          "path": "/audio/th15.5/A12. 異心同体.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         },
@@ -2390,36 +1910,6 @@
           "keyword": "東方憑依華"
         },
         {
-          "name": "A16. 知略縦横.mp3",
-          "path": "/audio/th15.5/A16. 知略縦横.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
-          "path": "/audio/th15.5/A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A18. 行雲流水.mp3",
-          "path": "/audio/th15.5/A18. 行雲流水.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "A19. 未だ蕾む憑依華.mp3",
-          "path": "/audio/th15.5/A19. 未だ蕾む憑依華.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B01. 真相へ繋がる枝葉.mp3",
-          "path": "/audio/th15.5/B01. 真相へ繋がる枝葉.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
           "name": "B02. 不滅のレッドソウル.mp3",
           "path": "/audio/th15.5/B02. 不滅のレッドソウル.mp3",
           "character": "東方憑依華",
@@ -2428,12 +1918,6 @@
         {
           "name": "B03. 永遠に続く回廊.mp3",
           "path": "/audio/th15.5/B03. 永遠に続く回廊.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B04. 壮言大語.mp3",
-          "path": "/audio/th15.5/B04. 壮言大語.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         },
@@ -2450,26 +1934,8 @@
           "keyword": "東方憑依華"
         },
         {
-          "name": "B07. 意気揚々.mp3",
-          "path": "/audio/th15.5/B07. 意気揚々.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
           "name": "B08. 夢世界フォークロア.mp3",
           "path": "/audio/th15.5/B08. 夢世界フォークロア.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B09. スリープシープ・パレード.mp3",
-          "path": "/audio/th15.5/B09. スリープシープ・パレード.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B10. 天衣無縫 ~ Yellow Lily.mp3",
-          "path": "/audio/th15.5/B10. 天衣無縫 ~ Yellow Lily.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         },
@@ -2486,32 +1952,20 @@
           "keyword": "東方憑依華"
         },
         {
-          "name": "B13. 開演間近.mp3",
-          "path": "/audio/th15.5/B13. 開演間近.mp3",
+          "name": "B09. スリープシープ・パレード.mp3",
+          "path": "/audio/th15.5/B09. スリープシープ・パレード.mp3",
+          "character": "東方憑依華",
+          "keyword": "東方憑依華"
+        },
+        {
+          "name": "A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
+          "path": "/audio/th15.5/A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         },
         {
           "name": "B14. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
           "path": "/audio/th15.5/B14. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B15. 咲き誇る憑依華.mp3",
-          "path": "/audio/th15.5/B15. 咲き誇る憑依華.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B16. 舞い散る憑依華吹雪.mp3",
-          "path": "/audio/th15.5/B16. 舞い散る憑依華吹雪.mp3",
-          "character": "東方憑依華",
-          "keyword": "東方憑依華"
-        },
-        {
-          "name": "B17. 悠久の蒸気機関.mp3",
-          "path": "/audio/th15.5/B17. 悠久の蒸気機関.mp3",
           "character": "東方憑依華",
           "keyword": "東方憑依華"
         }
