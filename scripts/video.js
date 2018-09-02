@@ -51,6 +51,9 @@ const changeVideo = async (info) => {
     googleApiClientReady();
     // Wait for google API
     await delay(1000);
+    videoPlayer.once('ended', event => {
+        changeImage(info, true);
+    });
     if (info.keyword) {
         // Using Crawler Keyword
         console.log('Crawler Keyword: ' + info.keyword)
@@ -72,11 +75,8 @@ const changeVideo = async (info) => {
                     provider: 'youtube',
                 }]
             };
-            await delay(1000);
-            videoPlayer.once('ended', event => {
-                changeImage(info, true);
-            });
-            // Delay time for images 4s:6s
+            // Delay time for images 5s:6s (1s for waiting request)
+            await delay(2000);
             // Set time to half for boss, and buffer video
             videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
             await delay(3000);
@@ -101,8 +101,8 @@ const changeVideo = async (info) => {
                 provider: 'youtube',
             }]
         };
-        // Delay time for images 4s:6s
-        await delay(1000);
+        // Delay time for images 6s:6s
+        await delay(3000);
         // Set time to half for boss, and buffer video
         videoPlayer.currentTime = (info.time) ? info.time : 20;
         await delay(3000);
