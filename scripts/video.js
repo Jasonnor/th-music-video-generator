@@ -123,7 +123,7 @@ const changeVideo = async (info) => {
     }
 }
 
-var googleAPI = 'AIzaSyDqqWDSvvNkCYbI7aBvgACgAXu1hgSjB3E';
+var googleAPI = 'AIzaSyALDYJZ_19ORofWN3mcvTsMS23f8UVYCug';
 
 var videoPlayer = new Plyr('#videoPlayer', {
     controls: [],
