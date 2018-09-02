@@ -36,6 +36,13 @@ const changeImage = async (info, sleep) => {
         }
     });
     if (sleep == true) {
+        videoPlayer.destroy();
+        videoPlayer = new Plyr('#videoPlayer', {
+            controls: [],
+            autoplay: false,
+            muted: true,
+            clickToPlay: false
+        });
         changeVideo(info);
     }
 }
@@ -58,14 +65,6 @@ const changeVideo = async (info) => {
             var randomIndex = 0;
             var videoId = response.result.items[randomIndex].id.videoId;
             console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
-            videoPlayer.destroy();
-            videoPlayer = new Plyr('#videoPlayer', {
-                controls: [],
-                autoplay: false,
-                muted: true,
-                clickToPlay: false
-            });
-            await delay(1000);
             videoPlayer.source = {
                 type: 'video',
                 sources: [{
