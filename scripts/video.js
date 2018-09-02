@@ -72,11 +72,11 @@ const changeVideo = async (info) => {
                     provider: 'youtube',
                 }]
             };
+            await delay(1000);
             videoPlayer.once('ended', event => {
                 changeImage(info, true);
             });
             // Delay time for images 4s:6s
-            await delay(1000);
             // Set time to half for boss, and buffer video
             videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
             await delay(3000);
