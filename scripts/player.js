@@ -36,7 +36,7 @@ var Player = function (playlist) {
       ul = document.createElement('ul');
       ul.className = 'pure-menu-list';
       if (ulth > 5) {
-        ul.style.backgroundImage = 'url(\'./images/title/th' + ('00' + ulth).slice(-2) + '.jpg\')';
+        ul.style.backgroundImage = 'url(\'./images/title/' + ('00' + ulth).slice(-2) + '.jpg\')';
       }
       ulth++;
     } else {
