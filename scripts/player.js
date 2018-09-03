@@ -101,26 +101,27 @@ Player.prototype = {
         onstop: function () {}
       });
       var width = window.innerWidth;
-      var height = window.innerHeight * 0.3;
+      var height = window.innerHeight * 0.2;
       vudio = new Vudio(sound._sounds[0]._node, canvas, {
         effect: 'waveform',
         accuracy: 512, // 16-16348
         width: width,
         height: height,
         waveform: {
-          maxHeight: height / 2 - 4,
+          maxHeight: height / 10 * 9,
           minHeight: 1,
           spacing: 3,
           color: ['#ffffff', '#e0e0e0', ' #c9c9c9'],
           shadowBlur: 1,
           shadowColor: '#939393',
-          fadeSide: true,
+          fadeSide: false,
           prettify: false,
           horizontalAlign: 'center', // left/center/right
           verticalAlign: 'bottom' // top/middle/bottom
         }
       });
       vudio.dance();
+      waveform.style.cursor = 'pointer';
     }
 
     // Begin playing the sound.
@@ -312,7 +313,7 @@ var vudio;
 // Update the height of the wave animation.
 var resize = function () {
   var width = window.innerWidth;
-  var height = window.innerHeight * 0.3;
+  var height = window.innerHeight * 0.2;
   waveform.style.bottom = (height * 0.1 + 90) + 'px';
   canvas.width = width;
   canvas.height = height;
@@ -324,6 +325,11 @@ var resize = function () {
     sliderBtn.style.left = (window.innerWidth * barWidth + window.innerWidth * 0.05 - 25) + 'px';
     vudio.width = width;
     vudio.height = height;
+    vudio.setOption({
+      waveform: {
+        maxHeight: height / 10 * 9,
+      }
+    });
   }
 };
 window.addEventListener('resize', resize);

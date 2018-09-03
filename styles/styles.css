@@ -193,12 +193,11 @@ body {
 /* Progress */
 #waveform {
   width: 100%;
-  height: 30%;
+  height: 20%;
   position: absolute;
   left: 0;
   bottom: 80px;
   display: block;
-  cursor: pointer;
   opacity: 0.5;
   -webkit-user-select: none;
   user-select: none;
