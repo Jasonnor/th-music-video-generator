@@ -1,5 +1,5 @@
 // Cache references to DOM elements.
-var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'bar', 'wave', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
+var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'waveform', 'canvas', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
 elms.forEach(function (elm) {
   window[elm] = document.getElementById(elm);
 });
@@ -89,34 +89,38 @@ Player.prototype = {
           // Start upating the progress of the track.
           requestAnimationFrame(self.step.bind(self));
 
-          // Start the wave animation if we have already loaded
-          wave.container.style.display = 'block';
-          bar.style.display = 'none';
           pauseBtn.style.display = 'block';
         },
         onload: function () {
-          // Start the wave animation.
-          wave.container.style.display = 'block';
-          bar.style.display = 'none';
           loading.style.display = 'none';
         },
         onend: function () {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
           self.skip('next');
         },
-        onpause: function () {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
-        },
-        onstop: function () {
-          // Stop the wave animation.
-          wave.container.style.display = 'none';
-          bar.style.display = 'block';
+        onpause: function () {},
+        onstop: function () {}
+      });
+      var width = window.innerWidth;
+      var height = window.innerHeight * 0.3;
+      vudio = new Vudio(sound._sounds[0]._node, canvas, {
+        effect: 'waveform',
+        accuracy: 512, // 16-16348
+        width: width,
+        height: height,
+        waveform: {
+          maxHeight: height / 2 - 4,
+          minHeight: 1,
+          spacing: 1,
+          color: ['#ffffff', '#e0e0e0', ' #c9c9c9', '#b2b2b2'],
+          shadowBlur: 0,
+          shadowColor: '#f00',
+          fadeSide: true,
+          prettify: true,
+          horizontalAlign: 'center', // left/center/right
+          verticalAlign: 'middle' // top/middle/bottom
         }
       });
+      vudio.dance();
     }
 
     // Begin playing the sound.
@@ -299,17 +303,40 @@ Player.prototype = {
   }
 };
 
-// Update the height of the wave animation.
-// These are basically some hacks to get SiriWave.js to do what we want.
-var resize;
-window.addEventListener('resize', resize);
-
-var move;
-volume.addEventListener('mousemove', move);
-volume.addEventListener('touchmove', move);
-
 var songList = [];
 var player;
+var vudio;
+
+// Update the height of the wave animation.
+var resize = function () {
+  var width = window.innerWidth;
+  var height = window.innerHeight * 0.3;
+  waveform.style.margin = -(height / 2) + 'px auto';
+  canvas.width = width;
+  canvas.height = height;
+  // Update the position of the slider.
+  var sound = player.playlist[player.index].howl;
+  if (sound) {
+    var vol = sound.volume();
+    var barWidth = (vol * 0.9);
+    sliderBtn.style.left = (window.innerWidth * barWidth + window.innerWidth * 0.05 - 25) + 'px';
+    vudio.width = width;
+    vudio.height = height;
+  }
+};
+window.addEventListener('resize', resize);
+
+var move = function (event) {
+  if (window.sliderDown) {
+    var x = event.clientX || event.touches[0].clientX;
+    var startX = window.innerWidth * 0.05;
+    var layerX = x - startX;
+    var per = Math.min(1, Math.max(0, layerX / parseFloat(barEmpty.scrollWidth)));
+    player.volume(per);
+  }
+};
+volume.addEventListener('mousemove', move);
+volume.addEventListener('touchmove', move);
 
 firebase.database().ref('games').once('value').then(function (games) {
   games.val().forEach(game => {
@@ -331,36 +358,6 @@ firebase.database().ref('games').once('value').then(function (games) {
   });
   // Setup our new audio player class and pass it the playlist.
   player = new Player(songList);
-  move = function (event) {
-    if (window.sliderDown) {
-      var x = event.clientX || event.touches[0].clientX;
-      var startX = window.innerWidth * 0.05;
-      var layerX = x - startX;
-      var per = Math.min(1, Math.max(0, layerX / parseFloat(barEmpty.scrollWidth)));
-      player.volume(per);
-    }
-  };
-  resize = function () {
-    var height = window.innerHeight * 0.3;
-    var width = window.innerWidth;
-    wave.height = height;
-    wave.height_2 = height / 2;
-    wave.MAX = wave.height_2 - 4;
-    wave.width = width;
-    wave.width_2 = width / 2;
-    wave.width_4 = width / 4;
-    wave.canvas.height = height;
-    wave.canvas.width = width;
-    wave.container.style.margin = -(height / 2) + 'px auto';
-
-    // Update the position of the slider.
-    var sound = player.playlist[player.index].howl;
-    if (sound) {
-      var vol = sound.volume();
-      var barWidth = (vol * 0.9);
-      sliderBtn.style.left = (window.innerWidth * barWidth + window.innerWidth * 0.05 - 25) + 'px';
-    }
-  };
   resize();
 });
 
@@ -413,15 +410,3 @@ volume.addEventListener('mouseup', function () {
 volume.addEventListener('touchend', function () {
   window.sliderDown = false;
 });
-
-// Setup the "waveform" animation.
-var wave = new SiriWave({
-  container: waveform,
-  width: window.innerWidth,
-  height: window.innerHeight * 0.3,
-  cover: true,
-  speed: 0.03,
-  amplitude: 0.7,
-  frequency: 2
-});
-wave.start();
