@@ -111,9 +111,9 @@ Player.prototype = {
           maxHeight: height / 2 - 4,
           minHeight: 1,
           spacing: 3,
-          color: ['#ffffff', '#e0e0e0', ' #c9c9c9', '#b2b2b2'],
-          shadowBlur: 0,
-          shadowColor: '#f00',
+          color: ['#ffffff', '#e0e0e0', ' #c9c9c9'],
+          shadowBlur: 1,
+          shadowColor: '#939393',
           fadeSide: true,
           prettify: false,
           horizontalAlign: 'center', // left/center/right
@@ -207,6 +207,7 @@ Player.prototype = {
 
     // Reset progress.
     progress.style.width = '0%';
+    progressNow = 0;
 
     // Play the new track.
     self.play(index, true);
@@ -256,7 +257,8 @@ Player.prototype = {
     // Determine our current seek position.
     var seek = sound.seek() || 0;
     timer.innerHTML = self.formatTime(Math.round(seek));
-    progress.style.width = (((seek / sound.duration()) * 100) || 0) + '%';
+    progressNow = (seek / sound.duration());
+    progress.style.width = ((progressNow * 100) || 0) + '%';
 
     // If the sound is still playing, continue stepping.
     if (sound.playing()) {
