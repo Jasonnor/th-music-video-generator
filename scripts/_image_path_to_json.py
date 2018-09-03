@@ -10,7 +10,7 @@ def path_hierarchy(path):
     try:
         hierarchy['images'] = [
             path_hierarchy(os.path.join(path, contents))
-            for contents in os.listdir(path)
+            for contents in os.listdir(path) if 'temp' not in contents and 'favicon' not in contents and 'title' not in contents
         ]
         names = path.split('\\')
         hierarchy['name'] = names[len(names) - 1]
