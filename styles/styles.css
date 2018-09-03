@@ -196,11 +196,10 @@ body {
   height: 30%;
   position: absolute;
   left: 0;
-  top: 50%;
-  margin: -15% auto;
+  bottom: 80px;
   display: block;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.5;
   -webkit-user-select: none;
   user-select: none;
 }

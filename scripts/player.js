@@ -110,14 +110,14 @@ Player.prototype = {
         waveform: {
           maxHeight: height / 2 - 4,
           minHeight: 1,
-          spacing: 1,
+          spacing: 3,
           color: ['#ffffff', '#e0e0e0', ' #c9c9c9', '#b2b2b2'],
           shadowBlur: 0,
           shadowColor: '#f00',
           fadeSide: true,
-          prettify: true,
+          prettify: false,
           horizontalAlign: 'center', // left/center/right
-          verticalAlign: 'middle' // top/middle/bottom
+          verticalAlign: 'bottom' // top/middle/bottom
         }
       });
       vudio.dance();
@@ -311,7 +311,7 @@ var vudio;
 var resize = function () {
   var width = window.innerWidth;
   var height = window.innerHeight * 0.3;
-  waveform.style.margin = -(height / 2) + 'px auto';
+  waveform.style.bottom = (height * 0.1 + 90) + 'px';
   canvas.width = width;
   canvas.height = height;
   // Update the position of the slider.
