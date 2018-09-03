@@ -17,7 +17,7 @@ const changeImage = async (info, sleep) => {
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
             fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
-        } else {
+        } else if (false) {
             var cx = '009797881502979873179:yxcz0y7drxo';
             var a = info.character;
             var url = 'https://www.googleapis.com/customsearch/v1/siterestrict?key=' + googleAPI + '&cx=' + cx + '&q=' + a +
