@@ -325,9 +325,11 @@ var resize = function () {
     sliderBtn.style.left = (window.innerWidth * barWidth + window.innerWidth * 0.05 - 25) + 'px';
     vudio.width = width;
     vudio.height = height;
+    var space = Math.floor(Math.abs(width - 500) / 300) + 2;
     vudio.setOption({
       waveform: {
         maxHeight: height / 10 * 9,
+        spacing: space
       }
     });
   }
