@@ -102,15 +102,16 @@ Player.prototype = {
       });
       var width = window.innerWidth;
       var height = window.innerHeight * 0.2;
+      var accuracy = (width < 550) ? 32 : (width < 950) ? 64 : 128;
       vudio = new Vudio(sound._sounds[0]._node, canvas, {
         effect: 'waveform',
-        accuracy: 512, // 16-16348
+        accuracy: accuracy,
         width: width,
         height: height,
         waveform: {
           maxHeight: height / 10 * 9,
           minHeight: 1,
-          spacing: 3,
+          spacing: 4,
           color: ['#ffffff', '#e0e0e0', ' #c9c9c9'],
           shadowBlur: 1,
           shadowColor: '#939393',
@@ -326,10 +327,13 @@ var resize = function () {
     vudio.width = width;
     vudio.height = height;
     var space = Math.floor(Math.abs(width - 500) / 300) + 2;
+    var accuracy = (width < 550) ? 32 : (width < 1000) ? 64 : 128;
+    // mobile: 320~420
     vudio.setOption({
+      accuracy: accuracy,
       waveform: {
         maxHeight: height / 10 * 9,
-        spacing: space
+        //spacing: space
       }
     });
   }
