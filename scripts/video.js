@@ -12,12 +12,11 @@ const changeImage = async (info, sleep) => {
         });
         if (imageList.length > 0) {
             // Get random image
-            var imageURL = imageList[Math.floor(Math.random() * imageList.length)];
+            var imageURL = '.' + imageList[Math.floor(Math.random() * imageList.length)];
             var vp = document.getElementById('videoPlayer');
-            imagePreload('.' + imageURL);
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
-            fadeInImage('wrapper', 'url(\'.' + imageURL + '\')', 'body');
+            fadeInImage('wrapper', imageURL, 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
             var a = info.character;
@@ -32,7 +31,7 @@ const changeImage = async (info, sleep) => {
                     var vp = document.getElementById('videoPlayer');
                     vp.style.display = 'none';
                     videoPlayer.poster = imageURL;
-                    fadeInImage('wrapper', 'url(\'' + imageURL + '\')', 'body');
+                    fadeInImage('wrapper', imageURL, 'body');
                 });
         }
     });

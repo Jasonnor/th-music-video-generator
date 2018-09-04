@@ -23,7 +23,18 @@ function changeOpacity(id, msDuration, msStart, fromO, toO) {
     }
 }
 
-function fadeInImage(foregroundId, newImage, backgroundId) {
+function imagePreload(src) {
+    if (document.images) {
+        img = new Image();
+        img.src = src;
+        return img;
+    }
+}
+
+function fadeInImage(foregroundId, imageURL, backgroundId) {
+    if (imageURL) {
+        imagePreload(imageURL);
+    }
     var foreground = document.getElementById(foregroundId);
     var background = document.getElementById(backgroundId);
     if (background) {
@@ -31,7 +42,7 @@ function fadeInImage(foregroundId, newImage, backgroundId) {
         background.style.backgroundRepeat = 'no-repeat';
     }
     setOpacity(foreground, 0);
-    foreground.style.backgroundImage = newImage;
+    foreground.style.backgroundImage = 'url(\'' + imageURL + '\')';
     if (foreground.timer) window.clearTimeout(foreground.timer);
     var startMS = (new Date()).getTime();
     foreground.timer = window.setTimeout('changeOpacity(\'' + foregroundId + '\',1000,' + startMS + ',0,100)', 10);
@@ -40,11 +51,4 @@ function fadeInImage(foregroundId, newImage, backgroundId) {
 function googleApiClientReady() {
     gapi.client.setApiKey(googleAPI);
     gapi.client.load('youtube', 'v3');
-}
-
-function imagePreload(src) {
-    if (document.images) {
-        img = new Image();
-        img.src = src;
-    }
 }
