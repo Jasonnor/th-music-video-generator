@@ -199,6 +199,10 @@ body {
   user-select: none;
 }
 
+#canvas {
+  width: 100%;
+}
+
 #waveform:hover {
   opacity: 1;
 }
