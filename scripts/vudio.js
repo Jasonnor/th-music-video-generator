@@ -243,6 +243,7 @@ var progressNow = 0;
 
                     // clear canvas
                     __that.context2d.clearRect(0, 0, __that.width, __that.height);
+                    var reflection = 0.2;
 
                     // draw waveform
                     __freqByteData.forEach(function (value, index) {
@@ -261,7 +262,7 @@ var progressNow = 0;
                             __maxHeight = __waveformOption.maxHeight;
                         }
 
-                        __height = value / 256 * __maxHeight;
+                        __height = value / 256 * __maxHeight * (1 - reflection);
                         __height = __height < __waveformOption.minHeight ? __waveformOption.minHeight : __height;
 
                         if (__waveformOption.verticalAlign === 'middle') {
@@ -269,7 +270,7 @@ var progressNow = 0;
                         } else if (__waveformOption.verticalAlign === 'top') {
                             __top = 0;
                         } else if (__waveformOption.verticalAlign === 'bottom') {
-                            __top = __that.height - __height;
+                            __top = __that.height * (1 - reflection) - __height;
                         } else {
                             __top = (__that.height - __height) / 2;
                         }
@@ -337,6 +338,96 @@ var progressNow = 0;
                             __that.context2d.globalAlpha = 1;
                         }
 
+                        __that.context2d.fillRect(__left, __top, __width, __height);
+
+                    });
+
+                    // Draw Reflection
+                    __freqByteData.forEach(function (value, index) {
+
+                        __width = (__that.width - __that.option.accuracy * __waveformOption.spacing) / __that.option.accuracy;
+                        __left = index * (__width + __waveformOption.spacing);
+                        __waveformOption.spacing !== 1 && (__left += __waveformOption.spacing / 2);
+
+                        if (__prettify) {
+                            if (index <= __that.option.accuracy / 2) {
+                                __maxHeight = (1 - (__that.option.accuracy / 2 - 1 - index) / (__that.option.accuracy / 2)) * __waveformOption.maxHeight;
+                            } else {
+                                __maxHeight = (1 - (index - __that.option.accuracy / 2) / (__that.option.accuracy / 2)) * __waveformOption.maxHeight;
+                            }
+                        } else {
+                            __maxHeight = __waveformOption.maxHeight;
+                        }
+
+                        __height = value / 256 * __maxHeight * reflection;
+                        __height = __height < __waveformOption.minHeight ? __waveformOption.minHeight : __height;
+
+                        __top = __that.height * (1 - reflection);
+
+                        __color = __waveformOption.color;
+
+                        if (index <= Math.floor(__freqByteData.length * progressNow)) {
+                            __linearGradient = __that.context2d.createLinearGradient(
+                                __left,
+                                __top,
+                                __left,
+                                __top + __height
+                            );
+                            var color_temp = ['#c477ff', '#bf6dff', ' #b556ff'];
+
+                            color_temp.forEach(function (color, index) {
+                                if (index === 0 || index === color_temp.length - 1) {
+                                    __pos = index / (color_temp.length - 1);
+                                } else {
+                                    __pos = index / color_temp.length + 0.5 / color_temp.length;
+                                }
+                                __linearGradient.addColorStop(__pos, color);
+                            });
+
+                            __that.context2d.fillStyle = __linearGradient;
+                        } else if (__color instanceof Array) {
+
+                            __linearGradient = __that.context2d.createLinearGradient(
+                                __left,
+                                __top,
+                                __left,
+                                __top + __height
+                            );
+
+                            __color.forEach(function (color, index) {
+                                if (color instanceof Array) {
+                                    __pos = color[0];
+                                    color = color[1];
+                                } else if (index === 0 || index === __color.length - 1) {
+                                    __pos = index / (__color.length - 1);
+                                } else {
+                                    __pos = index / __color.length + 0.5 / __color.length;
+                                }
+                                __linearGradient.addColorStop(__pos, color);
+                            });
+
+                            __that.context2d.fillStyle = __linearGradient;
+
+                        } else {
+                            __that.context2d.fillStyle = __color;
+                        }
+
+                        if (__waveformOption.shadowBlur > 0) {
+                            __that.context2d.shadowBlur = __waveformOption.shadowBlur;
+                            __that.context2d.shadowColor = __waveformOption.shadowColor;
+                        }
+
+                        if (__fadeSide) {
+                            if (index <= __that.option.accuracy / 2) {
+                                __that.context2d.globalAlpha = 1 - (__that.option.accuracy / 2 - 1 - index) / (__that.option.accuracy / 2);
+                            } else {
+                                __that.context2d.globalAlpha = 1 - (index - __that.option.accuracy / 2) / (__that.option.accuracy / 2);
+                            }
+                        } else {
+                            __that.context2d.globalAlpha = 1;
+                        }
+
+                        __that.context2d.globalAlpha = 0.2;
                         __that.context2d.fillRect(__left, __top, __width, __height);
 
                     });
