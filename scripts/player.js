@@ -102,7 +102,7 @@ Player.prototype = {
       });
       var width = waveform.clientWidth;
       var height = (window.innerHeight > 0) ? window.innerHeight * 0.2 : screen.height * 0.2;
-      var accuracy = (width < 550) ? 32 : (width < 950) ? 64 : 128;
+      var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
       waveform.style.bottom = (height * 0.1 + 90) + 'px';
       vudio = new Vudio(sound._sounds[0]._node, canvas, {
         effect: 'waveform',
