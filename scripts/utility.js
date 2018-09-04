@@ -41,3 +41,10 @@ function googleApiClientReady() {
     gapi.client.setApiKey(googleAPI);
     gapi.client.load('youtube', 'v3');
 }
+
+function imagePreload(src) {
+    if (document.images) {
+        img = new Image();
+        img.src = src;
+    }
+}

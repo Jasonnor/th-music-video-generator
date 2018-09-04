@@ -425,3 +425,8 @@ volume.addEventListener('mouseup', function () {
 volume.addEventListener('touchend', function () {
   window.sliderDown = false;
 });
+
+// Image preloader
+for (var i = 6; i < 27; i++) {
+  imagePreload('./images/title/' + ('00' + i).slice(-2) + '.jpg');
+}
