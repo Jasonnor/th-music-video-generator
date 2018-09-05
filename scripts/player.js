@@ -17,7 +17,7 @@ var Player = function (playlist) {
 
   // Display the title of the first track.
   track.innerHTML = playlist[this.index].title;
-  changeImage(playlist[this.index].info, false);
+  changeImage(playlist[this.index].info);
 
   var ul = null;
   var ulth = 1;
@@ -135,7 +135,8 @@ Player.prototype = {
 
     // Play video
     if (videoPlayer.stopped || isNewSong) {
-      changeImage(data.info, true);
+      mvInfo = data.info;
+      mvStage = 0;
     } else if (videoPlayer.paused) {
       videoPlayer.play();
     }
