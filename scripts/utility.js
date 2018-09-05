@@ -47,8 +47,3 @@ function fadeInImage(foregroundId, imageURL, backgroundId) {
     var startMS = (new Date()).getTime();
     foreground.timer = window.setTimeout('changeOpacity(\'' + foregroundId + '\',1000,' + startMS + ',0,100)', 10);
 }
-
-function googleApiClientReady() {
-    gapi.client.setApiKey(googleAPI);
-    gapi.client.load('youtube', 'v3');
-}

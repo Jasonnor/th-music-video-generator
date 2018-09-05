@@ -44,15 +44,15 @@ const changeImage = async (info, sleep) => {
             clickToPlay: false
         });
         videoPlayer.once('ready', event => {
-            changeVideo(info);
+            gapi.client.setApiKey(googleAPI);
+            gapi.client.load('youtube', 'v3').then(function () {
+                changeVideo(info);
+            });
         });
     }
 }
 
 const changeVideo = async (info) => {
-    googleApiClientReady();
-    // Wait for google API
-    await delay(1000);
     videoPlayer.once('ended', event => {
         changeImage(info, true);
     });
@@ -78,17 +78,16 @@ const changeVideo = async (info) => {
                 }]
             };
             // Delay time for images 5s:6s (1s for waiting request)
-            await delay(2000);
-            // Set time to half for boss, and buffer video
+            await delay(1000);
+            // Set time to half for boss
             videoPlayer.currentTime = (info.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
-            await delay(3000);
+            await delay(4000);
             // Second Image
             changeImage(info, false);
-            await delay(2000);
             videoPlayer.play();
             await delay(1000);
             videoPlayer.pause();
-            await delay(3000);
+            await delay(5000);
             document.getElementById('videoPlayer').style.display = 'block';
             document.getElementById('wrapper').style.backgroundImage = '';
             fadeInImage('videoPlayer', '', 'body');
@@ -104,17 +103,16 @@ const changeVideo = async (info) => {
             }]
         };
         // Delay time for images 6s:6s
-        await delay(3000);
-        // Set time to half for boss, and buffer video
+        await delay(1000);
+        // Set time as dataset value
         videoPlayer.currentTime = (info.time) ? info.time : 20;
-        await delay(3000);
+        await delay(5000);
         // Second Image
         changeImage(info, false);
-        await delay(2000);
         videoPlayer.play();
         await delay(1000);
         videoPlayer.pause();
-        await delay(3000);
+        await delay(5000);
         document.getElementById('videoPlayer').style.display = 'block';
         document.getElementById('wrapper').style.backgroundImage = '';
         fadeInImage('videoPlayer', '', 'body');
