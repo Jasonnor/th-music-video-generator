@@ -65,6 +65,10 @@ Player.prototype = {
     var sound;
 
     index = typeof index === 'number' ? index : self.index;
+    // Unload last song
+    if (self.playlist[self.index].howl) {
+      self.playlist[self.index].howl.unload();
+    }
     // Keep track of the index we are currently playing.
     self.index = index;
     console.log('Playing index ' + index);
