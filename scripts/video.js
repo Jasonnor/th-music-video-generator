@@ -11,49 +11,14 @@ const musicVideoTrigger = async () => {
                 muted: true,
                 clickToPlay: false
             });
-            gapi.client.setApiKey(googleAPI);
-            gapi.client.load('youtube', 'v3');
-            break;
-        case 1000:
+            videoPlayer.once('ready', event => {
+                changeVideo(mvInfo);
+            });
             videoPlayer.once('ended', event => {
                 mvStage = 0;
             });
-            if (mvInfo.keyword) {
-                // Using Crawler Keyword
-                console.log('Crawler Keyword: ' + mvInfo.keyword)
-                var request = gapi.client.youtube.search.list({
-                    part: 'snippet',
-                    type: 'video',
-                    videoDuration: 'any',
-                    q: mvInfo.keyword.replace('BOSS', '')
-                });
-                request.execute(async (response) => {
-                    //var randomIndex = Math.floor(Math.random() * 5);
-                    var randomIndex = 0;
-                    var videoId = response.result.items[randomIndex].id.videoId;
-                    console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
-                    videoPlayer.source = {
-                        type: 'video',
-                        sources: [{
-                            src: videoId,
-                            provider: 'youtube',
-                        }]
-                    };
-                });
-            } else if (mvInfo.video_id) {
-                // Using Video ID
-                console.log('Database Video ID: ' + mvInfo.video_id)
-                videoPlayer.source = {
-                    type: 'video',
-                    sources: [{
-                        src: mvInfo.video_id,
-                        provider: 'youtube',
-                    }]
-                };
-            }
             break;
         case 3000:
-            /*TODO:2000*/
             if (mvInfo.keyword) {
                 // Set time to half for boss
                 videoPlayer.currentTime = (mvInfo.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
@@ -124,6 +89,43 @@ const changeImage = async (info) => {
                 });
         }
     });
+}
+
+
+const changeVideo = async (info) => {
+    if (info.keyword) {
+        // Using Crawler Keyword
+        console.log('Crawler Keyword: ' + info.keyword)
+        var request = gapi.client.youtube.search.list({
+            part: 'snippet',
+            type: 'video',
+            videoDuration: 'any',
+            q: info.keyword.replace('BOSS', '')
+        });
+        request.execute(async (response) => {
+            //var randomIndex = Math.floor(Math.random() * 5);
+            var randomIndex = 0;
+            var videoId = response.result.items[randomIndex].id.videoId;
+            console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
+            videoPlayer.source = {
+                type: 'video',
+                sources: [{
+                    src: videoId,
+                    provider: 'youtube',
+                }]
+            };
+        });
+    } else if (info.video_id) {
+        // Using Video ID
+        console.log('Database Video ID: ' + info.video_id)
+        videoPlayer.source = {
+            type: 'video',
+            sources: [{
+                src: info.video_id,
+                provider: 'youtube',
+            }]
+        };
+    }
 }
 
 var googleAPI = 'AIzaSyALDYJZ_19ORofWN3mcvTsMS23f8UVYCug';

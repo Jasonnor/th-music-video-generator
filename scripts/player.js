@@ -52,6 +52,8 @@ var Player = function (playlist) {
     ul.appendChild(li);
   });
   pl.appendChild(ul);
+  gapi.client.setApiKey(googleAPI);
+  gapi.client.load('youtube', 'v3');
 };
 Player.prototype = {
   /**
