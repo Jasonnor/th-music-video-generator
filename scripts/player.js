@@ -68,6 +68,7 @@ Player.prototype = {
     // Unload last song
     if (self.playlist[self.index].howl && self.index != index) {
       self.playlist[self.index].howl.unload();
+      delete self.playlist[self.index].howl;
     }
     // Keep track of the index we are currently playing.
     self.index = index;
@@ -80,77 +81,81 @@ Player.prototype = {
       return;
     }
 
-    // Load song
-    sound = data.howl = new Howl({
-      src: ['.' + data.file],
-      html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
-      onplay: function () {
-        // Display the duration.
-        duration.innerHTML = self.formatTime(Math.round(sound.duration()));
-
-        // Start upating the progress of the track.
-        requestAnimationFrame(self.step.bind(self));
-
-        pauseBtn.style.display = 'block';
-      },
-      onload: function () {
-        loading.style.display = 'none';
-      },
-      onend: function () {
-        self.skip('next');
-      },
-      onpause: function () {},
-      onstop: function () {}
-    });
-    var width = waveform.clientWidth;
-    var height = (window.innerHeight > 0) ? window.innerHeight * 0.2 : screen.height * 0.2;
-    var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
-    waveform.style.bottom = (height * 0.1 + 90) + 'px';
-    if (!mobilecheck()) {
-      canvas.style.display = 'block';
-      waveform.style.opacity = 0.5;
-      if (wavesurfer) {
-        wavesurfer.destroy();
-      }
-      vudio = new Vudio(sound._sounds[0]._node, canvas, {
-        effect: 'waveform',
-        accuracy: accuracy,
-        width: width,
-        height: height,
-        waveform: {
-          maxHeight: height / 10 * 9,
-          minHeight: 1,
-          spacing: 4,
-          color: ['#ffffff', '#e0e0e0', ' #c9c9c9'],
-          shadowBlur: 1,
-          shadowColor: '#939393',
-          fadeSide: false,
-          prettify: false,
-          horizontalAlign: 'center', // left/center/right
-          verticalAlign: 'bottom' // top/middle/bottom
-        }
-      });
-      vudio.dance();
+    // Load song    
+    if (data.howl) {
+      sound = data.howl;
     } else {
-      canvas.style.display = 'none';
-      waveform.style.opacity = 1;
-      if (wavesurfer) {
-        wavesurfer.destroy();
+      sound = data.howl = new Howl({
+        src: ['.' + data.file],
+        html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
+        onplay: function () {
+          // Display the duration.
+          duration.innerHTML = self.formatTime(Math.round(sound.duration()));
+
+          // Start upating the progress of the track.
+          requestAnimationFrame(self.step.bind(self));
+
+          pauseBtn.style.display = 'block';
+        },
+        onload: function () {
+          loading.style.display = 'none';
+        },
+        onend: function () {
+          self.skip('next');
+        },
+        onpause: function () {},
+        onstop: function () {}
+      });
+      var width = waveform.clientWidth;
+      var height = (window.innerHeight > 0) ? window.innerHeight * 0.2 : screen.height * 0.2;
+      var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
+      waveform.style.bottom = (height * 0.1 + 90) + 'px';
+      if (!mobilecheck()) {
+        canvas.style.display = 'block';
+        waveform.style.opacity = 0.5;
+        if (wavesurfer) {
+          wavesurfer.destroy();
+        }
+        vudio = new Vudio(sound._sounds[0]._node, canvas, {
+          effect: 'waveform',
+          accuracy: accuracy,
+          width: width,
+          height: height,
+          waveform: {
+            maxHeight: height / 10 * 9,
+            minHeight: 1,
+            spacing: 4,
+            color: ['#ffffff', '#e0e0e0', ' #c9c9c9'],
+            shadowBlur: 1,
+            shadowColor: '#939393',
+            fadeSide: false,
+            prettify: false,
+            horizontalAlign: 'center', // left/center/right
+            verticalAlign: 'bottom' // top/middle/bottom
+          }
+        });
+        vudio.dance();
+      } else {
+        canvas.style.display = 'none';
+        waveform.style.opacity = 1;
+        if (wavesurfer) {
+          wavesurfer.destroy();
+        }
+        wavesurfer = WaveSurfer.create({
+          container: '#waveform',
+          backend: 'MediaElement',
+          barWidth: 3,
+          cursorColor: '#b556ff',
+          cursorWidth: 1,
+          progressColor: '#bf6dff'
+        });
+        wavesurfer.load(sound._sounds[0]._node)
+        wavesurfer.on('ready', function () {
+          wavesurfer.play();
+        });
       }
-      wavesurfer = WaveSurfer.create({
-        container: '#waveform',
-        backend: 'MediaElement',
-        barWidth: 3,
-        cursorColor: '#b556ff',
-        cursorWidth: 1,
-        progressColor: '#bf6dff'
-      });
-      wavesurfer.load(sound._sounds[0]._node)
-      wavesurfer.on('ready', function () {
-        wavesurfer.play();
-      });
+      waveform.style.cursor = 'pointer';
     }
-    waveform.style.cursor = 'pointer';
 
     // Begin playing the sound.
     sound.play();
