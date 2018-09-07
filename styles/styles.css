@@ -199,12 +199,18 @@ body {
   user-select: none;
 }
 
+#waveform:hover {
+  opacity: 1;
+}
+
 #canvas {
   width: 100%;
 }
 
-#waveform:hover {
-  opacity: 1;
+#waveform>wave {
+  height: 50% !important;
+  top: 100%;
+  transform: translateY(-100%);
 }
 
 #progress {
