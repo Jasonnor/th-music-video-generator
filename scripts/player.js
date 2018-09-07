@@ -107,6 +107,11 @@ Player.prototype = {
     var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
     waveform.style.bottom = (height * 0.1 + 90) + 'px';
     if (!mobilecheck()) {
+      canvas.style.display = 'block';
+      waveform.style.opacity = 0.5;
+      if (wavesurfer) {
+        wavesurfer.destroy();
+      }
       vudio = new Vudio(sound._sounds[0]._node, canvas, {
         effect: 'waveform',
         accuracy: accuracy,
