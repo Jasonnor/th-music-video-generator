@@ -66,7 +66,7 @@ Player.prototype = {
 
     index = typeof index === 'number' ? index : self.index;
     // Unload last song
-    if (self.playlist[self.index].howl) {
+    if (self.playlist[self.index].howl && self.index != index) {
       self.playlist[self.index].howl.unload();
     }
     // Keep track of the index we are currently playing.
@@ -250,9 +250,7 @@ Player.prototype = {
     var sound = self.playlist[self.index].howl;
 
     // Convert the percent into a seek position.
-    if (sound.playing()) {
-      sound.seek(sound.duration() * per);
-    }
+    sound.seek(sound.duration() * per);
   },
 
   /**
@@ -271,9 +269,7 @@ Player.prototype = {
     progress.style.width = ((progressNow * 100) || 0) + '%';
 
     // If the sound is still playing, continue stepping.
-    if (sound.playing()) {
-      requestAnimationFrame(self.step.bind(self));
-    }
+    requestAnimationFrame(self.step.bind(self));
   },
 
   /**
