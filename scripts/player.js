@@ -147,7 +147,8 @@ Player.prototype = {
           barWidth: 3,
           cursorColor: '#b556ff',
           cursorWidth: 1,
-          progressColor: '#bf6dff'
+          progressColor: '#bf6dff',
+          waveColor: '#e0e0e0'
         });
         wavesurfer.load(sound._sounds[0]._node)
         wavesurfer.on('ready', function () {

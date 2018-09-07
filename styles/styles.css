@@ -200,7 +200,7 @@ body {
 }
 
 #waveform:hover {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 #canvas {
