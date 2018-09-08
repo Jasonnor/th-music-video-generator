@@ -38,6 +38,7 @@ const musicVideoTrigger = async () => {
         case 12000:
             document.getElementById('videoPlayer').style.display = 'block';
             document.getElementById('wrapper').style.backgroundImage = '';
+            document.getElementById('pid').innerHTML = 'vid=' + mvVid;
             fadeInImage('videoPlayer', '', 'body');
             videoPlayer.play();
             break;
@@ -51,6 +52,7 @@ var mvInfo;
 var mvStage = -1;
 var mvInterval = 500;
 var mvTrigger = setInterval(musicVideoTrigger, mvInterval);
+var mvVid = '';
 
 const changeImage = async (info) => {
     console.log('Change image to character ' + info.character);
@@ -108,6 +110,7 @@ const changeVideo = async (info) => {
             var randomIndex = 0;
             var videoId = response.result.items[randomIndex].id.videoId;
             console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
+            mvVid = videoId;
             videoPlayer.source = {
                 type: 'video',
                 sources: [{
@@ -119,6 +122,7 @@ const changeVideo = async (info) => {
     } else if (info.video_id) {
         // Using Video ID
         console.log('Database Video ID: ' + info.video_id)
+        mvVid = info.video_id;
         videoPlayer.source = {
             type: 'video',
             sources: [{
