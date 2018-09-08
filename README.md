@@ -14,6 +14,21 @@ Touhou Project random music video generator, crawling image and video from websi
 
 ## Preview
 
+### Desktop
+![image01](images/demo/image01.png)
+
+![image02](images/demo/image02.png)
+
+### Mobile
+![image-mobile01](images/demo/image-mobile01.png)
+![image-mobile02](images/demo/image-mobile02.png)
+
+### Menu
+![Menu](images/demo/menu.png)
+
+### Video
+![Video](images/demo/video.gif)
+
 ## Contributing
 
 Please feel free to [open issues](https://github.com/Jasonnor/th-music-video-generator/issues) or submit [pull requests](https://github.com/Jasonnor/th-music-video-generator/pulls).
