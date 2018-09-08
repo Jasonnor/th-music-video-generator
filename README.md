@@ -14,9 +14,10 @@ Touhou Project random music video generator, crawling image and video from websi
 
 ## Preview
 
-### Desktop
+### Tablet
 ![image01](images/demo/image01.png)
 
+### Desktop
 ![image02](images/demo/image02.png)
 
 ### Mobile
