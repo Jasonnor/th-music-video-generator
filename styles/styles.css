@@ -52,18 +52,18 @@ body {
 }
 
 #title {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 3%;
+  top: 25px;
   line-height: 34px;
   height: 34px;
   font-size: 34px;
 }
 
 .subtitle {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 10%;
+  top: 50px;
   line-height: 18px;
   height: 18px;
   font-size: 18px;
@@ -107,9 +107,13 @@ body {
     left: auto !important;
     right: 20px;
   }
+
+  .subtitle {
+    top: 70px;
+  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 970px) {
   #track {
     font-size: 32px;
   }
