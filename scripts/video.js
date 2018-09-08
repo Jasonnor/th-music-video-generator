@@ -70,6 +70,7 @@ const changeImage = async (info) => {
             var vp = document.getElementById('videoPlayer');
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
+            document.getElementById('pid').innerHTML = 'pid=' + imageURL.split('/')[3].split('_')[0];
             fadeInImage('wrapper', imageURL, 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
@@ -90,7 +91,6 @@ const changeImage = async (info) => {
         }
     });
 }
-
 
 const changeVideo = async (info) => {
     if (info.keyword) {

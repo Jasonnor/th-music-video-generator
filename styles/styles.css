@@ -40,19 +40,33 @@ body {
 }
 
 /* Top Info */
+.top {
+  width: 100%;
+  height: 20%;
+  font-weight: 300;
+  text-align: center;
+  color: #eee;
+  opacity: 0.9;
+  text-shadow: 0 0 0.3em black;
+  font-family: Microsoft JhengHei;
+}
+
 #title {
   position: absolute;
   width: 100%;
   top: 3%;
   line-height: 34px;
   height: 34px;
-  text-align: center;
   font-size: 34px;
-  opacity: 0.9;
-  font-weight: 300;
-  color: #fff;
-  text-shadow: 0 0 0.3em black;
-  font-family: Microsoft JhengHei;
+}
+
+.subtitle {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  line-height: 18px;
+  height: 18px;
+  font-size: 18px;
 }
 
 #timer {
@@ -120,6 +134,12 @@ body {
   #duration {
     font-size: 18px;
     top: 50px;
+  }
+
+  .subtitle {
+    line-height: 16px;
+    height: 16px;
+    font-size: 16px;
   }
 }
 
