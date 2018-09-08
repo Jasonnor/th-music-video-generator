@@ -1864,7 +1864,7 @@
         {
           "name": "B16. 舞い散る憑依華吹雪.mp3",
           "path": "/audio/th15.5/B16. 舞い散る憑依華吹雪.mp3",
-          "character": "東方憑依華",
+          "character": "依神女苑 依神紫苑",
           "keyword": "東方憑依華"
         },
         {
@@ -2083,7 +2083,7 @@
         {
           "name": "14. もうドアには入れない.mp3",
           "path": "/audio/th16/14. もうドアには入れない.mp3",
-          "character": "爾子田里乃 丁礼田舞 摩多羅隠岐奈",
+          "character": "爾子田里乃 丁礼田舞",
           "keyword": "東方天空璋 EX"
         },
         {
@@ -2317,6 +2317,12 @@
         },
         {
           "path": "/images/エタニティラルバ/65972608_p0.jpg"
+        },
+        {
+          "path": "/images/エタニティラルバ/66628772_p3.jpg"
+        },
+        {
+          "path": "/images/エタニティラルバ/66628772_p3.png"
         },
         {
           "path": "/images/エタニティラルバ/66996134_p0.jpg"
@@ -3051,6 +3057,9 @@
           "path": "/images/ヘカーティア・ラピスラズリ/67395157_p0.jpg"
         },
         {
+          "path": "/images/ヘカーティア・ラピスラズリ/67926850_p14.jpg"
+        },
+        {
           "path": "/images/ヘカーティア・ラピスラズリ/69468089_p1.jpg"
         },
         {
@@ -3631,6 +3640,50 @@
     {
       "images": [
         {
+          "path": "/images/今泉影狼/43453443_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/47865687_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/47865687_p0.png"
+        },
+        {
+          "path": "/images/今泉影狼/50333011_p0.png"
+        },
+        {
+          "path": "/images/今泉影狼/50598459_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/50904786_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/56464172_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/63084913_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/64280576_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/64280576_p0.png"
+        },
+        {
+          "path": "/images/今泉影狼/64654080_p1.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/65469331_p0.jpg"
+        },
+        {
+          "path": "/images/今泉影狼/66122483_p0.jpg"
+        }
+      ],
+      "name": "今泉影狼"
+    },
+    {
+      "images": [
+        {
           "path": "/images/伊吹萃香/28972709_p0.jpg"
         },
         {
@@ -3674,6 +3727,71 @@
         }
       ],
       "name": "伊吹萃香"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/依神女苑 依神紫苑/66542709_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66546471_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66672693_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66698193_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66714217_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66788853_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66859711_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66875770_p12.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66884388_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66954151_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/66979341_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/67189487_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/67636560_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/67918554_p2.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/67926850_p18.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/68541000_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/68636099_p19.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/68636099_p23.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/68825376_p0.jpg"
+        },
+        {
+          "path": "/images/依神女苑 依神紫苑/69400773_p0.jpg"
+        }
+      ],
+      "name": "依神女苑 依神紫苑"
     },
     {
       "images": [
@@ -4504,6 +4622,58 @@
     {
       "images": [
         {
+          "path": "/images/坂田ネムノ/62793220_p0.jpg"
+        },
+        {
+          "path": "/images/坂田ネムノ/62813709_p1.jpg"
+        },
+        {
+          "path": "/images/坂田ネムノ/65633149_p0.jpg"
+        },
+        {
+          "path": "/images/坂田ネムノ/65791032_p0.jpg"
+        },
+        {
+          "path": "/images/坂田ネムノ/66628772_p5.jpg"
+        },
+        {
+          "path": "/images/坂田ネムノ/66628772_p5.png"
+        },
+        {
+          "path": "/images/坂田ネムノ/67298846_p0.jpg"
+        }
+      ],
+      "name": "坂田ネムノ"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/堀川雷鼓/39245268_p0.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/41891311_p0.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/45828977_p0.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/51999250_p0.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/56842343_p0.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/60684425_p6.jpg"
+        },
+        {
+          "path": "/images/堀川雷鼓/61301403_p0.jpg"
+        }
+      ],
+      "name": "堀川雷鼓"
+    },
+    {
+      "images": [
+        {
           "path": "/images/多々良小傘/11056396_p0.jpg"
         },
         {
@@ -4691,6 +4861,41 @@
         }
       ],
       "name": "姫海棠はたて"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/宇佐見菫子/50477754_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/53415126_p5.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/57425037_p16.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/57425037_p16.png"
+        },
+        {
+          "path": "/images/宇佐見菫子/59046213_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/60668979_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/61047262_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/62702938_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/62838613_p0.jpg"
+        },
+        {
+          "path": "/images/宇佐見菫子/63837404_p0.jpg"
+        }
+      ],
+      "name": "宇佐見菫子"
     },
     {
       "images": [
@@ -5078,6 +5283,32 @@
     {
       "images": [
         {
+          "path": "/images/少名針妙丸/38023798_p0.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/39403025_p0.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/40322984_p0.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/40487399_p0.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/45036647_p0.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/60684425_p5.jpg"
+        },
+        {
+          "path": "/images/少名針妙丸/61314180_p0.jpg"
+        }
+      ],
+      "name": "少名針妙丸"
+    },
+    {
+      "images": [
+        {
           "path": "/images/岡崎夢美/10373853_p0.jpg"
         },
         {
@@ -5171,6 +5402,47 @@
     {
       "images": [
         {
+          "path": "/images/摩多羅隠岐奈/64356359_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/64364064_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/64376566_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/64376566_p0.png"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/64499569_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/64759772_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/65417589_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/65567270_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/66492190_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/68636099_p6.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/68818618_p0.jpg"
+        },
+        {
+          "path": "/images/摩多羅隠岐奈/70335528_p0.jpg"
+        }
+      ],
+      "name": "摩多羅隠岐奈"
+    },
+    {
+      "images": [
+        {
           "path": "/images/旧作幽香/17024277_p0.jpg"
         },
         {
@@ -5257,6 +5529,23 @@
         }
       ],
       "name": "村紗水蜜"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/東方天空璋/63875474_p0.jpg"
+        },
+        {
+          "path": "/images/東方天空璋/65728852_p0.jpg"
+        },
+        {
+          "path": "/images/東方天空璋/66385971_p0.jpg"
+        },
+        {
+          "path": "/images/東方天空璋/66509857_p0.jpg"
+        }
+      ],
+      "name": "東方天空璋"
     },
     {
       "images": [
@@ -5361,6 +5650,46 @@
         }
       ],
       "name": "東方紅魔郷"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/東方紺珠伝/52917266_p0.jpg"
+        },
+        {
+          "path": "/images/東方紺珠伝/53969747_p0.jpg"
+        },
+        {
+          "path": "/images/東方紺珠伝/59800872_p0.jpg"
+        },
+        {
+          "path": "/images/東方紺珠伝/62954792_p0.jpg"
+        }
+      ],
+      "name": "東方紺珠伝"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/東方輝針城/49869263_p0.jpg"
+        },
+        {
+          "path": "/images/東方輝針城/52605627_p0.jpg"
+        },
+        {
+          "path": "/images/東方輝針城/58393409_p0.jpg"
+        },
+        {
+          "path": "/images/東方輝針城/60684425_p5.jpg"
+        },
+        {
+          "path": "/images/東方輝針城/68860094_p0.jpg"
+        },
+        {
+          "path": "/images/東方輝針城/69843963_p0.jpg"
+        }
+      ],
+      "name": "東方輝針城"
     },
     {
       "images": [
@@ -5961,6 +6290,35 @@
     {
       "images": [
         {
+          "path": "/images/清蘭/50317861_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/51800021_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/56472774_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/63297982_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/63518644_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/65665521_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/65724476_p0.jpg"
+        },
+        {
+          "path": "/images/清蘭/68712765_p0.jpg"
+        }
+      ],
+      "name": "清蘭"
+    },
+    {
+      "images": [
+        {
           "path": "/images/火焔猫燐/12490103_p0.jpg"
         },
         {
@@ -6001,6 +6359,35 @@
         }
       ],
       "name": "火焔猫燐"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/64783329_p0.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/65417526_p0.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/65683556_p0.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/66385589_p0.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/67775291_p0.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/68636099_p11.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/68636099_p8.jpg"
+        },
+        {
+          "path": "/images/爾子田里乃 丁礼田舞/69453279_p0.jpg"
+        }
+      ],
+      "name": "爾子田里乃 丁礼田舞"
     },
     {
       "images": [
@@ -6119,6 +6506,35 @@
         }
       ],
       "name": "犬走椛"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/矢田寺成美/64355104_p0.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/64515706_p0.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/65460417_p0.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/66375359_p0.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/66385505_p0.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/66628772_p10.jpg"
+        },
+        {
+          "path": "/images/矢田寺成美/66628772_p10.png"
+        },
+        {
+          "path": "/images/矢田寺成美/68545150_p0.jpg"
+        }
+      ],
+      "name": "矢田寺成美"
     },
     {
       "images": [
@@ -6308,6 +6724,50 @@
     {
       "images": [
         {
+          "path": "/images/稀神サグメ/52677374_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/54487048_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/55505718_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/56601163_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/58197052_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/60684541_p2.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/61280855_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/61280855_p19.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/61280855_p5.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/62618571_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/67116448_p0.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/67819414_p3.jpg"
+        },
+        {
+          "path": "/images/稀神サグメ/67926850_p0.jpg"
+        }
+      ],
+      "name": "稀神サグメ"
+    },
+    {
+      "images": [
+        {
           "path": "/images/紅美鈴/18637750_p0.jpg"
         },
         {
@@ -6367,6 +6827,65 @@
     {
       "images": [
         {
+          "path": "/images/純狐/52095432_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/53012433_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/54259284_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/56432110_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/56745384_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/57645313_p1.jpg"
+        },
+        {
+          "path": "/images/純狐/58277323_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/59165426_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/59165426_p0.png"
+        },
+        {
+          "path": "/images/純狐/61154394_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/62001700_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/62313018_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/63749573_p19.jpg"
+        },
+        {
+          "path": "/images/純狐/64393471_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/65270095_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/66648717_p0.jpg"
+        },
+        {
+          "path": "/images/純狐/68636099_p3.jpg"
+        },
+        {
+          "path": "/images/純狐/69781577_p2.jpg"
+        }
+      ],
+      "name": "純狐"
+    },
+    {
+      "images": [
+        {
           "path": "/images/聖白蓮/17259101_p0.jpg"
         },
         {
@@ -6413,6 +6932,41 @@
         }
       ],
       "name": "聖白蓮"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/茨木華扇/21572114_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/38917072_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/52421308_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/57186342_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/57186342_p0.png"
+        },
+        {
+          "path": "/images/茨木華扇/59237947_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/59237947_p0.png"
+        },
+        {
+          "path": "/images/茨木華扇/60026507_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/64265536_p0.jpg"
+        },
+        {
+          "path": "/images/茨木華扇/68592737_p1.jpg"
+        }
+      ],
+      "name": "茨木華扇"
     },
     {
       "images": [
@@ -6787,6 +7341,38 @@
     {
       "images": [
         {
+          "path": "/images/赤蛮奇/36127927_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/45067831_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/45985451_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/51319093_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/54001889_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/54905519_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/63256168_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/66403312_p0.jpg"
+        },
+        {
+          "path": "/images/赤蛮奇/69175276_p0.jpg"
+        }
+      ],
+      "name": "赤蛮奇"
+    },
+    {
+      "images": [
+        {
           "path": "/images/鈴仙・優曇華院・イナバ/12209994_p0.jpg"
         },
         {
@@ -6848,6 +7434,26 @@
         }
       ],
       "name": "鈴仙・優曇華院・イナバ"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/鈴瑚/50548428_p0.jpg"
+        },
+        {
+          "path": "/images/鈴瑚/54717646_p0.jpg"
+        },
+        {
+          "path": "/images/鈴瑚/56145520_p0.jpg"
+        },
+        {
+          "path": "/images/鈴瑚/56703160_p0.jpg"
+        },
+        {
+          "path": "/images/鈴瑚/63518644_p0.jpg"
+        }
+      ],
+      "name": "鈴瑚"
     },
     {
       "images": [
@@ -7175,6 +7781,100 @@
         }
       ],
       "name": "風見幽香"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/高麗野あうん/62808139_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/62848769_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/62861904_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/63016971_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/65090286_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/65462596_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/66375342_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/66628772_p6.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/66628772_p6.png"
+        },
+        {
+          "path": "/images/高麗野あうん/67740453_p0.jpg"
+        },
+        {
+          "path": "/images/高麗野あうん/68205298_p0.jpg"
+        }
+      ],
+      "name": "高麗野あうん"
+    },
+    {
+      "images": [
+        {
+          "path": "/images/鬼人正邪/37962220_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/42864047_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/42994758_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/45299599_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/45589900_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/46890350_p12.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/47138739_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/49233951_p2.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/49756960_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/52747383_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/56458287_p1.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/56594405_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/61280855_p14.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/63966482_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/66943013_p0.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/68636099_p4.jpg"
+        },
+        {
+          "path": "/images/鬼人正邪/69375155_p0.jpg"
+        }
+      ],
+      "name": "鬼人正邪"
     },
     {
       "images": [
