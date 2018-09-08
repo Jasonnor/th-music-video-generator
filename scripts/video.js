@@ -86,6 +86,7 @@ const changeImage = async (info) => {
                     var vp = document.getElementById('videoPlayer');
                     vp.style.display = 'none';
                     videoPlayer.poster = imageURL;
+                    document.getElementById('pid').innerHTML = '';
                     fadeInImage('wrapper', imageURL, 'body');
                 });
         }

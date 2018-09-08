@@ -17,6 +17,11 @@ var Player = function (playlist) {
 
   // Display the title of the first track.
   track.innerHTML = playlist[this.index].title;
+  var indexTemp = this.index - 1;
+  while (this.playlist[indexTemp].file != null) {
+    --indexTemp;
+  }
+  document.getElementById('series').innerHTML = this.playlist[indexTemp].title;
   changeImage(playlist[this.index].info);
 
   var ul = null;
@@ -108,9 +113,9 @@ Player.prototype = {
       });
       var width = waveform.clientWidth;
       var height = (window.innerHeight > 0) ? window.innerHeight * 0.2 : screen.height * 0.2;
-      var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
       waveform.style.bottom = (height * 0.1 + 90) + 'px';
       if (!mobilecheck()) {
+        var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
         canvas.style.display = 'block';
         waveform.style.opacity = 0.5;
         if (wavesurfer) {
@@ -156,6 +161,11 @@ Player.prototype = {
         });
       }
       waveform.style.cursor = 'pointer';
+      var indexTemp = index - 1;
+      while (self.playlist[indexTemp].file != null) {
+        --indexTemp;
+      }
+      document.getElementById('series').innerHTML = self.playlist[indexTemp].title;
     }
 
     // Begin playing the sound.
