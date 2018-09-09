@@ -17,20 +17,29 @@ Touhou Project random music video generator/player, crawling image and video fro
 The pid below title is Pixiv ID, and the vid is Youtube ID. You can click them to visit source of image/video! 😉
 
 ### Tablet
-![image01](images/demo/image01.png)
+
+![Tablet](images/demo/image01.png)
 
 ### Desktop
-![image02](images/demo/image02.png)
+
+![Desktop](images/demo/image02.png)
 
 ### Mobile
-![image-mobile01](images/demo/image-mobile01.png)
-![image-mobile02](images/demo/image-mobile02.png)
+
+![Mobile01](images/demo/image-mobile01.png)
+![Mobile02](images/demo/image-mobile02.png)
 
 ### Menu
+
 ![Menu](images/demo/menu.png)
 
 ### Video
+
 ![Video](images/demo/video.gif)
+
+### Random Play Option
+
+![Random-Play](images/demo/option-random-play.png)
 
 ## Contributing
 
