@@ -86,6 +86,10 @@ body {
   opacity: 0.5;
 }
 
+#pid {
+  cursor: pointer;
+}
+
 /* Controls */
 .controlsOuter {
   position: absolute;

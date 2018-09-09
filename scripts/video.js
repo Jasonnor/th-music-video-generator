@@ -39,6 +39,7 @@ const musicVideoTrigger = async () => {
             document.getElementById('videoPlayer').style.display = 'block';
             document.getElementById('wrapper').style.backgroundImage = '';
             document.getElementById('pid').innerHTML = 'vid=' + mvVid;
+            pidUrl = 'https://youtu.be/' + mvVid;
             fadeInImage('videoPlayer', '', 'body');
             videoPlayer.play();
             break;
@@ -72,7 +73,9 @@ const changeImage = async (info) => {
             var vp = document.getElementById('videoPlayer');
             vp.style.display = 'none';
             videoPlayer.poster = imageURL;
-            document.getElementById('pid').innerHTML = 'pid=' + imageURL.split('/')[3].split('_')[0];
+            var pidTemp = imageURL.split('/')[3].split('_')[0];
+            document.getElementById('pid').innerHTML = 'pid=' + pidTemp;
+            pidUrl = 'https://www.pixiv.net/member_illust.php?mode=medium&illust_id=' + pidTemp;
             fadeInImage('wrapper', imageURL, 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
@@ -89,6 +92,7 @@ const changeImage = async (info) => {
                     vp.style.display = 'none';
                     videoPlayer.poster = imageURL;
                     document.getElementById('pid').innerHTML = '';
+                    pidUrl = '';
                     fadeInImage('wrapper', imageURL, 'body');
                 });
         }
@@ -132,6 +136,12 @@ const changeVideo = async (info) => {
         };
     }
 }
+
+var pidUrl;
+
+pid.addEventListener('click', function () {
+    window.open(pidUrl, '_blank');
+});
 
 var googleAPI = 'AIzaSyALDYJZ_19ORofWN3mcvTsMS23f8UVYCug';
 

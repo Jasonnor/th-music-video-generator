@@ -14,7 +14,7 @@ Touhou Project random music video generator/player, crawling image and video fro
 
 ## Preview
 
-The pid below title is Pixiv ID, and you can visit https://www.pixiv.net/member_illust.php?mode=medium&illust_id=pid to see source image. The vid is Youtube ID, visit https://youtu.be/vid to watch source video.
+The pid below title is Pixiv ID, and the vid is Youtube ID. You can click them to visit source of image/video! 😉
 
 ### Tablet
 ![image01](images/demo/image01.png)
