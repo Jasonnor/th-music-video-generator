@@ -1,5 +1,5 @@
 // Cache references to DOM elements.
-var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'playlistBtn', 'volumeBtn', 'progress', 'waveform', 'canvas', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
+var elms = ['track', 'timer', 'duration', 'playBtn', 'pauseBtn', 'prevBtn', 'nextBtn', 'settingBtn', 'playlistBtn', 'volumeBtn', 'progress', 'waveform', 'canvas', 'loading', 'playlist', 'list', 'volume', 'barEmpty', 'barFull', 'sliderBtn'];
 elms.forEach(function (elm) {
   window[elm] = document.getElementById(elm);
 });
@@ -224,15 +224,19 @@ Player.prototype = {
 
     // Get the next track based on the direction of the track.
     var index = 0;
-    if (direction === 'prev') {
-      index = self.index - 1;
-      if (index < 0) {
-        index = self.playlist.length - 1;
-      }
+    if (randomPlay.checked) {
+      index = Math.floor(Math.random() * self.playlist.length);
     } else {
-      index = self.index + 1;
-      if (index >= self.playlist.length) {
-        index = 0;
+      if (direction === 'prev') {
+        index = self.index - 1;
+        if (index < 0) {
+          index = self.playlist.length - 1;
+        }
+      } else {
+        index = self.index + 1;
+        if (index >= self.playlist.length) {
+          index = 0;
+        }
       }
     }
 
@@ -332,6 +336,19 @@ Player.prototype = {
       volume.style.display = display;
     }, (display === 'block') ? 0 : 500);
     volume.className = (display === 'block') ? 'fadein' : 'fadeout';
+  },
+
+  /**
+   * Toggle the setting display on/off.
+   */
+  toggleSetting: function () {
+    var self = this;
+    var display = (setting.style.display === 'block') ? 'none' : 'block';
+
+    setTimeout(function () {
+      setting.style.display = display;
+    }, (display === 'block') ? 0 : 500);
+    setting.className = (display === 'block') ? 'pure-menu fadein' : 'pure-menu fadeout';
   },
 
   /**
@@ -446,6 +463,9 @@ volume.addEventListener('click', function () {
 });
 closePlaylist.addEventListener('click', function () {
   player.togglePlaylist();
+});
+settingBtn.addEventListener('click', function () {
+  player.toggleSetting();
 });
 
 // Setup the event listeners to enable dragging of volume slider.
