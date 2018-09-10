@@ -27,13 +27,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.3/plyr.css" integrity="sha256-rufXFXaVZSvt3zXMGOG17EoglendvXvURMiR5lX9O8g="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles/styles.min.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49550932-5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-49550932-5');
-    </script>
 </head>
 
 <body id="body">
@@ -103,7 +96,14 @@
     </div>
     <!-- Scripts -->
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
-    <script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.3/plyr.min.js" integrity="sha256-LAq55x/UUQNWhiFLlHHGGivmJx4sVm70ls05hcmhLQ8="
+        crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.6/wavesurfer.min.js" defer></script>
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady" defer></script>
+    <script src="./scripts/scripts.min.js" defer></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-49550932-5" async></script>
+    <script defer>
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyDmPHweR82MHPChLXyOqrwOaLe8L8FyYGA",
@@ -114,13 +114,15 @@
             messagingSenderId: "766682158017"
         };
         firebase.initializeApp(config);
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-49550932-5');
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.15/howler.core.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.3/plyr.min.js" integrity="sha256-LAq55x/UUQNWhiFLlHHGGivmJx4sVm70ls05hcmhLQ8="
-        crossorigin="anonymous" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.6/wavesurfer.min.js"></script>
-    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady" defer></script>
-    <script src="./scripts/scripts.min.js" defer></script>
 </body>
 
 </html>
