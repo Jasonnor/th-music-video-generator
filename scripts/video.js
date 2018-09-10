@@ -4,6 +4,7 @@ const musicVideoTrigger = async () => {
             break;
         case 0:
             changeImage(mvInfo);
+            mvNumOfImages = numOfImagesValue - 1;
             videoPlayer.destroy();
             videoPlayer = new Plyr('#videoPlayer', {
                 controls: [],
@@ -18,7 +19,7 @@ const musicVideoTrigger = async () => {
                 mvStage = 0;
             });
             break;
-        case 3000:
+        case 2000:
             if (mvInfo.keyword) {
                 // Set time to half for boss
                 videoPlayer.currentTime = (mvInfo.keyword.includes('BOSS')) ? Math.floor(videoPlayer.duration / 2.0) + 10 : 20;
@@ -27,21 +28,37 @@ const musicVideoTrigger = async () => {
                 videoPlayer.currentTime = (mvInfo.time) ? mvInfo.time : 20;
             }
             break;
+        case imagesDurationValue * 1000 * (numOfImagesValue - mvNumOfImages):
+            console.log(imagesDurationValue * 1000 * (numOfImagesValue - mvNumOfImages) + ', left ' + mvNumOfImages);
+            // For video buffering
+            if (imagesDurationValue * (numOfImagesValue - mvNumOfImages) == 6 && imagesDurationValue * numOfImagesValue > 6) {
+                console.log('6000play');
+                videoPlayer.play();
+            }
+            if (mvNumOfImages > 0) {
+                changeImage(mvInfo);
+                mvNumOfImages--;
+            } else if (mvNumOfImages == 0) {
+                document.getElementById('videoPlayer').style.display = 'block';
+                document.getElementById('wrapper').style.backgroundImage = '';
+                document.getElementById('pid').innerHTML = 'vid=' + mvVid;
+                pidUrl = 'https://youtu.be/' + mvVid;
+                mvNumOfImages = numOfImagesValue - 1;
+                fadeInImage('videoPlayer', '', 'body');
+                videoPlayer.play();
+            }
+            break;
         case 6000:
-            // Second Image
-            changeImage(mvInfo);
-            videoPlayer.play();
+            if (imagesDurationValue * numOfImagesValue > 6) {
+                console.log('6000play');
+                videoPlayer.play();
+            }
             break;
         case 7000:
-            videoPlayer.pause();
-            break;
-        case 12000:
-            document.getElementById('videoPlayer').style.display = 'block';
-            document.getElementById('wrapper').style.backgroundImage = '';
-            document.getElementById('pid').innerHTML = 'vid=' + mvVid;
-            pidUrl = 'https://youtu.be/' + mvVid;
-            fadeInImage('videoPlayer', '', 'body');
-            videoPlayer.play();
+            if (imagesDurationValue * numOfImagesValue > 7) {
+                console.log('7000pause');
+                videoPlayer.pause();
+            }
             break;
     }
     if (mvStage > -1) {
@@ -54,6 +71,7 @@ var mvStage = -1;
 var mvInterval = 500;
 var mvTrigger = setInterval(musicVideoTrigger, mvInterval);
 var mvVid = '';
+var mvNumOfImages = (numOfImages) ? parseInt(numOfImages.value) - 1 : 1;
 
 const changeImage = async (info) => {
     console.log('Change image to character ' + info.character);
@@ -138,9 +156,19 @@ const changeVideo = async (info) => {
 }
 
 var pidUrl;
+var numOfImagesValue = (numOfImages) ? parseInt(numOfImages.value) : 2;
+var imagesDurationValue = (imagesDuration) ? parseInt(imagesDuration.value) : 6;
 
 pid.addEventListener('click', function () {
     window.open(pidUrl, '_blank');
+});
+numOfImages.addEventListener('change', function () {
+    numOfImagesValue = parseInt(numOfImages.value);
+    mvStage = 0;
+});
+imagesDuration.addEventListener('change', function () {
+    imagesDurationValue = parseInt(imagesDuration.value);
+    mvStage = 0;
 });
 
 var googleAPI = 'AIzaSyALDYJZ_19ORofWN3mcvTsMS23f8UVYCug';
