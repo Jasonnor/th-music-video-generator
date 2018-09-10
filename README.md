@@ -9,7 +9,7 @@ Touhou Project random music video generator/player, crawling image and video fro
 + Random images and video mixture
 + Mobile friendly
 + Highly controllable generation options (WIP)
-+ Totally open [json database](https://github.com/Jasonnor/th-music-video-generator/blob/master/scripts/th-song.json)
++ Totally open [json database](https://github.com/Jasonnor/th-music-video-generator/blob/master/database/th-song.json)
 + Full :heart: of Touhou Project!
 
 ## Preview
