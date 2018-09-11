@@ -164,11 +164,15 @@ pid.addEventListener('click', function () {
 });
 numOfImages.addEventListener('change', function () {
     numOfImagesValue = parseInt(numOfImages.value);
-    mvStage = 0;
+    if (mvInfo) {
+        mvStage = 0;
+    }
 });
 imagesDuration.addEventListener('change', function () {
     imagesDurationValue = parseInt(imagesDuration.value);
-    mvStage = 0;
+    if (mvInfo) {
+        mvStage = 0;
+    }
 });
 
 var googleAPI = 'AIzaSyALDYJZ_19ORofWN3mcvTsMS23f8UVYCug';
