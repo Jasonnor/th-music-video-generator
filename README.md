@@ -8,7 +8,7 @@ Touhou Project random music video generator/player, crawling image and video fro
 
 + Random images and video mixture
 + Mobile friendly
-+ Highly controllable generation options (WIP)
++ Highly controllable MV generation options
 + Totally open [json database](https://github.com/Jasonnor/th-music-video-generator/blob/master/database/th-song.json)
 + Full :heart: of Touhou Project!
 
@@ -40,6 +40,10 @@ The pid below title is Pixiv ID, and the vid is Youtube ID. You can click them t
 ### Random Play Option
 
 ![Random-Play](images/demo/option-random-play.png)
+
+### MV Generation Behavior (New!)
+
+![MV-generation](images/demo/option-mv-behavior.png)
 
 ## Contributing
 
