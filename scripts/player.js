@@ -11,9 +11,18 @@ elms.forEach(function (elm) {
  */
 var Player = function (playlist) {
   this.playlist = playlist;
-  do {
-    this.index = Math.floor(Math.random() * playlist.length);
-  } while (playlist[this.index].file == null);
+
+  // URL Parser
+  var url = new URL(window.location.href);
+  var parser = new URLSearchParams(url.search);
+  var parserIndex = parseInt(parser.get('index'));
+  if (!isNaN(parserIndex) && parserIndex < playlist.length && parserIndex > 0) {
+    this.index = parserIndex;
+  } else {
+    do {
+      this.index = Math.floor(Math.random() * playlist.length);
+    } while (playlist[this.index].file == null);
+  }
 
   // Display the title of the first track.
   track.innerHTML = playlist[this.index].title;
@@ -85,6 +94,12 @@ Player.prototype = {
       self.skip('next');
       return;
     }
+
+    // URL Parser
+    var url = new URL(window.location.href);
+    var parser = new URLSearchParams(url.search);
+    parser.set('index', index);
+    history.pushState(null, '', '?' + parser.toString());
 
     // Load song    
     if (data.howl) {
