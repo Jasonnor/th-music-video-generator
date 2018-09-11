@@ -29,10 +29,8 @@ const musicVideoTrigger = async () => {
             }
             break;
         case imagesDurationValue * 1000 * (numOfImagesValue - mvNumOfImages):
-            console.log(imagesDurationValue * 1000 * (numOfImagesValue - mvNumOfImages) + ', left ' + mvNumOfImages);
             // For video buffering
             if (imagesDurationValue * (numOfImagesValue - mvNumOfImages) == 6 && imagesDurationValue * numOfImagesValue > 6) {
-                console.log('6000play');
                 videoPlayer.play();
             }
             if (mvNumOfImages > 0) {
@@ -50,13 +48,11 @@ const musicVideoTrigger = async () => {
             break;
         case 6000:
             if (imagesDurationValue * numOfImagesValue > 6) {
-                console.log('6000play');
                 videoPlayer.play();
             }
             break;
         case 7000:
             if (imagesDurationValue * numOfImagesValue > 7) {
-                console.log('7000pause');
                 videoPlayer.pause();
             }
             break;
