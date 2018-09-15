@@ -239,23 +239,26 @@ Player.prototype = {
 
     // Get the next track based on the direction of the track.
     var index = 0;
-    if (randomPlay.checked) {
-      index = Math.floor(Math.random() * self.playlist.length);
+    if (direction === 'prev' && self.playlist[self.index].howl && self.playlist[self.index].howl.seek() <= 3) {
+      self.playlist[self.index].howl.seek(0);
     } else {
-      if (direction === 'prev') {
-        index = self.index - 1;
-        if (index < 0) {
-          index = self.playlist.length - 1;
-        }
+      if (randomPlay.checked) {
+        index = Math.floor(Math.random() * self.playlist.length);
       } else {
-        index = self.index + 1;
-        if (index >= self.playlist.length) {
-          index = 0;
+        if (direction === 'prev') {
+          index = self.index - 1;
+          if (index < 0) {
+            index = self.playlist.length - 1;
+          }
+        } else {
+          index = self.index + 1;
+          if (index >= self.playlist.length) {
+            index = 0;
+          }
         }
       }
+      self.skipTo(index);
     }
-
-    self.skipTo(index);
   },
 
   /**
