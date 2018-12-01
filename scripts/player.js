@@ -68,7 +68,12 @@ var Player = function (playlist) {
   pl.appendChild(ul);
   gapi.client.setApiKey(googleAPI);
   gapi.client.load('youtube', 'v3');
+  // For mobile user, display non-animated waveform as default
+  if (mobilecheck()) {
+    animatedWaveform.checked = '';
+  }
 };
+
 Player.prototype = {
   /**
    * Play a song in the playlist.
@@ -126,10 +131,11 @@ Player.prototype = {
         onpause: function () {},
         onstop: function () {}
       });
+      // Waveform display
       var width = waveform.clientWidth;
       var height = (window.innerHeight > 0) ? window.innerHeight * 0.2 : screen.height * 0.2;
       waveform.style.bottom = (height * 0.1 + 90) + 'px';
-      if (!mobilecheck()) {
+      if (animatedWaveform.checked) {
         var accuracy = (width < 400) ? 16 : (width < 550) ? 32 : (width < 950) ? 64 : 128;
         canvas.style.display = 'block';
         waveform.style.opacity = 0.5;
@@ -484,6 +490,9 @@ closePlaylist.addEventListener('click', function () {
 });
 settingBtn.addEventListener('click', function () {
   player.toggleSetting();
+});
+animatedWaveform.addEventListener('change', function () {
+  // TODO: Instant change waveform 
 });
 
 // Setup the event listeners to enable dragging of volume slider.
