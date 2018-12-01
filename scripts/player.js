@@ -122,7 +122,8 @@ Player.prototype = {
 
           // For chorus mode
           if (chorusMode.checked) {
-            self.seek(parseInt(self.playlist[self.index].chorusStartTime) / data.howl.duration())
+            self.seek((parseInt(self.playlist[self.index].chorusStartTime) - 1) / data.howl.duration());
+            data.howl.fade(0.0, 1.0, 1000);
           }
 
           pauseBtn.style.display = 'block';
@@ -339,11 +340,14 @@ Player.prototype = {
 
     // For chorus mode
     if (chorusMode.checked && seek >= parseInt(self.playlist[self.index].chorusEndTime)) {
-      self.skip('next');
+      sound.fade(1.0, 0.0, 2000);
+      setTimeout(function () {
+        self.skip('next');
+      }, 2000);
+    } else {
+      // If the sound is still playing, continue stepping.
+      requestAnimationFrame(self.step.bind(self));
     }
-
-    // If the sound is still playing, continue stepping.
-    requestAnimationFrame(self.step.bind(self));
   },
 
   /**
