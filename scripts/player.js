@@ -94,6 +94,7 @@ Player.prototype = {
     console.log('Playing index ' + index);
 
     // Skip song not exist
+    // TODO: Fix prev not exist won't prev 2 song bug
     var data = self.playlist[index];
     if (data.file == null) {
       self.skip('next');
@@ -114,17 +115,18 @@ Player.prototype = {
         src: ['.' + data.file],
         html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
         onplay: function () {
+          // For chorus mode
+          if (chorusMode.checked && self.playlist[self.index].chorusStartTime) {
+            console.log(self.index + " chorus start")
+            data.howl.seek(parseInt(self.playlist[self.index].chorusStartTime) - 1);
+            data.howl.fade(0.0, 1.0, 1000);
+          }
+
           // Display the duration.
           duration.innerHTML = self.formatTime(Math.round(sound.duration()));
 
           // Start upating the progress of the track.
           requestAnimationFrame(self.step.bind(self));
-
-          // For chorus mode
-          if (chorusMode.checked) {
-            self.seek((parseInt(self.playlist[self.index].chorusStartTime) - 1) / data.howl.duration());
-            data.howl.fade(0.0, 1.0, 1000);
-          }
 
           pauseBtn.style.display = 'block';
         },
@@ -339,10 +341,15 @@ Player.prototype = {
     progress.style.width = ((progressNow * 100) || 0) + '%';
 
     // For chorus mode
-    if (chorusMode.checked && seek >= parseInt(self.playlist[self.index].chorusEndTime)) {
+    if (!chorusFlag && chorusMode.checked &&
+      self.playlist[self.index].chorusEndTime &&
+      seek >= parseInt(self.playlist[self.index].chorusEndTime)) {
+      console.log(self.index + " chorus end")
+      chorusFlag = true;
       sound.fade(1.0, 0.0, 2000);
       setTimeout(function () {
         self.skip('next');
+        chorusFlag = false;
       }, 2000);
     } else {
       // If the sound is still playing, continue stepping.
@@ -406,6 +413,7 @@ var songList = [];
 var player;
 var vudio;
 var wavesurfer;
+var chorusFlag = false;
 
 // Update the height of the wave animation.
 var resize = function () {
