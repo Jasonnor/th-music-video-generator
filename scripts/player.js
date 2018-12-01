@@ -120,6 +120,11 @@ Player.prototype = {
           // Start upating the progress of the track.
           requestAnimationFrame(self.step.bind(self));
 
+          // For chorus mode
+          if (chorusMode.checked) {
+            self.seek(parseInt(self.playlist[self.index].chorusStartTime) / data.howl.duration())
+          }
+
           pauseBtn.style.display = 'block';
         },
         onload: function () {
@@ -332,6 +337,11 @@ Player.prototype = {
     progressNow = (seek / sound.duration());
     progress.style.width = ((progressNow * 100) || 0) + '%';
 
+    // For chorus mode
+    if (chorusMode.checked && seek >= parseInt(self.playlist[self.index].chorusEndTime)) {
+      self.skip('next');
+    }
+
     // If the sound is still playing, continue stepping.
     requestAnimationFrame(self.step.bind(self));
   },
@@ -449,6 +459,12 @@ firebase.database().ref('games').once('value').then(function (games) {
       songObj['file'] = song.path;
       songObj['howl'] = null;
       songObj['info'] = song;
+      if (song.chorus_start_time) {
+        songObj['chorusStartTime'] = song.chorus_start_time;
+      }
+      if (song.chorus_end_time) {
+        songObj['chorusEndTime'] = song.chorus_end_time;
+      }
       songList.push(songObj);
     });
   });
