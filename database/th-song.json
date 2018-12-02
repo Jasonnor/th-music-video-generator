@@ -208,103 +208,137 @@
           "name": "01. 赤より紅い夢.mp3",
           "path": "/audio/th06/01. 赤より紅い夢.mp3",
           "character": "東方紅魔郷",
-          "keyword": "東方紅魔郷 OP"
+          "keyword": "東方紅魔郷 OP",
+          "chorus_start_time": 27,
+          "chorus_end_time": 60
         },
         {
           "name": "02. ほおずきみたいに紅い魂.mp3",
           "path": "/audio/th06/02. ほおずきみたいに紅い魂.mp3",
           "character": "ルーミア",
-          "keyword": "touhou 6 LUNATIC stage 1"
+          "keyword": "touhou 6 LUNATIC stage 1",
+          "chorus_start_time": 20,
+          "chorus_end_time": 86
         },
         {
           "name": "03. 妖魔夜行.mp3",
           "path": "/audio/th06/03. 妖魔夜行.mp3",
           "character": "ルーミア",
-          "keyword": "touhou 6 LUNATIC stage 1 BOSS"
+          "keyword": "touhou 6 LUNATIC stage 1 BOSS",
+          "chorus_start_time": 67,
+          "chorus_end_time": 107
         },
         {
           "name": "04. ルーネイトエルフ.mp3",
           "path": "/audio/th06/04. ルーネイトエルフ.mp3",
           "character": "大妖精",
-          "keyword": "touhou 6 LUNATIC stage 2"
+          "keyword": "touhou 6 LUNATIC stage 2",
+          "chorus_start_time": 12,
+          "chorus_end_time": 86
         },
         {
           "name": "05. おてんば恋娘.mp3",
           "path": "/audio/th06/05. おてんば恋娘.mp3",
           "character": "チルノ",
-          "keyword": "touhou 6 LUNATIC stage 2 BOSS"
+          "keyword": "touhou 6 LUNATIC stage 2 BOSS",
+          "chorus_start_time": 17,
+          "chorus_end_time": 87
         },
         {
           "name": "06. 上海紅茶館　～ Chinese Tea.mp3",
           "path": "/audio/th06/06. 上海紅茶館　～ Chinese Tea.mp3",
           "character": "紅美鈴",
-          "keyword": "東方紅魔郷 LUNATIC stage3"
+          "keyword": "東方紅魔郷 LUNATIC stage3",
+          "chorus_start_time": 17,
+          "chorus_end_time": 102
         },
         {
           "name": "07. 明治十七年の上海アリス.mp3",
           "path": "/audio/th06/07. 明治十七年の上海アリス.mp3",
           "character": "紅美鈴",
-          "keyword": "東方紅魔郷 LUNATIC stage3 BOSS"
+          "keyword": "東方紅魔郷 LUNATIC stage3 BOSS",
+          "chorus_start_time": 84,
+          "chorus_end_time": 166
         },
         {
           "name": "08. ヴワル魔法図書館.mp3",
           "path": "/audio/th06/08. ヴワル魔法図書館.mp3",
           "character": "小悪魔",
-          "keyword": "東方紅魔郷 LUNATIC stage4"
+          "keyword": "東方紅魔郷 LUNATIC stage4",
+          "chorus_start_time": 18,
+          "chorus_end_time": 72
         },
         {
           "name": "09. ラクトガール　～ 少女密室.mp3",
           "path": "/audio/th06/09. ラクトガール　～ 少女密室.mp3",
           "character": "パチュリー・ノーレッジ",
-          "keyword": "東方紅魔郷 LUNATIC stage4 BOSS"
+          "keyword": "東方紅魔郷 LUNATIC stage4 BOSS",
+          "chorus_start_time": 65,
+          "chorus_end_time": 120
         },
         {
           "name": "10. メイドと血の懐中時計.mp3",
           "path": "/audio/th06/10. メイドと血の懐中時計.mp3",
           "character": "十六夜咲夜",
-          "keyword": "東方紅魔郷 LUNATIC stage5"
+          "keyword": "東方紅魔郷 LUNATIC stage5",
+          "chorus_start_time": 74,
+          "chorus_end_time": 144
         },
         {
           "name": "11. 月時計　～ ルナ・ダイアル.mp3",
           "path": "/audio/th06/11. 月時計　～ ルナ・ダイアル.mp3",
           "character": "十六夜咲夜",
-          "keyword": "東方紅魔郷 LUNATIC stage5 BOSS"
+          "keyword": "東方紅魔郷 LUNATIC stage5 BOSS",
+          "chorus_start_time": 22,
+          "chorus_end_time": 82
         },
         {
           "name": "12. ツェペシュの幼き末裔.mp3",
           "path": "/audio/th06/12. ツェペシュの幼き末裔.mp3",
           "character": "十六夜咲夜 レミリア・スカーレット",
-          "keyword": "東方紅魔郷 LUNATIC stage6"
+          "keyword": "東方紅魔郷 LUNATIC stage6",
+          "chorus_start_time": 22,
+          "chorus_end_time": 58
         },
         {
           "name": "13. 亡き王女の為のセプテット.mp3",
           "path": "/audio/th06/13. 亡き王女の為のセプテット.mp3",
           "character": "レミリア・スカーレット",
-          "keyword": "東方紅魔郷 LUNATIC stage6 BOSS"
+          "keyword": "東方紅魔郷 LUNATIC stage6 BOSS",
+          "chorus_start_time": 42,
+          "chorus_end_time": 136
         },
         {
           "name": "14. 魔法少女達の百年祭.mp3",
           "path": "/audio/th06/14. 魔法少女達の百年祭.mp3",
           "character": "パチュリー・ノーレッジ フランドール・スカーレット",
-          "keyword": "東方紅魔郷 EX"
+          "keyword": "東方紅魔郷 EX",
+          "chorus_start_time": 90,
+          "chorus_end_time": 152
         },
         {
           "name": "15. U.N.オーエンは彼女なのか？.mp3",
           "path": "/audio/th06/15. U.N.オーエンは彼女なのか？.mp3",
           "character": "フランドール・スカーレット",
-          "keyword": "東方紅魔郷 EX BOSS"
+          "keyword": "東方紅魔郷 EX BOSS",
+          "chorus_start_time": 3,
+          "chorus_end_time": 74
         },
         {
           "name": "16. 紅より儚い永遠.mp3",
           "path": "/audio/th06/16. 紅より儚い永遠.mp3",
           "character": "東方紅魔郷",
-          "keyword": "東方紅魔郷 ED MAD"
+          "keyword": "東方紅魔郷 ED MAD",
+          "chorus_start_time": 3,
+          "chorus_end_time": 53
         },
         {
           "name": "17. 紅楼　～ Eastern Dream....mp3",
           "path": "/audio/th06/17. 紅楼　～ Eastern Dream....mp3",
           "character": "東方紅魔郷",
-          "keyword": "東方紅魔郷 ED MAD"
+          "keyword": "東方紅魔郷 ED MAD",
+          "chorus_start_time": 35,
+          "chorus_end_time": 100
         }
       ]
     },
