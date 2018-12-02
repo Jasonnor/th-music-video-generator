@@ -8,14 +8,18 @@
           "name": "2.永遠の巫女.mp3",
           "path": "/audio/th01/2.永遠の巫女.mp3",
           "character": "博麗靈夢",
-          "keyword": "東方靈異伝 LUNATIC stage1"
+          "keyword": "東方靈異伝 LUNATIC stage1",
+          "chorus_start_time": 47,
+          "chorus_end_time": 95
         },
         {
           "name": "11.いざ、倒れ逝くその時まで.mp3",
           "path": "/audio/th01/11.いざ、倒れ逝くその時まで.mp3",
           "character": "サリエル",
           "video_id": "0Nrj4MHQeYo",
-          "time": 809
+          "time": 809,
+          "chorus_start_time": 22,
+          "chorus_end_time": 80
         }
       ]
     },
@@ -28,7 +32,9 @@
           "path": "/audio/th02/11.Complete Darkness.mp3",
           "character": "魅魔",
           "video_id": "Gv1a_tDZS-U",
-          "time": 987
+          "time": 987,
+          "chorus_start_time": 124,
+          "chorus_end_time": 172
         }
       ]
     },
@@ -41,35 +47,45 @@
           "path": "/audio/th03/3.東方妖恋談.mp3",
           "character": "博麗靈夢",
           "video_id": "P4l2s0q6-Bk",
-          "time": 7
+          "time": 7,
+          "chorus_start_time": 125,
+          "chorus_end_time": 171
         },
         {
           "name": "4.Reincarnation.mp3",
           "path": "/audio/th03/4.Reincarnation.mp3",
           "character": "魅魔",
           "video_id": "P4l2s0q6-Bk",
-          "time": 147
+          "time": 147,
+          "chorus_start_time": 54,
+          "chorus_end_time": 91
         },
         {
           "name": "6.Tabula rasa　～ 空白少女.mp3",
           "path": "/audio/th03/6.Tabula rasa　～ 空白少女.mp3",
           "character": "エレン",
           "video_id": "Aoq8P6xGXoE",
-          "time": 11
+          "time": 11,
+          "chorus_start_time": 13,
+          "chorus_end_time": 67
         },
         {
           "name": "8.夢消失　～ Lost Dream.mp3",
           "path": "/audio/th03/8.夢消失　～ Lost Dream.mp3",
           "character": "カナ・アナベラル",
           "video_id": "wG4RaB7BB0A",
-          "time": 0
+          "time": 0,
+          "chorus_start_time": 51,
+          "chorus_end_time": 128
         },
         {
           "name": "15.Strawberry Crisis!!.mp3",
           "path": "/audio/th03/15.Strawberry Crisis!!.mp3",
           "character": "岡崎夢美",
           "video_id": "m8a2bQDV_EI",
-          "time": 38
+          "time": 38,
+          "chorus_start_time": 72,
+          "chorus_end_time": 120
         }
       ]
     },
@@ -82,42 +98,54 @@
           "path": "/audio/th04/Disc A/7.Bad Apple!!.mp3",
           "character": "エリー",
           "video_id": "A4gETEv9o2s",
-          "time": 370
+          "time": 370,
+          "chorus_start_time": 20,
+          "chorus_end_time": 84
         },
         {
           "name": "9.アリスマエステラ.mp3",
           "path": "/audio/th04/Disc A/9.アリスマエステラ.mp3",
           "character": "博麗靈夢",
           "video_id": "A4gETEv9o2s",
-          "time": 613
+          "time": 613,
+          "chorus_start_time": 56,
+          "chorus_end_time": 116
         },
         {
           "name": "13.眠れる恐怖　～　Sleeping Terror.mp3",
           "path": "/audio/th04/Disc A/13.眠れる恐怖　～　Sleeping Terror.mp3",
           "character": "旧作幽香",
           "video_id": "sxXebZx2ctM",
-          "time": 0
+          "time": 0,
+          "chorus_start_time": 34,
+          "chorus_end_time": 86
         },
         {
           "name": "15.幽夢　～　Inanimate Dream.mp3",
           "path": "/audio/th04/Disc A/15.幽夢　～　Inanimate Dream.mp3",
           "character": "旧作幽香",
           "video_id": "WgxBdiNTOB0",
-          "time": 3
+          "time": 3,
+          "chorus_start_time": 17,
+          "chorus_end_time": 69
         },
         {
           "name": "15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
           "path": "/audio/th04/Disc B/15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
           "character": "旧作幽香",
           "video_id": "A4gETEv9o2s",
-          "time": 1396
+          "time": 1396,
+          "chorus_start_time": 17,
+          "chorus_end_time": 91
         },
         {
           "name": "3.かわいい悪魔　～　Innocence.mp3",
           "path": "/audio/th04/Disc B/3.かわいい悪魔　～　Innocence.mp3",
           "character": "幻月",
           "video_id": "fbMsQv165w4",
-          "time": 289
+          "time": 289,
+          "chorus_start_time": 135,
+          "chorus_end_time": 192
         }
       ]
     },
@@ -130,35 +158,45 @@
           "path": "/audio/th05/6.Romantic Children.mp3",
           "character": "ロリス",
           "video_id": "3Dam4ZHAmck",
-          "time": 509
+          "time": 509,
+          "chorus_start_time": 81,
+          "chorus_end_time": 153
         },
         {
           "name": "7.プラスチックマインド.mp3",
           "path": "/audio/th05/7.プラスチックマインド.mp3",
           "character": "ロリス",
           "video_id": "3Dam4ZHAmck",
-          "time": 576
+          "time": 576,
+          "chorus_start_time": 41,
+          "chorus_end_time": 100
         },
         {
           "name": "15.神話幻想 ～ Infinite Being.mp3",
           "path": "/audio/th05/15.神話幻想 ～ Infinite Being.mp3",
           "character": "神綺",
           "video_id": "W8UHzPi4K7c",
-          "time": 2
+          "time": 2,
+          "chorus_start_time": 73,
+          "chorus_end_time": 149
         },
         {
           "name": "16.不思議の国のアリス.mp3",
           "path": "/audio/th05/16.不思議の国のアリス.mp3",
           "character": "ロリス",
           "video_id": "FFDXkbCGgb4",
-          "time": 79
+          "time": 79,
+          "chorus_start_time": 52,
+          "chorus_end_time": 116
         },
         {
           "name": "17.the Grimoire of Alice.mp3",
           "path": "/audio/th05/17.the Grimoire of Alice.mp3",
           "character": "ロリス",
           "video_id": "FFDXkbCGgb4",
-          "time": 224
+          "time": 224,
+          "chorus_start_time": 6,
+          "chorus_end_time": 70
         }
       ]
     },
