@@ -118,7 +118,7 @@ Player.prototype = {
           // For chorus mode
           if (chorusMode.checked && self.playlist[self.index].chorusStartTime) {
             console.log(self.index + " chorus start")
-            data.howl.seek(parseInt(self.playlist[self.index].chorusStartTime) - 1);
+            data.howl.seek(self.playlist[self.index].chorusStartTime - 1);
             data.howl.fade(0.0, 1.0, 1000);
           }
 
@@ -343,7 +343,7 @@ Player.prototype = {
     // For chorus mode
     if (!chorusFlag && chorusMode.checked &&
       self.playlist[self.index].chorusEndTime &&
-      seek >= parseInt(self.playlist[self.index].chorusEndTime)) {
+      seek >= self.playlist[self.index].chorusEndTime) {
       console.log(self.index + " chorus end")
       chorusFlag = true;
       sound.fade(1.0, 0.0, 2000);
