@@ -350,115 +350,154 @@
           "name": "01. 妖々夢　～ Snow or Cherry Petal.mp3",
           "path": "/audio/th07/01. 妖々夢　～ Snow or Cherry Petal.mp3",
           "character": "東方妖々夢",
-          "keyword": "東方妖々夢 OP MAD"
+          "keyword": "東方妖々夢 OP MAD",
+          "chorus_start_time": 25,
+          "chorus_end_time": 75
         },
         {
           "name": "02. 無何有の郷　～ Deep Mountain.mp3",
           "path": "/audio/th07/02. 無何有の郷　～ Deep Mountain.mp3",
           "character": "チルノ レティ・ホワイトロック",
-          "keyword": "touhou 7 LUNATIC stage 1"
+          "keyword": "touhou 7 LUNATIC stage 1",
+          "chorus_start_time": 18,
+          "chorus_end_time": 85
         },
         {
           "name": "03. クリスタライズシルバー.mp3",
           "path": "/audio/th07/03. クリスタライズシルバー.mp3",
           "character": "レティ・ホワイトロック",
-          "keyword": "touhou 7 LUNATIC stage 1 BOSS"
+          "keyword": "touhou 7 LUNATIC stage 1 BOSS",
+          "chorus_start_time": 10,
+          "chorus_end_time": 52
         },
         {
           "name": "04. 遠野幻想物語.mp3",
           "path": "/audio/th07/04. 遠野幻想物語.mp3",
           "character": "橙",
-          "keyword": "東方妖々夢 LUNATIC stage2"
+          "keyword": "東方妖々夢 LUNATIC stage2",
+          "chorus_start_time": 1,
+          "chorus_end_time": 111
         },
         {
           "name": "05. ティアオイエツォン(withered leaf).mp3",
           "path": "/audio/th07/05. ティアオイエツォン(withered leaf).mp3",
           "character": "橙",
-          "keyword": "東方妖々夢 LUNATIC stage2 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage2 BOSS",
+          "chorus_start_time": 15,
+          "chorus_end_time": 65
         },
         {
           "name": "06. ブクレシュティの人形師.mp3",
           "path": "/audio/th07/06. ブクレシュティの人形師.mp3",
           "character": "アリス・マーガトロイド",
-          "keyword": "東方妖々夢 LUNATIC stage3"
+          "keyword": "東方妖々夢 LUNATIC stage3",
+          "chorus_start_time": 51,
+          "chorus_end_time": 118
         },
         {
           "name": "07. 人形裁判　～ 人の形弄びし少女.mp3",
           "path": "/audio/th07/07. 人形裁判　～ 人の形弄びし少女.mp3",
           "character": "アリス・マーガトロイド",
-          "keyword": "東方妖々夢 LUNATIC stage3 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage3 BOSS",
+          "chorus_start_time": 75,
+          "chorus_end_time": 151
         },
         {
           "name": "08. 天空の花の都.mp3",
           "path": "/audio/th07/08. 天空の花の都.mp3",
           "character": "リリーホワイト",
-          "keyword": "東方妖々夢 LUNATIC stage4"
+          "keyword": "東方妖々夢 LUNATIC stage4",
+          "chorus_start_time": 2,
+          "chorus_end_time": 106
         },
         {
           "name": "09. 幽霊楽団　～ Phantom Ensemble.mp3",
           "path": "/audio/th07/09. 幽霊楽団　～ Phantom Ensemble.mp3",
           "character": "プリズムリバー三姉妹",
-          "keyword": "東方妖々夢 LUNATIC stage4 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage4 BOSS",
+          "chorus_start_time": 25,
+          "chorus_end_time": 103
         },
         {
           "name": "10. 東方妖々夢　～ Ancient Temple.mp3",
           "path": "/audio/th07/10. 東方妖々夢　～ Ancient Temple.mp3",
           "character": "魂魄妖夢",
-          "keyword": "東方妖々夢 LUNATIC stage5"
+          "keyword": "東方妖々夢 LUNATIC stage5",
+          "chorus_start_time": 40,
+          "chorus_end_time": 141
         },
         {
           "name": "11. 広有射怪鳥事　～ Till When？.mp3",
           "path": "/audio/th07/11. 広有射怪鳥事　～ Till When？.mp3",
           "character": "魂魄妖夢",
-          "keyword": "東方妖々夢 LUNATIC stage5 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage5 BOSS",
+          "chorus_start_time": 31,
+          "chorus_end_time": 107
         },
         {
           "name": "12. アルティメットトゥルース.mp3",
           "path": "/audio/th07/12. アルティメットトゥルース.mp3",
           "character": "魂魄妖夢 西行寺幽々子",
-          "keyword": "東方妖々夢 LUNATIC stage6"
+          "keyword": "東方妖々夢 LUNATIC stage6",
+          "chorus_start_time": 19,
+          "chorus_end_time": 55
         },
         {
           "name": "13. 幽雅に咲かせ、墨染の桜　～ Border of Life.mp3",
           "path": "/audio/th07/13. 幽雅に咲かせ、墨染の桜　～ Border of Life.mp3",
           "character": "西行寺幽々子",
-          "keyword": "東方妖々夢 LUNATIC stage6 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage6 BOSS",
+          "chorus_start_time": 15,
+          "chorus_end_time": 141
         },
         {
           "name": "14. ボーダーオブライフ.mp3",
           "path": "/audio/th07/14. ボーダーオブライフ.mp3",
           "character": "西行寺幽々子",
-          "keyword": "東方妖々夢 LUNATIC stage6 BOSS"
+          "keyword": "東方妖々夢 LUNATIC stage6 BOSS",
+          "chorus_start_time": 1,
+          "chorus_end_time": 92
         },
         {
           "name": "15. 妖々跋扈.mp3",
           "path": "/audio/th07/15. 妖々跋扈.mp3",
           "character": "橙 八雲藍 八雲紫",
-          "keyword": "東方妖々夢 EX"
+          "keyword": "東方妖々夢 EX",
+          "chorus_start_time": 77,
+          "chorus_end_time": 141
         },
         {
           "name": "16. 少女幻葬　～ Necro-Fantasy.mp3",
           "path": "/audio/th07/16. 少女幻葬　～ Necro-Fantasy.mp3",
           "character": "八雲藍",
-          "keyword": "東方妖々夢 EX BOSS"
+          "keyword": "東方妖々夢 EX BOSS",
+          "chorus_start_time": 47,
+          "chorus_mid_time": 120,
+          "chorus_end_time": 213
         },
         {
           "name": "17. 妖々跋扈　～ Who done it!.mp3",
           "path": "/audio/th07/17. 妖々跋扈　～ Who done it!.mp3",
           "character": "橙 八雲藍 八雲紫",
-          "keyword": "東方妖々夢 phantasm"
+          "keyword": "東方妖々夢 phantasm",
+          "chorus_start_time": 78,
+          "chorus_end_time": 141
         },
         {
           "name": "18. ネクロファンタジア.mp3",
           "path": "/audio/th07/18. ネクロファンタジア.mp3",
           "character": "八雲紫",
-          "keyword": "東方妖々夢 phantasm BOSS"
+          "keyword": "東方妖々夢 phantasm BOSS",
+          "chorus_start_time": 49,
+          "chorus_end_time": 166
         },
         {
           "name": "20. さくらさくら　～ Japanize Dream....mp3",
           "path": "/audio/th07/20. さくらさくら　～ Japanize Dream....mp3",
           "character": "東方妖々夢",
-          "keyword": "東方妖々夢 PV 速度"
+          "keyword": "東方妖々夢 PV 速度",
+          "chorus_start_time": 27,
+          "chorus_end_time": 58
         }
       ]
     },
