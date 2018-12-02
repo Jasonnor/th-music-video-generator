@@ -45,7 +45,15 @@ The pid below title is Pixiv ID, and the vid is Youtube ID. You can click them t
 
 ![MV-generation](images/demo/option-mv-behavior.png)
 
+### Chorus-Only Mode & Audio Waveform Option (New!)
+
+![Waveform-Chorus](images/demo/option-waveform-chorus.png)
+
 ## Contributing
+
+The Chorus-Only mode take a lot of time to be done, I need your help. Reply to provide the time of the chorus (It can be the best part you think in the song, because the best melody of Touhou songs may appear in verse instead of chorus), or reply on the [issue page](https://github.com/Jasonnor/th-music-video-generator/issues/16).
+
+Time of the chorus after 東方妖々夢 has not been done. The latest progress can be found [here](https://github.com/Jasonnor/th-music-video-generator/blob/master/database/th-song.json).
 
 Please feel free to [open issues](https://github.com/Jasonnor/th-music-video-generator/issues) or submit [pull requests](https://github.com/Jasonnor/th-music-video-generator/pulls).
 
