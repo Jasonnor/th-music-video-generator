@@ -638,120 +638,160 @@
           "path": "/audio/th08/01. 永夜抄　～ Eastern Night.mp3",
           "character": "東方永夜抄",
           "keyword": "東方永夜抄 OP風"
+          "chorus_start_time": 40,
+          "chorus_end_time": 68
         },
         {
           "name": "02. 幻視の夜　～ Ghostly Eyes.mp3",
           "path": "/audio/th08/02. 幻視の夜　～ Ghostly Eyes.mp3",
           "character": "リグル・ナイトバグ",
           "keyword": "touhou 8 LUNATIC stage 1"
+          "chorus_start_time": 79,
+          "chorus_end_time": 129
         },
         {
           "name": "03. 蠢々秋月　～ Mooned Insect.mp3",
           "path": "/audio/th08/03. 蠢々秋月　～ Mooned Insect.mp3",
           "character": "リグル・ナイトバグ",
           "keyword": "touhou 8 LUNATIC stage 1 BOSS"
+          "chorus_start_time": 52,
+          "chorus_end_time": 64
         },
         {
           "name": "04. 夜雀の歌声　～ Night Bird.mp3",
           "path": "/audio/th08/04. 夜雀の歌声　～ Night Bird.mp3",
           "character": "ミスティア・ローレライ",
           "keyword": "touhou 8 LUNATIC stage 2"
+          "chorus_start_time": 88,
+          "chorus_end_time": 147
         },
         {
           "name": "05. もう歌しか聞こえない.mp3",
           "path": "/audio/th08/05. もう歌しか聞こえない.mp3",
           "character": "ミスティア・ローレライ",
           "keyword": "touhou 8 LUNATIC stage 2 BOSS"
+          "chorus_start_time": 73,
+          "chorus_end_time": 96
         },
         {
           "name": "06. 懐かしき東方の血　～ Old World.mp3",
           "path": "/audio/th08/06. 懐かしき東方の血　～ Old World.mp3",
           "character": "上白沢慧音",
           "keyword": "東方永夜抄 LUNATIC stage3"
+          "chorus_start_time": 53,
+          "chorus_end_time": 79
         },
         {
           "name": "07. プレインエイジア.mp3",
           "path": "/audio/th08/07. プレインエイジア.mp3",
           "character": "上白沢慧音",
           "keyword": "東方永夜抄 LUNATIC stage3 BOSS"
+          "chorus_start_time": 63,
+          "chorus_end_time": 113
         },
         {
           "name": "08. 永夜の報い　～ Imperishable Night.mp3",
           "path": "/audio/th08/08. 永夜の報い　～ Imperishable Night.mp3",
           "character": "東方永夜抄",
           "keyword": "東方永夜抄 LUNATIC stage4"
+          "chorus_start_time": 76,
+          "chorus_end_time": 93
         },
         {
           "name": "09. 少女綺想曲　～ Dream Battle.mp3",
           "path": "/audio/th08/09. 少女綺想曲　～ Dream Battle.mp3",
           "character": "博麗霊夢",
           "keyword": "東方永夜抄 LUNATIC stage4 紅魔組 BOSS"
+          "chorus_start_time": 87,
+          "chorus_end_time": 111
         },
         {
           "name": "10. 恋色マスタースパーク.mp3",
           "path": "/audio/th08/10. 恋色マスタースパーク.mp3",
           "character": "霧雨魔理沙",
           "keyword": "東方永夜抄 LUNATIC stage4 結界組 BOSS"
+          "chorus_start_time": 81,
+          "chorus_end_time": 118
         },
         {
           "name": "11. シンデレラケージ　～ Kagome-Kagome.mp3",
           "path": "/audio/th08/11. シンデレラケージ　～ Kagome-Kagome.mp3",
           "character": "因幡てゐ",
           "keyword": "東方永夜抄 LUNATIC stage5"
+          "chorus_start_time": 120,
+          "chorus_end_time": 169
         },
         {
           "name": "12. 狂気の瞳　～ Invisible Full Moon.mp3",
           "path": "/audio/th08/12. 狂気の瞳　～ Invisible Full Moon.mp3",
           "character": "鈴仙・優曇華院・イナバ",
           "keyword": "東方永夜抄 LUNATIC stage5 BOSS"
+          "chorus_start_time": 68,
+          "chorus_end_time": 92
         },
         {
           "name": "13. ヴォヤージュ1969.mp3",
           "path": "/audio/th08/13. ヴォヤージュ1969.mp3",
           "character": "八意永琳 蓬莱山輝夜",
           "keyword": "東方永夜抄 LUNATIC stage6"
+          "chorus_start_time": 55,
+          "chorus_end_time": 79
         },
         {
           "name": "14. 千年幻想郷　～ History of the Moon.mp3",
           "path": "/audio/th08/14. 千年幻想郷　～ History of the Moon.mp3",
           "character": "八意永琳",
           "keyword": "東方永夜抄 LUNATIC stage6A BOSS"
+          "chorus_start_time": 123,
+          "chorus_end_time": 173
         },
         {
           "name": "15. 竹取飛翔　～ Lunatic Princess.mp3",
           "path": "/audio/th08/15. 竹取飛翔　～ Lunatic Princess.mp3",
           "character": "蓬莱山輝夜",
           "keyword": "東方永夜抄 LUNATIC stage6B BOSS"
+          "chorus_start_time": 82,
+          "chorus_end_time": 146
         },
         {
           "name": "16. ヴォヤージュ1970.mp3",
           "path": "/audio/th08/16. ヴォヤージュ1970.mp3",
           "character": "八意永琳 蓬莱山輝夜",
           "keyword": "東方永夜抄 LUNATIC stage6 BOSS"
+          "chorus_start_time": 37,
+          "chorus_end_time": 55
         },
         {
           "name": "17. エクステンドアッシュ　～ 蓬莱人.mp3",
           "path": "/audio/th08/17. エクステンドアッシュ　～ 蓬莱人.mp3",
           "character": "上白沢慧音 藤原妹紅",
           "keyword": "東方永夜抄 EX"
+          "chorus_start_time": 105,
+          "chorus_end_time": 156
         },
         {
           "name": "18. 月まで届け、不死の煙.mp3",
           "path": "/audio/th08/18. 月まで届け、不死の煙.mp3",
           "character": "藤原妹紅",
           "keyword": "東方永夜抄 EX BOSS"
+          "chorus_start_time": 123,
+          "chorus_end_time": 171
         },
         {
           "name": "20. Eternal Dream　～ 幽玄の槭樹.mp3",
           "path": "/audio/th08/20. Eternal Dream　～ 幽玄の槭樹.mp3",
           "character": "東方永夜抄",
           "keyword": "東方永夜抄  自PV"
+          "chorus_start_time": 37,
+          "chorus_end_time": 67
         },
         {
           "name": "21. 東方妖怪小町.mp3",
           "path": "/audio/th08/21. 東方妖怪小町.mp3",
           "character": "東方永夜抄",
           "keyword": "東方永夜抄 PV風"
+          "chorus_start_time": 26,
+          "chorus_end_time": 74
         }
       ]
     },
