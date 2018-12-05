@@ -288,7 +288,8 @@
           "name": "11. 月時計　～ ルナ・ダイアル.mp3",
           "path": "/audio/th06/11. 月時計　～ ルナ・ダイアル.mp3",
           "character": "十六夜咲夜",
-          "keyword": "東方紅魔郷 LUNATIC stage5 BOSS",
+          "video_id": "Ixonx1XBjnI",
+          "time": 132,
           "chorus_start_time": 22,
           "chorus_end_time": 82
         },
@@ -304,7 +305,8 @@
           "name": "13. 亡き王女の為のセプテット.mp3",
           "path": "/audio/th06/13. 亡き王女の為のセプテット.mp3",
           "character": "レミリア・スカーレット",
-          "keyword": "東方紅魔郷 LUNATIC stage6 BOSS",
+          "video_id": "xmdtzVlG1zE",
+          "time": 73,
           "chorus_start_time": 42,
           "chorus_end_time": 136
         },
@@ -320,7 +322,8 @@
           "name": "15. U.N.オーエンは彼女なのか？.mp3",
           "path": "/audio/th06/15. U.N.オーエンは彼女なのか？.mp3",
           "character": "フランドール・スカーレット",
-          "keyword": "東方紅魔郷 EX BOSS",
+          "video_id": "E_h5AYXdmsk",
+          "time": 2,
           "chorus_start_time": 3,
           "chorus_end_time": 74
         },
@@ -803,7 +806,7 @@
           "name": "02. 春色小径　～ Colorful Path.mp3",
           "path": "/audio/th09/02. 春色小径　～ Colorful Path.mp3",
           "character": "博麗霊夢",
-          "keyword": "東方花映塚 LUNATIC メディスンvs霊夢"
+          "keyword": "東方花映塚 LUNATIC メディスンvs霊夢",
           "chorus_start_time": 103,
           "chorus_end_time": 156
         },
@@ -811,7 +814,7 @@
           "name": "03. オリエンタルダークフライト.mp3",
           "path": "/audio/th09/03. オリエンタルダークフライト.mp3",
           "character": "霧雨魔理沙",
-          "keyword": "東方花映塚 LUNATIC vs魔理沙"
+          "keyword": "東方花映塚 LUNATIC vs魔理沙",
           "chorus_start_time": 107,
           "chorus_end_time": 132
         },
@@ -819,7 +822,7 @@
           "name": "04. フラワリングナイト.mp3",
           "path": "/audio/th09/04. フラワリングナイト.mp3",
           "character": "十六夜咲夜",
-          "keyword": "東方花映塚 LUNATIC vs咲夜"
+          "keyword": "東方花映塚 LUNATIC vs咲夜",
           "chorus_start_time": 39,
           "chorus_end_time": 102
         },
@@ -827,7 +830,7 @@
           "name": "05. 東方妖々夢　～ Ancient Temple.mp3",
           "path": "/audio/th09/05. 東方妖々夢　～ Ancient Temple.mp3",
           "character": "魂魄妖夢",
-          "keyword": "東方花映塚 LUNATIC vs妖夢"
+          "keyword": "東方花映塚 LUNATIC vs妖夢",
           "chorus_start_time": 90,
           "chorus_end_time": 145
         },
@@ -835,7 +838,7 @@
           "name": "06. 狂気の瞳　～ Invisible Full Moon.mp3",
           "path": "/audio/th09/06. 狂気の瞳　～ Invisible Full Moon.mp3",
           "character": "鈴仙・優曇華院・イナバ",
-          "keyword": "東方花映塚 LUNATIC vs鈴仙"
+          "keyword": "東方花映塚 LUNATIC vs鈴仙",
           "chorus_start_time": 68,
           "chorus_end_time": 92
         },
@@ -843,7 +846,7 @@
           "name": "07. おてんば恋娘の冒険.mp3",
           "path": "/audio/th09/07. おてんば恋娘の冒険.mp3",
           "character": "チルノ",
-          "keyword": "東方花映塚 LUNATIC vsチルノ"
+          "keyword": "東方花映塚 LUNATIC vsチルノ",
           "chorus_start_time": 35,
           "chorus_end_time": 115
         },
@@ -851,7 +854,7 @@
           "name": "08. 幽霊楽団　～ Phantom Ensemble.mp3",
           "path": "/audio/th09/08. 幽霊楽団　～ Phantom Ensemble.mp3",
           "character": "プリズムリバー三姉妹",
-          "keyword": "東方花映塚 LUNATIC vs露娜薩"
+          "keyword": "東方花映塚 LUNATIC vs露娜薩",
           "chorus_start_time": 51,
           "chorus_end_time": 102
         },
@@ -859,7 +862,7 @@
           "name": "09. もう歌しか聞こえない　～ Flower Mix.mp3",
           "path": "/audio/th09/09. もう歌しか聞こえない　～ Flower Mix.mp3",
           "character": "ミスティア・ローレライ",
-          "keyword": "東方花映塚 LUNATIC vsミスティア"
+          "keyword": "東方花映塚 LUNATIC vsミスティア",
           "chorus_start_time": 108,
           "chorus_end_time": 157
         },
@@ -867,7 +870,7 @@
           "name": "10. お宇佐さまの素い幡.mp3",
           "path": "/audio/th09/10. お宇佐さまの素い幡.mp3",
           "character": "因幡てゐ",
-          "keyword": "東方花映塚 LUNATIC vs因幡"
+          "keyword": "東方花映塚 LUNATIC vs因幡",
           "chorus_start_time": 85,
           "chorus_end_time": 115
         },
@@ -875,7 +878,7 @@
           "name": "11. 風神少女　 (Short Version).mp3",
           "path": "/audio/th09/11. 風神少女　 (Short Version).mp3",
           "character": "射命丸文",
-          "keyword": "東方花映塚 LUNATIC 文戦"
+          "keyword": "東方花映塚 LUNATIC 文戦",
           "chorus_start_time": 106,
           "chorus_end_time": 171
         },
@@ -883,7 +886,7 @@
           "name": "12. ポイズンボディ　～ Forsaken Doll.mp3",
           "path": "/audio/th09/12. ポイズンボディ　～ Forsaken Doll.mp3",
           "character": "メディスン・メランコリー",
-          "video_id": "aDAzGPFetbo"
+          "video_id": "aDAzGPFetbo",
           "chorus_start_time": 76,
           "chorus_end_time": 113
         },
@@ -891,7 +894,7 @@
           "name": "13. 今昔幻想郷　～ Flower Land.mp3",
           "path": "/audio/th09/13. 今昔幻想郷　～ Flower Land.mp3",
           "character": "風見幽香",
-          "keyword": "東方花映塚 LUNATIC vs幽香"
+          "keyword": "東方花映塚 LUNATIC vs幽香",
           "chorus_start_time": 75,
           "chorus_end_time": 150
         },
@@ -899,7 +902,7 @@
           "name": "14. 彼岸帰航　～ Riverside View.mp3",
           "path": "/audio/th09/14. 彼岸帰航　～ Riverside View.mp3",
           "character": "小野塚小町",
-          "keyword": "IRUa2q_EMqQ"
+          "keyword": "IRUa2q_EMqQ",
           "chorus_start_time": 67,
           "chorus_end_time": 104
         },
@@ -907,7 +910,7 @@
           "name": "15. 六十年目の東方裁判　～ Fate of Sixty Years.mp3",
           "path": "/audio/th09/15. 六十年目の東方裁判　～ Fate of Sixty Years.mp3",
           "character": "四季映姫・ヤマザナドゥ",
-          "keyword": "東方花映塚 LUNATIC 四季映姫"
+          "keyword": "東方花映塚 LUNATIC 四季映姫",
           "chorus_start_time": 201,
           "chorus_end_time": 250
         },
@@ -915,7 +918,7 @@
           "name": "18. 花は幻想のままに.mp3",
           "path": "/audio/th09/18. 花は幻想のままに.mp3",
           "character": "四季映姫・ヤマザナドゥ",
-          "keyword": "東方花映塚 MAD"
+          "keyword": "東方花映塚 MAD",
           "chorus_start_time": 16,
           "chorus_end_time": 47
         }
