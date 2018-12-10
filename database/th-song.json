@@ -1195,7 +1195,7 @@
           "path": "/audio/th10.5/P07. ラクトガール ~ 少女密室.mp3",
           "character": "パチュリー・ノーレッジ",
           "video_id": "ruOqzV-2iAY",
-          "chorus_start_time": 00,
+          "chorus_start_time": 0,
           "chorus_end_time": 52
         },
         {
@@ -1203,7 +1203,7 @@
           "path": "/audio/th10.5/P08. 幽雅に咲かせ、墨染の桜 ~ Border of Life.mp3",
           "character": "西行寺幽々子",
           "video_id": "GpO9kOODkY",
-          "chorus_start_time": 08,
+          "chorus_start_time": 8,
           "chorus_end_time": 87
         },
         {
@@ -1560,7 +1560,7 @@
           "path": "/audio/th12.3/09. 空に浮かぶ物体Ｘ.mp3",
           "character": "東方非想天則",
           "video_id": "8aQRV_Ecv9A",
-          "chorus_start_time": 00,
+          "chorus_start_time": 0,
           "chorus_end_time": 46
         },
         {
@@ -1727,7 +1727,7 @@
           "character": "妖精大戦争",
           "video_id": "NHV05efZM2E",
           "time": 0,
-          "chorus_start_time": 08,
+          "chorus_start_time": 8,
           "chorus_end_time": 35
         }
       ]
@@ -1749,7 +1749,7 @@
           "path": "/audio/th13/03. ゴーストリード.mp3",
           "character": "西行寺幽々子",
           "keyword": "touhou 13 LUNATIC stage1 BOSS",
-          "chorus_start_time": 00,
+          "chorus_start_time": 0,
           "chorus_end_time": 35
         },
         {
