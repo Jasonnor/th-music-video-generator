@@ -651,7 +651,7 @@
           "character": "伊吹萃香",
           "video_id": "EfuN1zvO7EE",
           "time": 33,
-          "chorus_start_time": 00,
+          "chorus_start_time": 0,
           "chorus_end_time": 46
         },
         {
@@ -2737,7 +2737,7 @@
           "path": "/audio/th16/18. プレイヤーズスコア.mp3",
           "character": "東方天空璋",
           "keyword": "東方天空璋 PV",
-          "chorus_start_time": 08,
+          "chorus_start_time": 8,
           "chorus_end_time": 35
         }
       ]
