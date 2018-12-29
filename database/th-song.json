@@ -846,7 +846,9 @@
           "name": "01. 花映塚　～ Higan Retour.mp3",
           "path": "/audio/th09/01. 花映塚　～ Higan Retour.mp3",
           "character": "風見幽香",
-          "video_id": "zLaBxj-Qp_Q"
+          "video_id": "zLaBxj-Qp_Q",
+          "chorus_start_time": 24,
+          "chorus_end_time": 65
         },
         {
           "name": "02. 春色小径　～ Colorful Path.mp3",
