@@ -90,7 +90,7 @@ const changeImage = async (info) => {
             var pidTemp = imageURL.split('/')[3].split('_')[0];
             document.getElementById('pid').innerHTML = 'pid=' + pidTemp;
             pidUrl = 'https://www.pixiv.net/member_illust.php?mode=medium&illust_id=' + pidTemp;
-            fadeInImage('wrapper', imageURL, 'body');
+            fadeInImage('background', imageURL, 'body');
         } else {
             var cx = '009797881502979873179:yxcz0y7drxo';
             var a = info.character;
@@ -107,7 +107,7 @@ const changeImage = async (info) => {
                     videoPlayer.poster = imageURL;
                     document.getElementById('pid').innerHTML = '';
                     pidUrl = '';
-                    fadeInImage('wrapper', imageURL, 'body');
+                    fadeInImage('background', imageURL, 'body');
                 });
         }
     });
