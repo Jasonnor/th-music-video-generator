@@ -1910,24 +1910,24 @@
       "path": "/audio/th13.5",
       "songs": [
         {
-          "name": "A01. 塵界不変のペシミズム~心綺楼囃子.mp3",
-          "path": "/audio/th13.5/A01. 塵界不変のペシミズム~心綺楼囃子.mp3",
+          "name": "01. 塵界不変のペシミズム~心綺楼囃子.mp3",
+          "path": "/audio/th13.5/01. 塵界不変のペシミズム~心綺楼囃子.mp3",
           "character": "秦こころ",
           "video_id": "VnQGuneiv7A",
           "chorus_start_time": 91,
           "chorus_end_time": 154
         },
         {
-          "name": "A03. 春色小径 ~ Colorful Path.mp3",
-          "path": "/audio/th13.5/A03. 春色小径 ~ Colorful Path.mp3",
+          "name": "02. 春色小径 ~ Colorful Path.mp3",
+          "path": "/audio/th13.5/02. 春色小径 ~ Colorful Path.mp3",
           "character": "博麗霊夢",
           "video_id": "SOdkRSPYlZA",
           "chorus_start_time": 42,
           "chorus_end_time": 96
         },
         {
-          "name": "A04. メイガスナイト.mp3",
-          "path": "/audio/th13.5/A04. メイガスナイト.mp3",
+          "name": "03. メイガスナイト.mp3",
+          "path": "/audio/th13.5/03. メイガスナイト.mp3",
           "character": "霧雨魔理沙",
           "video_id": "R09SgGxO8Vg",
           "time": 274,
@@ -1935,72 +1935,72 @@
           "chorus_end_time": 120
         },
         {
-          "name": "A05. 時代親父とハイカラ少女.mp3",
-          "path": "/audio/th13.5/A05. 時代親父とハイカラ少女.mp3",
+          "name": "04. 時代親父とハイカラ少女.mp3",
+          "path": "/audio/th13.5/04. 時代親父とハイカラ少女.mp3",
           "character": "雲居一輪",
           "keyword": "東方心綺楼 雲居一輪",
           "chorus_start_time": 53,
           "chorus_end_time": 106
         },
         {
-          "name": "A06. 感情の摩天楼 ~ Cosmic Mind.mp3",
-          "path": "/audio/th13.5/A06. 感情の摩天楼 ~ Cosmic Mind.mp3",
+          "name": "05. 感情の摩天楼 ~ Cosmic Mind.mp3",
+          "path": "/audio/th13.5/05. 感情の摩天楼 ~ Cosmic Mind.mp3",
           "character": "聖白蓮",
           "video_id": "3oYz6N-vpig",
           "chorus_start_time": 73,
           "chorus_end_time": 126
         },
         {
-          "name": "A07. 大神神話伝.mp3",
-          "path": "/audio/th13.5/A07. 大神神話伝.mp3",
+          "name": "06. 大神神話伝.mp3",
+          "path": "/audio/th13.5/06. 大神神話伝.mp3",
           "character": "物部布都",
           "keyword": "東方心綺楼 物部布都",
           "chorus_start_time": 80,
           "chorus_end_time": 122
         },
         {
-          "name": "A08. 聖徳伝説 ~ True Administrator.mp3",
-          "path": "/audio/th13.5/A08. 聖徳伝説 ~ True Administrator.mp3",
+          "name": "07. 聖徳伝説 ~ True Administrator.mp3",
+          "path": "/audio/th13.5/07. 聖徳伝説 ~ True Administrator.mp3",
           "character": "豊聡耳神子",
           "video_id": "Gan5PVJtx7k",
           "chorus_start_time": 89,
           "chorus_end_time": 152
         },
         {
-          "name": "A09. 芥川龍之介の河童 ~ Candid Friend.mp3",
-          "path": "/audio/th13.5/A09. 芥川龍之介の河童 ~ Candid Friend.mp3",
+          "name": "08. 芥川龍之介の河童 ~ Candid Friend.mp3",
+          "path": "/audio/th13.5/08. 芥川龍之介の河童 ~ Candid Friend.mp3",
           "character": "河城にとり",
           "video_id": "xqriUDL6Tu4",
           "chorus_start_time": 63,
           "chorus_end_time": 118
         },
         {
-          "name": "A10. ハルトマンの妖怪少女.mp3",
-          "path": "/audio/th13.5/A10. ハルトマンの妖怪少女.mp3",
+          "name": "09. ハルトマンの妖怪少女.mp3",
+          "path": "/audio/th13.5/09. ハルトマンの妖怪少女.mp3",
           "character": "古明地こいし",
           "keyword": "東方心綺楼 古明地こいし",
           "chorus_start_time": 62,
           "chorus_end_time": 118
         },
         {
-          "name": "A12. 佐渡のニッ岩.mp3",
-          "path": "/audio/th13.5/A12. 佐渡のニッ岩.mp3",
+          "name": "10. 佐渡のニッ岩.mp3",
+          "path": "/audio/th13.5/10. 佐渡のニッ岩.mp3",
           "character": "二ッ岩マミゾウ",
           "keyword": "東方心綺楼 マミゾウ lunatic",
           "chorus_start_time": 76,
           "chorus_end_time": 120
         },
         {
-          "name": "A14. 幻想郷の二ッ岩.mp3",
-          "path": "/audio/th13.5/A14. 幻想郷の二ッ岩.mp3",
+          "name": "11. 幻想郷の二ッ岩.mp3",
+          "path": "/audio/th13.5/11. 幻想郷の二ッ岩.mp3",
           "character": "二ッ岩マミゾウ",
           "video_id": "8QevgUQGkzs",
           "chorus_start_time": 76,
           "chorus_end_time": 114
         },
         {
-          "name": "A16. 亡失のエモーション.mp3",
-          "path": "/audio/th13.5/A16. 亡失のエモーション.mp3",
+          "name": "12. 亡失のエモーション.mp3",
+          "path": "/audio/th13.5/12. 亡失のエモーション.mp3",
           "character": "秦こころ",
           "keyword": "東方心綺楼 秦こころ lunatic",
           "chorus_start_time": 134,
