@@ -2187,32 +2187,32 @@
       "path": "/audio/th14.5",
       "songs": [
         {
-          "name": "O14.華狭間のバトルフィールド.mp3",
-          "path": "/audio/th14.5/O14.華狭間のバトルフィールド.mp3",
+          "name": "14.華狭間のバトルフィールド.mp3",
+          "path": "/audio/th14.5/14.華狭間のバトルフィールド.mp3",
           "character": "茨木華扇",
           "keyword": "東方深秘録 茨木華扇 lunatic",
           "chorus_start_time": 68,
           "chorus_end_time": 136
         },
         {
-          "name": "O16.ラストオカルティズム ~ 現し世の秘術師.mp3",
-          "path": "/audio/th14.5/O16.ラストオカルティズム ~ 現し世の秘術師.mp3",
+          "name": "16.ラストオカルティズム ~ 現し世の秘術師.mp3",
+          "path": "/audio/th14.5/16.ラストオカルティズム ~ 現し世の秘術師.mp3",
           "character": "宇佐見菫子",
           "keyword": "東方深秘録 宇佐見菫子 lunatic",
           "chorus_start_time": 161,
           "chorus_end_time": 230
         },
         {
-          "name": "P01.二色蓮花蝶 ~ Red and White.mp3",
-          "path": "/audio/th14.5/P01.二色蓮花蝶 ~ Red and White.mp3",
+          "name": "19.二色蓮花蝶 ~ Red and White.mp3",
+          "path": "/audio/th14.5/19.二色蓮花蝶 ~ Red and White.mp3",
           "character": "博麗霊夢",
           "video_id": "VsXi7HikqdY",
           "chorus_start_time": 95,
           "chorus_end_time": 139
         },
         {
-          "name": "P02.恋色マスタースパーク.mp3",
-          "path": "/audio/th14.5/P02.恋色マスタースパーク.mp3",
+          "name": "20.恋色マスタースパーク.mp3",
+          "path": "/audio/th14.5/20.恋色マスタースパーク.mp3",
           "character": "霧雨魔理沙",
           "video_id": "wappwHAc7zo",
           "time": 0,
@@ -2220,80 +2220,80 @@
           "chorus_end_time": 134
         },
         {
-          "name": "P03.時代親父とハイカラ少女.mp3",
-          "path": "/audio/th14.5/P03.時代親父とハイカラ少女.mp3",
+          "name": "21.時代親父とハイカラ少女.mp3",
+          "path": "/audio/th14.5/21.時代親父とハイカラ少女.mp3",
           "character": "雲居一輪",
           "keyword": "東方深秘録 雲居一輪 lunatic",
           "chorus_start_time": 80,
           "chorus_end_time": 120
         },
         {
-          "name": "P04.感情の摩天楼 ~ Cosmic Mind.mp3",
-          "path": "/audio/th14.5/P04.感情の摩天楼 ~ Cosmic Mind.mp3",
+          "name": "22.感情の摩天楼 ~ Cosmic Mind.mp3",
+          "path": "/audio/th14.5/22.感情の摩天楼 ~ Cosmic Mind.mp3",
           "character": "聖白蓮",
           "keyword": "東方深秘録 聖白蓮 lunatic",
           "chorus_start_time": 120,
           "chorus_end_time": 155
         },
         {
-          "name": "P05.大神神話伝.mp3",
-          "path": "/audio/th14.5/P05.大神神話伝.mp3",
+          "name": "23.大神神話伝.mp3",
+          "path": "/audio/th14.5/23.大神神話伝.mp3",
           "character": "物部布都",
           "keyword": "東方深秘録 物部布都 lunatic",
           "chorus_start_time": 84,
           "chorus_end_time": 139
         },
         {
-          "name": "P06.聖徳伝説 ~ True Administrator.mp3",
-          "path": "/audio/th14.5/P06.聖徳伝説 ~ True Administrator.mp3",
+          "name": "24.聖徳伝説 ~ True Administrator.mp3",
+          "path": "/audio/th14.5/24.聖徳伝説 ~ True Administrator.mp3",
           "character": "豊聡耳神子",
           "keyword": "東方深秘録 豊聡耳神子 lunatic",
           "chorus_start_time": 30,
           "chorus_end_time": 72
         },
         {
-          "name": "P07.芥川龍之介の河童 ~ Candid Friend.mp3",
-          "path": "/audio/th14.5/P07.芥川龍之介の河童 ~ Candid Friend.mp3",
+          "name": "25.芥川龍之介の河童 ~ Candid Friend.mp3",
+          "path": "/audio/th14.5/25.芥川龍之介の河童 ~ Candid Friend.mp3",
           "character": "河城にとり",
           "keyword": "東方深秘録 河城にとり lunatic",
           "chorus_start_time": 87,
           "chorus_end_time": 146
         },
         {
-          "name": "P08.ハルトマンの妖怪少女.mp3",
-          "path": "/audio/th14.5/P08.ハルトマンの妖怪少女.mp3",
+          "name": "26.ハルトマンの妖怪少女.mp3",
+          "path": "/audio/th14.5/26.ハルトマンの妖怪少女.mp3",
           "character": "古明地こいし",
           "keyword": "東方深秘録 古明地こいし lunatic",
           "chorus_start_time": 70,
           "chorus_end_time": 120
         },
         {
-          "name": "P09.幻想郷の二ッ岩.mp3",
-          "path": "/audio/th14.5/P09.幻想郷の二ッ岩.mp3",
+          "name": "27.幻想郷の二ッ岩.mp3",
+          "path": "/audio/th14.5/27.幻想郷の二ッ岩.mp3",
           "character": "二ッ岩マミゾウ",
           "keyword": "東方深秘録 二ッ岩マミゾウ lunatic",
           "chorus_start_time": 73,
           "chorus_end_time": 112
         },
         {
-          "name": "P10.亡失のエモーション .mp3",
-          "path": "/audio/th14.5/P10.亡失のエモーション .mp3",
+          "name": "28.亡失のエモーション .mp3",
+          "path": "/audio/th14.5/28.亡失のエモーション .mp3",
           "character": "秦こころ",
           "keyword": "東方深秘録 秦こころ lunatic",
           "chorus_start_time": 182,
           "chorus_end_time": 230
         },
         {
-          "name": "P11.月まで届け、不死の煙.mp3",
-          "path": "/audio/th14.5/P11.月まで届け、不死の煙.mp3",
+          "name": "29.月まで届け、不死の煙.mp3",
+          "path": "/audio/th14.5/29.月まで届け、不死の煙.mp3",
           "character": "藤原妹紅",
           "keyword": "東方深秘録 藤原妹紅 lunatic",
           "chorus_start_time": 128,
           "chorus_end_time": 169
         },
         {
-          "name": "P12.輝く針の小人族 ~ Little Princess.mp3",
-          "path": "/audio/th14.5/P12.輝く針の小人族 ~ Little Princess.mp3",
+          "name": "30.輝く針の小人族 ~ Little Princess.mp3",
+          "path": "/audio/th14.5/30.輝く針の小人族 ~ Little Princess.mp3",
           "character": "少名針妙丸",
           "keyword": "東方深秘録 少名針妙丸 lunatic",
           "chorus_start_time": 71,
