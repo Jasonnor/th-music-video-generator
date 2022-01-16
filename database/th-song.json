@@ -509,112 +509,88 @@
       "path": "/audio/th07.5",
       "songs": [
         {
-          "name": "N01. 萃夢想.mp3",
-          "path": "/audio/th07.5/N01. 萃夢想.mp3",
+          "name": "01. 萃夢想.mp3",
+          "path": "/audio/th07.5/01. 萃夢想.mp3",
           "character": "伊吹萃香",
           "video_id": "OJwpjTE_8RY",
           "chorus_start_time": 50,
           "chorus_end_time": 90
         },
         {
-          "name": "D02. 東方妖恋談.mp3",
-          "path": "/audio/th07.5/D02. 東方妖恋談.mp3",
+          "name": "02. 東方妖恋談.mp3",
+          "path": "/audio/th07.5/02. 東方妖恋談.mp3",
           "character": "博麗霊夢",
           "video_id": "WJoYox1hhcg",
           "chorus_start_time": 54,
           "chorus_end_time": 82
         },
         {
-          "name": "D04. 恋色マジック.mp3",
-          "path": "/audio/th07.5/D04. 恋色マジック.mp3",
-          "character": "霧雨魔理沙",
-          "video_id": "pIrn5ofiWWw",
-          "chorus_start_time": 38,
-          "chorus_end_time": 60
-        },
-        {
-          "name": "D06. メイドと血と懐中時計.mp3",
-          "path": "/audio/th07.5/D06. メイドと血と懐中時計.mp3",
-          "character": "十六夜咲夜",
-          "video_id": "QJdAjaEFKBs",
-          "chorus_start_time": 57,
-          "chorus_end_time": 101
-        },
-        {
-          "name": "D08. ブクレシュティの人形師.mp3",
-          "path": "/audio/th07.5/D08. ブクレシュティの人形師.mp3",
-          "character": "アリス・マーガトロイド",
-          "video_id": "ju-AtQZNb78",
-          "chorus_start_time": 51,
-          "chorus_end_time": 116
-        },
-        {
-          "name": "D10. ラクトガール ~ 少女密室.mp3",
-          "path": "/audio/th07.5/D10. ラクトガール ~ 少女密室.mp3",
-          "character": "パチュリー・ノーレッジ",
-          "video_id": "JrvtbWkyInU",
-          "chorus_start_time": 14,
-          "chorus_end_time": 100
-        },
-        {
-          "name": "D12. 広有射怪鳥事 ~ Till When .mp3",
-          "path": "/audio/th07.5/D12. 広有射怪鳥事 ~ Till When .mp3",
-          "character": "魂魄妖夢",
-          "video_id": "1TdVRMG5f8o",
-          "chorus_start_time": 23,
-          "chorus_end_time": 68
-        },
-        {
-          "name": "D13. 亡き王女の為のセプテット.mp3",
-          "path": "/audio/th07.5/D13. 亡き王女の為のセプテット.mp3",
-          "character": "レミリア・スカーレット",
-          "video_id": "Eff7rbIsL2c",
-          "chorus_start_time": 23,
-          "chorus_end_time": 72
-        },
-        {
-          "name": "D14. 幽雅に咲かせ、黒染の桜 ~ Border of Life..mp3",
-          "path": "/audio/th07.5/D14. 幽雅に咲かせ、黒染の桜 ~ Border of Life..mp3",
-          "character": "西行寺幽々子",
-          "video_id": "MJfSMnShKCg",
-          "chorus_start_time": 12,
-          "chorus_end_time": 54
-        },
-        {
-          "name": "N02. 少女綺想曲 ~ Capriccio.mp3",
-          "path": "/audio/th07.5/N02. 少女綺想曲 ~ Capriccio.mp3",
+          "name": "03. 少女綺想曲 ~ Capriccio.mp3",
+          "path": "/audio/th07.5/03. 少女綺想曲 ~ Capriccio.mp3",
           "character": "博麗霊夢",
           "video_id": "wjHxGGlP3ks",
           "chorus_start_time": 38,
           "chorus_end_time": 71
         },
         {
-          "name": "N04. 魔女達の舞踏会.mp3",
-          "path": "/audio/th07.5/N04. 魔女達の舞踏会.mp3",
+          "name": "04. 恋色マジック.mp3",
+          "path": "/audio/th07.5/04. 恋色マジック.mp3",
+          "character": "霧雨魔理沙",
+          "video_id": "pIrn5ofiWWw",
+          "chorus_start_time": 38,
+          "chorus_end_time": 60
+        },
+        {
+          "name": "05. 魔女達の舞踏会.mp3",
+          "path": "/audio/th07.5/05. 魔女達の舞踏会.mp3",
           "character": "霧雨魔理沙",
           "video_id": "dpqhUpACLhs",
           "chorus_start_time": 14,
           "chorus_end_time": 65
         },
         {
-          "name": "N06. 月時計 ~ ルナ・ダイアル.mp3",
-          "path": "/audio/th07.5/N06. 月時計 ~ ルナ・ダイアル.mp3",
+          "name": "06. メイドと血と懐中時計.mp3",
+          "path": "/audio/th07.5/06. メイドと血と懐中時計.mp3",
+          "character": "十六夜咲夜",
+          "video_id": "QJdAjaEFKBs",
+          "chorus_start_time": 57,
+          "chorus_end_time": 101
+        },
+        {
+          "name": "07. 月時計 ~ ルナ・ダイアル.mp3",
+          "path": "/audio/th07.5/07. 月時計 ~ ルナ・ダイアル.mp3",
           "character": "十六夜咲夜",
           "video_id": "25sqBLnhR48",
           "chorus_start_time": 57,
           "chorus_end_time": 84
         },
         {
-          "name": "N08. 人形裁判.mp3",
-          "path": "/audio/th07.5/N08. 人形裁判.mp3",
+          "name": "08. ブクレシュティの人形師.mp3",
+          "path": "/audio/th07.5/08. ブクレシュティの人形師.mp3",
+          "character": "アリス・マーガトロイド",
+          "video_id": "ju-AtQZNb78",
+          "chorus_start_time": 51,
+          "chorus_end_time": 116
+        },
+        {
+          "name": "09. 人形裁判.mp3",
+          "path": "/audio/th07.5/09. 人形裁判.mp3",
           "character": "アリス・マーガトロイド",
           "video_id": "WTKIeiN031k",
           "chorus_start_time": 38,
           "chorus_end_time": 61
         },
         {
-          "name": "N10. ヴワル魔法図書館.mp3",
-          "path": "/audio/th07.5/N10. ヴワル魔法図書館.mp3",
+          "name": "10. ラクトガール ~ 少女密室.mp3",
+          "path": "/audio/th07.5/10. ラクトガール ~ 少女密室.mp3",
+          "character": "パチュリー・ノーレッジ",
+          "video_id": "JrvtbWkyInU",
+          "chorus_start_time": 14,
+          "chorus_end_time": 100
+        },
+        {
+          "name": "11. ヴワル魔法図書館.mp3",
+          "path": "/audio/th07.5/11. ヴワル魔法図書館.mp3",
           "character": "パチュリー・ノーレッジ",
           "video_id": "reGJhpfSNXE",
           "time": 23,
@@ -622,53 +598,77 @@
           "chorus_end_time": 86
         },
         {
-          "name": "N12. 東方妖々夢 ~ Ancient Temple.mp3",
-          "path": "/audio/th07.5/N12. 東方妖々夢 ~ Ancient Temple.mp3",
+          "name": "12. 広有射怪鳥事 ~ Till When .mp3",
+          "path": "/audio/th07.5/12. 広有射怪鳥事 ~ Till When .mp3",
+          "character": "魂魄妖夢",
+          "video_id": "1TdVRMG5f8o",
+          "chorus_start_time": 23,
+          "chorus_end_time": 68
+        },
+        {
+          "name": "13. 東方妖々夢 ~ Ancient Temple.mp3",
+          "path": "/audio/th07.5/13. 東方妖々夢 ~ Ancient Temple.mp3",
           "character": "魂魄妖夢",
           "video_id": "e4EXBNT_k3c",
           "chorus_start_time": 47,
           "chorus_end_time": 85
         },
         {
-          "name": "N14. Demystify Feast.mp3",
-          "path": "/audio/th07.5/N14. Demystify Feast.mp3",
+          "name": "14. 亡き王女の為のセプテット.mp3",
+          "path": "/audio/th07.5/14. 亡き王女の為のセプテット.mp3",
+          "character": "レミリア・スカーレット",
+          "video_id": "Eff7rbIsL2c",
+          "chorus_start_time": 23,
+          "chorus_end_time": 72
+        },
+        {
+          "name": "15. 幽雅に咲かせ、黒染の桜 ~ Border of Life..mp3",
+          "path": "/audio/th07.5/15. 幽雅に咲かせ、黒染の桜 ~ Border of Life..mp3",
+          "character": "西行寺幽々子",
+          "video_id": "MJfSMnShKCg",
+          "chorus_start_time": 12,
+          "chorus_end_time": 54
+        },
+        {
+          "name": "16. Demystify Feast.mp3",
+          "path": "/audio/th07.5/16. Demystify Feast.mp3",
           "character": "レミリア・スカーレット",
           "video_id": "HvcHwgUGVco",
           "chorus_start_time": 91,
           "chorus_end_time": 138
         },
         {
-          "name": "N16. 夜が降りてくる ~ Evening Star.mp3",
-          "path": "/audio/th07.5/N16. 夜が降りてくる ~ Evening Star.mp3",
+          "name": "17. 夜が降りてくる ~ Evening Star.mp3",
+          "path": "/audio/th07.5/17. 夜が降りてくる ~ Evening Star.mp3",
           "character": "八雲紫",
           "video_id": "WBHA2PWvCbM",
           "chorus_start_time": 105,
           "chorus_end_time": 142
         },
         {
-          "name": "N17. 砕月.mp3",
-          "path": "/audio/th07.5/N17. 砕月.mp3",
-          "character": "伊吹萃香",
-          "video_id": "EfuN1zvO7EE",
-          "time": 33,
-          "chorus_start_time": 0,
-          "chorus_end_time": 46
-        },
-        {
-          "name": "N18. 御伽の国の鬼が島.mp3",
-          "path": "/audio/th07.5/N18. 御伽の国の鬼が島.mp3",
+          "name": "18. 御伽の国の鬼が島.mp3",
+          "path": "/audio/th07.5/18. 御伽の国の鬼が島.mp3",
           "character": "伊吹萃香",
           "video_id": "e_TBEpOAMzc",
           "chorus_start_time": 81,
           "chorus_end_time": 192
         },
         {
-          "name": "N23. 東方萃夢想 (Arrange).mp3",
-          "path": "/audio/th07.5/N23. 東方萃夢想 (Arrange).mp3",
+          "name": "20. 東方萃夢想 (Arrange).mp3",
+          "path": "/audio/th07.5/20. 東方萃夢想 (Arrange).mp3",
           "character": "伊吹萃香",
           "video_id": "01krIkxMbX8",
           "chorus_start_time": 122,
           "chorus_end_time": 194
+        },
+        {
+          "name": "34. 砕月.mp3",
+          "path": "/audio/th07.5/34. 砕月.mp3",
+          "character": "伊吹萃香",
+          "video_id": "EfuN1zvO7EE",
+          "time": 33,
+          "chorus_start_time": 0,
+          "chorus_end_time": 46
         }
       ]
     },
@@ -1133,72 +1133,72 @@
       "path": "/audio/th10.5",
       "songs": [
         {
-          "name": "O01. 緋想天.mp3",
-          "path": "/audio/th10.5/O01. 緋想天.mp3",
+          "name": "01. 緋想天.mp3",
+          "path": "/audio/th10.5/01. 緋想天.mp3",
           "character": "比那名居天子",
           "video_id": "UMRiglqwZhM",
           "chorus_start_time": 54,
           "chorus_end_time": 118
         },
         {
-          "name": "O03. 地の色は黄色.mp3",
-          "path": "/audio/th10.5/O03. 地の色は黄色.mp3",
+          "name": "03. 地の色は黄色.mp3",
+          "path": "/audio/th10.5/03. 地の色は黄色.mp3",
           "character": "比那名居天子",
           "video_id": "_RMUNAhET4E",
           "chorus_start_time": 62,
           "chorus_end_time": 94
         },
         {
-          "name": "O07. 踊る水飛沫.mp3",
-          "path": "/audio/th10.5/O07. 踊る水飛沫.mp3",
+          "name": "07. 踊る水飛沫.mp3",
+          "path": "/audio/th10.5/07. 踊る水飛沫.mp3",
           "character": "比那名居天子",
           "video_id": "fWBfnAEvg7o",
           "chorus_start_time": 57,
           "chorus_end_time": 84
         },
         {
-          "name": "O13. 黒い海に紅く ~ Legendary Fish.mp3",
-          "path": "/audio/th10.5/O13. 黒い海に紅く ~ Legendary Fish.mp3",
+          "name": "13. 黒い海に紅く ~ Legendary Fish.mp3",
+          "path": "/audio/th10.5/13. 黒い海に紅く ~ Legendary Fish.mp3",
           "character": "永江衣玖",
           "video_id": "1E-cwWUqfkI",
           "chorus_start_time": 118,
           "chorus_end_time": 163
         },
         {
-          "name": "O14. 天衣無縫.mp3",
-          "path": "/audio/th10.5/O14. 天衣無縫.mp3",
+          "name": "14. 天衣無縫.mp3",
+          "path": "/audio/th10.5/14. 天衣無縫.mp3",
           "character": "永江衣玖",
           "video_id": "WCNFWAfbAYU",
           "chorus_start_time": 5,
           "chorus_end_time": 36
         },
         {
-          "name": "O15. 有頂天変 ~ Wonderful Heaven.mp3",
-          "path": "/audio/th10.5/O15. 有頂天変 ~ Wonderful Heaven.mp3",
+          "name": "15. 有頂天変 ~ Wonderful Heaven.mp3",
+          "path": "/audio/th10.5/15. 有頂天変 ~ Wonderful Heaven.mp3",
           "character": "比那名居天子",
           "video_id": "SjrP9pR7WZs",
           "chorus_start_time": 72,
           "chorus_end_time": 118
         },
         {
-          "name": "O16. 幼心地の有頂天.mp3",
-          "path": "/audio/th10.5/O16. 幼心地の有頂天.mp3",
+          "name": "16. 幼心地の有頂天.mp3",
+          "path": "/audio/th10.5/16. 幼心地の有頂天.mp3",
           "character": "比那名居天子",
           "video_id": "5VxljYex0tg",
           "chorus_start_time": 21,
           "chorus_end_time": 92
         },
         {
-          "name": "O18. 東方緋想天.mp3",
-          "path": "/audio/th10.5/O18. 東方緋想天.mp3",
+          "name": "18. 東方緋想天.mp3",
+          "path": "/audio/th10.5/18. 東方緋想天.mp3",
           "character": "比那名居天子",
           "video_id": "UMRiglqwZhM",
           "chorus_start_time": 35,
           "chorus_end_time": 85
         },
         {
-          "name": "P02. 東方妖恋談.mp3",
-          "path": "/audio/th10.5/P02. 東方妖恋談.mp3",
+          "name": "19. 東方妖恋談.mp3",
+          "path": "/audio/th10.5/19. 東方妖恋談.mp3",
           "character": "博麗霊夢",
           "video_id": "wo8U6_ZRu9g",
           "time": 52,
@@ -1206,16 +1206,16 @@
           "chorus_end_time": 90
         },
         {
-          "name": "P03. 星の器 ~ Casket of Star.mp3",
-          "path": "/audio/th10.5/P03. 星の器 ~ Casket of Star.mp3",
+          "name": "20. 星の器 ~ Casket of Star.mp3",
+          "path": "/audio/th10.5/20. 星の器 ~ Casket of Star.mp3",
           "character": "霧雨魔理沙",
           "video_id": "yODG1MOAo88",
           "chorus_start_time": 56,
           "chorus_end_time": 82
         },
         {
-          "name": "P04. フラワリングナイト.mp3",
-          "path": "/audio/th10.5/P04. フラワリングナイト.mp3",
+          "name": "21. フラワリングナイト.mp3",
+          "path": "/audio/th10.5/21. フラワリングナイト.mp3",
           "character": "十六夜咲夜",
           "video_id": "WFCZ73kLU78",
           "time": 28,
@@ -1223,80 +1223,80 @@
           "chorus_end_time": 102
         },
         {
-          "name": "P05. ブクレシュティの人形師.mp3",
-          "path": "/audio/th10.5/P05. ブクレシュティの人形師.mp3",
+          "name": "22. ブクレシュティの人形師.mp3",
+          "path": "/audio/th10.5/22. ブクレシュティの人形師.mp3",
           "character": "アリス・マーガトロイド",
           "video_id": "WTKIeiN031k",
           "chorus_start_time": 12,
           "chorus_end_time": 64
         },
         {
-          "name": "P06. 広有射怪鳥事 ~ Till When.mp3",
-          "path": "/audio/th10.5/P06. 広有射怪鳥事 ~ Till When.mp3",
+          "name": "23. 広有射怪鳥事 ~ Till When.mp3",
+          "path": "/audio/th10.5/23. 広有射怪鳥事 ~ Till When.mp3",
           "character": "魂魄妖夢",
           "video_id": "qU4BNYzvdKk",
           "chorus_start_time": 40,
           "chorus_end_time": 72
         },
         {
-          "name": "P07. ラクトガール ~ 少女密室.mp3",
-          "path": "/audio/th10.5/P07. ラクトガール ~ 少女密室.mp3",
+          "name": "24. ラクトガール ~ 少女密室.mp3",
+          "path": "/audio/th10.5/24. ラクトガール ~ 少女密室.mp3",
           "character": "パチュリー・ノーレッジ",
           "video_id": "ruOqzV-2iAY",
           "chorus_start_time": 0,
           "chorus_end_time": 52
         },
         {
-          "name": "P08. 幽雅に咲かせ、墨染の桜 ~ Border of Life.mp3",
-          "path": "/audio/th10.5/P08. 幽雅に咲かせ、墨染の桜 ~ Border of Life.mp3",
+          "name": "25. 幽雅に咲かせ、墨染の桜 ~ Border of Life.mp3",
+          "path": "/audio/th10.5/25. 幽雅に咲かせ、墨染の桜 ~ Border of Life.mp3",
           "character": "西行寺幽々子",
           "video_id": "GpO9kOODkY",
           "chorus_start_time": 8,
           "chorus_end_time": 87
         },
         {
-          "name": "P09. 亡き王女の為のセプテット.mp3",
-          "path": "/audio/th10.5/P09. 亡き王女の為のセプテット.mp3",
+          "name": "26. 亡き王女の為のセプテット.mp3",
+          "path": "/audio/th10.5/26. 亡き王女の為のセプテット.mp3",
           "character": "レミリア・スカーレット",
           "video_id": "HvcHwgUGVco",
           "chorus_start_time": 41,
           "chorus_end_time": 96
         },
         {
-          "name": "P10. 夜が降りてくる.mp3",
-          "path": "/audio/th10.5/P10. 夜が降りてくる.mp3",
+          "name": "27. 夜が降りてくる.mp3",
+          "path": "/audio/th10.5/27. 夜が降りてくる.mp3",
           "character": "八雲紫",
           "video_id": "LNthQQIXx7Y",
           "chorus_start_time": 26,
           "chorus_end_time": 60
         },
         {
-          "name": "P11. 砕月.mp3",
-          "path": "/audio/th10.5/P11. 砕月.mp3",
+          "name": "28. 砕月.mp3",
+          "path": "/audio/th10.5/28. 砕月.mp3",
           "character": "伊吹萃香",
           "video_id": "OOPlVCJZqfc",
           "chorus_start_time": 40,
           "chorus_end_time": 107
         },
         {
-          "name": "P12. 狂気の瞳 ~ Invisible Full Moon.mp3",
-          "path": "/audio/th10.5/P12. 狂気の瞳 ~ Invisible Full Moon.mp3",
+          "name": "29. 狂気の瞳 ~ Invisible Full Moon.mp3",
+          "path": "/audio/th10.5/29. 狂気の瞳 ~ Invisible Full Moon.mp3",
           "character": "鈴仙・優曇華院・イナバ",
           "video_id": "yX8jZ-YfMXE",
           "chorus_start_time": 47,
           "chorus_end_time": 89
         },
         {
-          "name": "P13. 風神少女.mp3",
-          "path": "/audio/th10.5/P13. 風神少女.mp3",
+          "name": "30. 風神少女.mp3",
+          "path": "/audio/th10.5/30. 風神少女.mp3",
           "character": "射命丸文",
           "video_id": "1pW-0VowLIQ",
           "chorus_start_time": 44,
           "chorus_end_time": 128
         },
         {
-          "name": "P14. 彼岸帰航 ~ Riverside View.mp3",
-          "path": "/audio/th10.5/P14. 彼岸帰航 ~ Riverside View.mp3",
+          "name": "31. 彼岸帰航 ~ Riverside View.mp3",
+          "path": "/audio/th10.5/31. 彼岸帰航 ~ Riverside View.mp3",
           "character": "小野塚小町",
           "video_id": "vNmxJ0pgGyI",
           "time": 37,
