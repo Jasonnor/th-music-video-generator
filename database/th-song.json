@@ -2432,72 +2432,72 @@
       "path": "/audio/th15.5",
       "songs": [
         {
-          "name": "B16. 舞い散る憑依華吹雪.mp3",
-          "path": "/audio/th15.5/B16. 舞い散る憑依華吹雪.mp3",
+          "name": "54. 舞い散る憑依華吹雪.mp3",
+          "path": "/audio/th15.5/54. 舞い散る憑依華吹雪.mp3",
           "character": "依神女苑 依神紫苑",
           "keyword": "東方憑依華",
           "chorus_start_time": 42,
           "chorus_end_time": 80
         },
         {
-          "name": "A03. 地の色は黄色 ~ Primrose.mp3",
-          "path": "/audio/th15.5/A03. 地の色は黄色 ~ Primrose.mp3",
+          "name": "19. 地の色は黄色 ~ Primrose.mp3",
+          "path": "/audio/th15.5/19. 地の色は黄色 ~ Primrose.mp3",
           "character": "博麗霊夢",
           "video_id": "DVOzFHPo6Io",
           "chorus_start_time": 33,
           "chorus_end_time": 93
         },
         {
-          "name": "A04. マッシュルーム・ワルツ.mp3",
-          "path": "/audio/th15.5/A04. マッシュルーム・ワルツ.mp3",
+          "name": "20. マッシュルーム・ワルツ.mp3",
+          "path": "/audio/th15.5/20. マッシュルーム・ワルツ.mp3",
           "character": "霧雨魔理沙",
           "keyword": "東方憑依華 魔理沙 lunatic",
           "chorus_start_time": 45,
           "chorus_end_time": 101
         },
         {
-          "name": "A06. 聖輦船空を往く.mp3",
-          "path": "/audio/th15.5/A06. 聖輦船空を往く.mp3",
+          "name": "21. 聖輦船空を往く.mp3",
+          "path": "/audio/th15.5/21. 聖輦船空を往く.mp3",
           "character": "雲居一輪",
           "keyword": "東方憑依華 一輪",
           "chorus_start_time": 61,
           "chorus_end_time": 98
         },
         {
-          "name": "A07. 法力の下の平等.mp3",
-          "path": "/audio/th15.5/A07. 法力の下の平等.mp3",
+          "name": "22. 法力の下の平等.mp3",
+          "path": "/audio/th15.5/22. 法力の下の平等.mp3",
           "character": "聖白蓮",
           "keyword": "東方憑依華 白蓮",
           "chorus_start_time": 48,
           "chorus_end_time": 96
         },
         {
-          "name": "A10. 恒常不変の参廟祀.mp3",
-          "path": "/audio/th15.5/A10. 恒常不変の参廟祀.mp3",
+          "name": "23. 恒常不変の参廟祀.mp3",
+          "path": "/audio/th15.5/23. 恒常不変の参廟祀.mp3",
           "character": "物部布都",
           "keyword": "東方憑依華 布都",
           "chorus_start_time": 69,
           "chorus_end_time": 100
         },
         {
-          "name": "A11. 光輝く天球儀.mp3",
-          "path": "/audio/th15.5/A11. 光輝く天球儀.mp3",
+          "name": "24. 光輝く天球儀.mp3",
+          "path": "/audio/th15.5/24. 光輝く天球儀.mp3",
           "character": "豊聡耳神子",
           "video_id": "VqnypTmvmww",
           "chorus_start_time": 7,
           "chorus_end_time": 57
         },
         {
-          "name": "A13. 沢の河童の技術力.mp3",
-          "path": "/audio/th15.5/A13. 沢の河童の技術力.mp3",
+          "name": "25. 沢の河童の技術力.mp3",
+          "path": "/audio/th15.5/25. 沢の河童の技術力.mp3",
           "character": "河城にとり",
           "keyword": "東方憑依華 にとり",
           "chorus_start_time": 52,
           "chorus_end_time": 94
         },
         {
-          "name": "A14. 地底に咲く薔薇.mp3",
-          "path": "/audio/th15.5/A14. 地底に咲く薔薇.mp3",
+          "name": "26. 地底に咲く薔薇.mp3",
+          "path": "/audio/th15.5/26. 地底に咲く薔薇.mp3",
           "character": "古明地こいし",
           "video_id": "1jA8S_2Qa6g",
           "time": 0,
@@ -2505,16 +2505,16 @@
           "chorus_end_time": 91
         },
         {
-          "name": "A15. 深緑の狸森にて.mp3",
-          "path": "/audio/th15.5/A15. 深緑の狸森にて.mp3",
+          "name": "27. 深緑の狸森にて.mp3",
+          "path": "/audio/th15.5/27. 深緑の狸森にて.mp3",
           "character": "二ッ岩マミゾウ",
           "keyword": "東方憑依華 マミゾウ lunatic",
           "chorus_start_time": 51,
           "chorus_end_time": 100
         },
         {
-          "name": "B02. 不滅のレッドソウル.mp3",
-          "path": "/audio/th15.5/B02. 不滅のレッドソウル.mp3",
+          "name": "29. 不滅のレッドソウル.mp3",
+          "path": "/audio/th15.5/29. 不滅のレッドソウル.mp3",
           "character": "藤原妹紅",
           "video_id": "-YZokbddRFQ",
           "time": 32,
@@ -2522,32 +2522,32 @@
           "chorus_end_time": 96
         },
         {
-          "name": "B03. 永遠に続く回廊.mp3",
-          "path": "/audio/th15.5/B03. 永遠に続く回廊.mp3",
+          "name": "33. 永遠に続く回廊.mp3",
+          "path": "/audio/th15.5/33. 永遠に続く回廊.mp3",
           "character": "鈴仙・優曇華院・イナバ",
           "keyword": "東方憑依華 鈴仙 lunatic",
           "chorus_start_time": 61,
           "chorus_end_time": 110
         },
         {
-          "name": "B05. 落日に映える逆さ城.mp3",
-          "path": "/audio/th15.5/B05. 落日に映える逆さ城.mp3",
+          "name": "30. 落日に映える逆さ城.mp3",
+          "path": "/audio/th15.5/30. 落日に映える逆さ城.mp3",
           "character": "少名針妙丸",
           "video_id": "i_llmlpVQg8",
           "chorus_start_time": 49,
           "chorus_end_time": 91
         },
         {
-          "name": "B06. 心綺楼演舞.mp3",
-          "path": "/audio/th15.5/B06. 心綺楼演舞.mp3",
+          "name": "28. 心綺楼演舞.mp3",
+          "path": "/audio/th15.5/28. 心綺楼演舞.mp3",
           "character": "秦こころ",
           "video_id": "TlXlx93qDKI",
           "chorus_start_time": 61,
           "chorus_end_time": 105
         },
         {
-          "name": "B08. 夢世界フォークロア.mp3",
-          "path": "/audio/th15.5/B08. 夢世界フォークロア.mp3",
+          "name": "32. 夢世界フォークロア.mp3",
+          "path": "/audio/th15.5/32. 夢世界フォークロア.mp3",
           "character": "宇佐見菫子",
           "video_id": "WqE9PL0oRYw",
           "time": 424,
@@ -2555,40 +2555,40 @@
           "chorus_end_time": 111
         },
         {
-          "name": "B11. 至る有頂天.mp3",
-          "path": "/audio/th15.5/B11. 至る有頂天.mp3",
+          "name": "35. 至る有頂天.mp3",
+          "path": "/audio/th15.5/35. 至る有頂天.mp3",
           "character": "比那名居天子",
           "video_id": "cSpnoLh2Ogs",
           "chorus_start_time": 35,
           "chorus_end_time": 83
         },
         {
-          "name": "B12. 千の試練を超えて.mp3",
-          "path": "/audio/th15.5/B12. 千の試練を超えて.mp3",
+          "name": "31. 千の試練を超えて.mp3",
+          "path": "/audio/th15.5/31. 千の試練を超えて.mp3",
           "character": "茨木華扇",
           "video_id": "Z_EUUunyCWc",
           "chorus_start_time": 78,
           "chorus_end_time": 117
         },
         {
-          "name": "B09. スリープシープ・パレード.mp3",
-          "path": "/audio/th15.5/B09. スリープシープ・パレード.mp3",
+          "name": "34. スリープシープ・パレード.mp3",
+          "path": "/audio/th15.5/34. スリープシープ・パレード.mp3",
           "character": "ドレミー・スイート",
           "video_id": "pXxss0nFTcg",
           "chorus_start_time": 59,
           "chorus_end_time": 89
         },
         {
-          "name": "A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
-          "path": "/audio/th15.5/A17. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
+          "name": "36. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
+          "path": "/audio/th15.5/36. 憑坐は夢と現の間に ~ Necro-Fantasia.mp3",
           "character": "八雲紫",
           "video_id": "_Uy7o57NiVA",
           "chorus_start_time": 92,
           "chorus_end_time": 137
         },
         {
-          "name": "B14. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
-          "path": "/audio/th15.5/B14. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
+          "name": "37. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
+          "path": "/audio/th15.5/37. 今宵は飄逸なエゴイスト(Live ver) ~ Egoistic Flowers..mp3",
           "character": "依神女苑 依神紫苑",
           "video_id": "gyiiIWurcyA",
           "chorus_start_time": 156,
