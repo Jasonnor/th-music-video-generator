@@ -1563,8 +1563,8 @@
           "chorus_end_time": 92
         },
         {
-          "name": "04. おてんば恋娘.mp3",
-          "path": "/audio/th12.3/04. おてんば恋娘.mp3",
+          "name": "05. おてんば恋娘.mp3",
+          "path": "/audio/th12.3/05. おてんば恋娘.mp3",
           "character": "チルノ",
           "video_id": "jnvt_djB2ng",
           "time": 30,
@@ -1572,48 +1572,49 @@
           "chorus_end_time": 135
         },
         {
-          "name": "05. 上海紅茶館　～ Chinese Tea.mp3",
-          "path": "/audio/th12.3/05. 上海紅茶館　～ Chinese Tea.mp3",
+          "name": "07. 上海紅茶館　～ Chinese Tea.mp3",
+          "path": "/audio/th12.3/07. 上海紅茶館　～ Chinese Tea.mp3",
           "character": "紅美鈴",
           "video_id": "7J5W3x3YRwk",
           "chorus_start_time": 11,
           "chorus_end_time": 87
         },
         {
-          "name": "06. 霊知の太陽信仰 ～ Nuclear Fusion.mp3",
-          "path": "/audio/th12.3/06. 霊知の太陽信仰 ～ Nuclear Fusion.mp3",
+          "name": "08. 霊知の太陽信仰 ～ Nuclear Fusion.mp3",
+          "path": "/audio/th12.3/08. 霊知の太陽信仰 ～ Nuclear Fusion.mp3",
           "character": "霊烏路空",
           "video_id": "rOuYnwQ0ZxI",
           "chorus_start_time": 23,
           "chorus_end_time": 76
         },
         {
-          "name": "07. 明日ハレの日、ケの昨日.mp3",
-          "path": "/audio/th12.3/07. 明日ハレの日、ケの昨日.mp3",
-          "character": "洩矢諏訪子",
-          "video_id": "fT-4frPUmec",
-          "chorus_start_time": 11,
-          "chorus_end_time": 69
+          "name": "09. ぼくらの非想天則.mp3",
+          "path": "/audio/th12.3/09. ぼくらの非想天則.mp3",
+          "character": "東方非想天則",
+          "video_id": "MKY4R6kydTk",
+          "time": 0,
+          "chorus_start_time": 14,
+          "chorus_end_time": 80
         },
         {
-          "name": "08. アンノウンＸ　～ Unfound Adventure.mp3",
-          "path": "/audio/th12.3/08. アンノウンＸ　～ Unfound Adventure.mp3",
+          "name": "10. アンノウンＸ　～ Unfound Adventure.mp3",
+          "path": "/audio/th12.3/10. アンノウンＸ　～ Unfound Adventure.mp3",
           "character": "東方非想天則",
           "video_id": "_GON91y1CXk",
           "chorus_start_time": 23,
           "chorus_end_time": 78
         },
         {
-          "name": "09. 空に浮かぶ物体Ｘ.mp3",
-          "path": "/audio/th12.3/09. 空に浮かぶ物体Ｘ.mp3",
+          "name": "11. 空に浮かぶ物体Ｘ.mp3",
+          "path": "/audio/th12.3/11. 空に浮かぶ物体Ｘ.mp3",
           "character": "東方非想天則",
           "video_id": "8aQRV_Ecv9A",
           "chorus_start_time": 0,
           "chorus_end_time": 46
         },
         {
-          "name": "10. 二色蓮花蝶　～ Ancients.mp3",
-          "path": "/audio/th12.3/10. 二色蓮花蝶　～ Ancients.mp3",
+          "name": "12. 二色蓮花蝶　～ Ancients.mp3",
+          "path": "/audio/th12.3/12. 二色蓮花蝶　～ Ancients.mp3",
           "character": "博麗霊夢",
           "video_id": "Q3ALTSS0mPY",
           "time": 35,
@@ -1621,24 +1622,24 @@
           "chorus_end_time": 92
         },
         {
-          "name": "11. 恋色マジック.mp3",
-          "path": "/audio/th12.3/11. 恋色マジック.mp3",
+          "name": "13. 恋色マジック.mp3",
+          "path": "/audio/th12.3/13. 恋色マジック.mp3",
           "character": "霧雨魔理沙",
           "video_id": "VCBRseqgVPo",
           "chorus_start_time": 44,
           "chorus_end_time": 93
         },
         {
-          "name": "12. the Grimoire of Alice.mp3",
-          "path": "/audio/th12.3/12. the Grimoire of Alice.mp3",
+          "name": "14. the Grimoire of Alice.mp3",
+          "path": "/audio/th12.3/14. the Grimoire of Alice.mp3",
           "character": "アリス・マーガトロイド",
           "video_id": "WTKIeiN031k",
           "chorus_start_time": 49,
           "chorus_end_time": 96
         },
         {
-          "name": "13. ヴワル魔法図書館.mp3",
-          "path": "/audio/th12.3/13. ヴワル魔法図書館.mp3",
+          "name": "15. ヴワル魔法図書館.mp3",
+          "path": "/audio/th12.3/15. ヴワル魔法図書館.mp3",
           "character": "パチュリー・ノーレッジ",
           "video_id": "reGJhpfSNXE",
           "time": 23,
@@ -1646,13 +1647,12 @@
           "chorus_end_time": 64
         },
         {
-          "name": "15. ぼくらの非想天則.mp3",
-          "path": "/audio/th12.3/15. ぼくらの非想天則.mp3",
-          "character": "東方非想天則",
-          "video_id": "MKY4R6kydTk",
-          "time": 0,
-          "chorus_start_time": 14,
-          "chorus_end_time": 80
+          "name": "16. 明日ハレの日、ケの昨日.mp3",
+          "path": "/audio/th12.3/16. 明日ハレの日、ケの昨日.mp3",
+          "character": "洩矢諏訪子",
+          "video_id": "fT-4frPUmec",
+          "chorus_start_time": 11,
+          "chorus_end_time": 69
         },
         {
           "name": "17. 悠久の蒸気機関.mp3",
