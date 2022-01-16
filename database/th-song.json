@@ -95,7 +95,7 @@
       "songs": [
         {
           "name": "7.Bad Apple!!.mp3",
-          "path": "/audio/th04/Disc A/7.Bad Apple!!.mp3",
+          "path": "/audio/th04/7.Bad Apple!!.mp3",
           "character": "エリー",
           "video_id": "A4gETEv9o2s",
           "time": 370,
@@ -104,7 +104,7 @@
         },
         {
           "name": "9.アリスマエステラ.mp3",
-          "path": "/audio/th04/Disc A/9.アリスマエステラ.mp3",
+          "path": "/audio/th04/9.アリスマエステラ.mp3",
           "character": "博麗靈夢",
           "video_id": "A4gETEv9o2s",
           "time": 613,
@@ -113,7 +113,7 @@
         },
         {
           "name": "13.眠れる恐怖　～　Sleeping Terror.mp3",
-          "path": "/audio/th04/Disc A/13.眠れる恐怖　～　Sleeping Terror.mp3",
+          "path": "/audio/th04/13.眠れる恐怖　～　Sleeping Terror.mp3",
           "character": "旧作幽香",
           "video_id": "sxXebZx2ctM",
           "time": 0,
@@ -122,7 +122,7 @@
         },
         {
           "name": "15.幽夢　～　Inanimate Dream.mp3",
-          "path": "/audio/th04/Disc A/15.幽夢　～　Inanimate Dream.mp3",
+          "path": "/audio/th04/15.幽夢　～　Inanimate Dream.mp3",
           "character": "旧作幽香",
           "video_id": "WgxBdiNTOB0",
           "time": 3,
@@ -130,8 +130,8 @@
           "chorus_end_time": 69
         },
         {
-          "name": "15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
-          "path": "/audio/th04/Disc B/15.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
+          "name": "30.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
+          "path": "/audio/th04/30.幽夢　～　Inanimate Dream (未使用バージョン).mp3",
           "character": "旧作幽香",
           "video_id": "A4gETEv9o2s",
           "time": 1396,
@@ -139,8 +139,8 @@
           "chorus_end_time": 91
         },
         {
-          "name": "3.かわいい悪魔　～　Innocence.mp3",
-          "path": "/audio/th04/Disc B/3.かわいい悪魔　～　Innocence.mp3",
+          "name": "18.かわいい悪魔　~　Innocence.mp3",
+          "path": "/audio/th04/18.かわいい悪魔　~　Innocence.mp3",
           "character": "幻月",
           "video_id": "fbMsQv165w4",
           "time": 289,
