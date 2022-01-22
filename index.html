@@ -68,9 +68,21 @@
                 <i class="btn fas fa-step-backward" id="prevBtn"></i>
                 <i class="btn fas fa-step-forward" id="nextBtn"></i>
             </div>
+           
             <div class="btn" id="playlistBtn"></div>
             <i class="btn fas fa-cog" id="settingBtn"></i>
             <div class="btn" id="volumeBtn"></div>
+            <select class="settingOption select" id="langSelect" onchange="langChanged()">
+                <option selected>jp</option>
+                <option>en</option>
+                <option>en-gb</option>
+                <option>zh-hans</option>
+                <option>zh-hant</option>
+                <option>ko</option>
+                <option>de</option>
+                <option>ro</option>
+                <option>vi</option>
+            </select>
         </div>
 
         <!-- Setting -->
@@ -158,7 +170,7 @@
     <script src="./scripts/player.js" defer></script>
     <script src="./scripts/video.js" defer></script>
     <script src="./scripts/i18n.js" defer></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://www.googletagmanager.com/gtag/js?id=UA-49550932-5" async></script>
     <script defer>
         // Initialize Firebase

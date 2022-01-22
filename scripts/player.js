@@ -24,8 +24,9 @@ var Player = function (playlist) {
     } while (playlist[this.index].file == null);
   }
 
-  // Display the title of the first track.
+  // Display the song title of the first track.
   track.innerHTML = playlist[this.index].title;
+
   var indexTemp = this.index - 1;
   while (this.playlist[indexTemp].file != null) {
     --indexTemp;
@@ -75,6 +76,8 @@ var Player = function (playlist) {
 };
 
 Player.prototype = {
+
+  lang: 'jp',
   /**
    * Play a song in the playlist.
    * @param  {Number} index Index of the song in the playlist (leave empty to play the first or current).
@@ -91,7 +94,7 @@ Player.prototype = {
     }
     // Keep track of the index we are currently playing.
     self.index = index;
-    console.log('Playing index ' + index);
+    // console.log('Playing index ' + index);
 
     // Skip song not exist
     // TODO: Fix prev not exist won't prev 2 song bug
@@ -117,7 +120,7 @@ Player.prototype = {
         onplay: function () {
           // For chorus mode
           if (chorusMode.checked && self.playlist[self.index].chorusStartTime) {
-            console.log(self.index + " chorus start")
+            // console.log(self.index + " chorus start")
             data.howl.seek(self.playlist[self.index].chorusStartTime - 1);
             data.howl.fade(0.0, 1.0, 1000);
           }
@@ -201,9 +204,9 @@ Player.prototype = {
     // Begin playing the sound.
     sound.play();
 
-    // Update the track display.
+    // Update the track display with new song title
     //track.innerHTML = (index + 1) + '. ' + data.title;
-    track.innerHTML = data.title;
+    this.updateTitle(index)
 
     // Play video
     if (videoPlayer.stopped || isNewSong) {
@@ -345,7 +348,7 @@ Player.prototype = {
     if (!chorusFlag && chorusMode.checked &&
       self.playlist[self.index].chorusEndTime &&
       seek >= self.playlist[self.index].chorusEndTime) {
-      console.log(self.index + " chorus end")
+      // console.log(self.index + " chorus end")
       chorusFlag = true;
       sound.fade(1.0, 0.0, 2000);
       setTimeout(function () {
@@ -407,6 +410,18 @@ Player.prototype = {
     var seconds = (secs - minutes * 60) || 0;
 
     return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+  },
+
+  updateTitle: function(){
+    var data = this.playlist[this.index];
+    if (!window.lang || window.lang == 'jp') {
+      track.innerHTML = data.title;
+    }else{
+      getTranslatedSong(data.file, window.lang).then((song)=>{
+        track.innerHTML =song;
+
+      })
+    }
   }
 };
 
@@ -545,4 +560,11 @@ volume.addEventListener('touchend', function () {
 // Image preloader
 for (var i = 6; i < 27; i++) {
   imagePreload('./images/title/' + ('00' + i).slice(-2) + '.jpg');
+}
+
+// i18n loading
+function langChanged() {
+let langSelect = document.getElementById('langSelect');
+  window.lang = langSelect.value;
+  player.updateTitle();
 }
