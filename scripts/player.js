@@ -182,7 +182,8 @@ Player.prototype = {
           cursorColor: '#b556ff',
           cursorWidth: 1,
           progressColor: '#bf6dff',
-          waveColor: '#e0e0e0'
+          waveColor: '#e0e0e0',
+          responsive: true
         });
         wavesurfer.load(sound._sounds[0]._node)
         wavesurfer.on('ready', function () {
