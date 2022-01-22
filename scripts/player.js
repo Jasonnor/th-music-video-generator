@@ -418,7 +418,8 @@ Player.prototype = {
       track.innerHTML = data.title;
     }else{
       getTranslatedSong(data.file, window.lang).then((song)=>{
-        track.innerHTML =song;
+        if(!song) track.innerHTML = data.title;
+        else track.innerHTML =song;
 
       })
     }
