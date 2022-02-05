@@ -1,17 +1,12 @@
 let cached = {};
 let langSelect = document.getElementById('langSelect');
+
 function getLangfile(lang) {
     return new Promise(function (resolve, reject) {
         if (cached[lang]) resolve(cached[lang]);
-        axios
-            .get(
-                'https://www.thpatch.net/w/index.php?title=Special:Translate&taction=export&group=themedb&language=' +
-                    lang +
-                    '&task=export-to-file'
-            )
-            .then(function (response) {
-                let json = response.data;
-
+        firebase.database().ref('i18n').once('value')
+            .then(function (i18n) {
+                let json = i18n.val()[lang]
                 if (typeof json === 'string') {
                     let newjson = '';
                     json.split(/\t/).forEach((str) => (newjson += str));
@@ -45,7 +40,7 @@ function getTranslatedSong(songFile, lang) {
     return new Promise((resolve, reject) => {
         let tokens = songFile.split('/');
         console.log(tokens);
-        let songF = tokens[2].replace('.', '') + '_' + tokens[3].slice(0, 2) + '/' + lang;
+        let songF = tokens[2].replace('.', '') + '_' + tokens[3].slice(0, 2);
         console.log(songF);
         getLangfile(lang)
             .then((json) => {
