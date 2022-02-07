@@ -70,7 +70,7 @@ var mvVid = '';
 var mvNumOfImages = (numOfImages) ? parseInt(numOfImages.value) - 1 : 1;
 
 const changeImage = async (info) => {
-    console.log('Change image to character ' + info.character);
+    // console.log('Change image to character ' + info.character);
     var imageList = []
     firebase.database().ref('images').once('value').then(function (charas) {
         // Read image path from firebase
@@ -100,7 +100,7 @@ const changeImage = async (info) => {
                     return response.json();
                 })
                 .then(function (data) {
-                    console.log(data);
+                    // console.log(data);
                     var imageURL = data.items[Math.floor(Math.random() * data.items.length)].link;
                     var vp = document.getElementById('videoPlayer');
                     vp.style.display = 'none';
@@ -116,7 +116,7 @@ const changeImage = async (info) => {
 const changeVideo = async (info) => {
     if (info.keyword) {
         // Using Crawler Keyword
-        console.log('Crawler Keyword: ' + info.keyword)
+        // console.log('Crawler Keyword: ' + info.keyword)
         var request = gapi.client.youtube.search.list({
             part: 'snippet',
             type: 'video',
@@ -127,7 +127,7 @@ const changeVideo = async (info) => {
             //var randomIndex = Math.floor(Math.random() * 5);
             var randomIndex = 0;
             var videoId = response.result.items[randomIndex].id.videoId;
-            console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
+            // console.log('Video title: ' + response.result.items[randomIndex].snippet.title + ', id: ' + videoId);
             mvVid = videoId;
             videoPlayer.source = {
                 type: 'video',
@@ -139,7 +139,7 @@ const changeVideo = async (info) => {
         });
     } else if (info.video_id) {
         // Using Video ID
-        console.log('Database Video ID: ' + info.video_id)
+        // console.log('Database Video ID: ' + info.video_id)
         mvVid = info.video_id;
         videoPlayer.source = {
             type: 'video',
