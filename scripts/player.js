@@ -59,6 +59,7 @@ var Player = function (playlist) {
       var a = document.createElement('div');
       a.innerHTML = song.title;
       a.className = 'pure-menu-link playlist-item';
+      a.id = `${song.file}`
       a.onclick = function () {
         player.skipTo(playlist.indexOf(song));
       };
@@ -473,8 +474,11 @@ var move = function (event) {
 volume.addEventListener('mousemove', move);
 volume.addEventListener('touchmove', move);
 
+let gameObj;
+
 firebase.database().ref('games').once('value').then(function (games) {
-  games.val().forEach(game => {
+  gameObj = games.val();
+  gameObj.forEach(game => {
     var songObj = {}
     songObj['title'] = game.name;
     songObj['file'] = null;
@@ -565,7 +569,17 @@ for (var i = 6; i < 27; i++) {
 
 // i18n loading
 function langChanged() {
-let langSelect = document.getElementById('langSelect');
+  let langSelect = document.getElementById('langSelect');
   window.lang = langSelect.value;
   player.updateTitle();
+  let divs = document.getElementsByClassName('playlist-item')
+  
+    for (let i = 0;i<divs.length;i++){
+      let div = divs[i]
+      getTranslatedSong(div.id, window.lang).then((song)=>{
+       if(song) div.innerText = song;
+  
+      })
+    }
+  
 }
