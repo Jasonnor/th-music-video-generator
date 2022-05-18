@@ -2756,37 +2756,42 @@
             "songs": [
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "vOqHedkZcpQ",
                     "name": "01. 悪夢日記.mp3",
                     "path": "/audio/th16.5/01. 悪夢日記.mp3"
                 },
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "9abjAsuusjs",
+                    "time": 7,
                     "name": "02. ルーシッドドリーマー.mp3",
                     "path": "/audio/th16.5/02. ルーシッドドリーマー.mp3"
                 },
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "wfklMd2dkCk",
+                    "time": 3,
                     "name": "03. ルナティックドリーマー.mp3",
                     "path": "/audio/th16.5/03. ルナティックドリーマー.mp3"
                 },
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "2plbbkzU3T8",
+                    "time": 3,
                     "name": "04. ナイトメアダイアリー.mp3",
                     "path": "/audio/th16.5/04. ナイトメアダイアリー.mp3"
                 },
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "vOqHedkZcpQ",
+                    "time": 42,
                     "name": "05. バー・オールドアダム.mp3",
                     "path": "/audio/th16.5/05. バー・オールドアダム.mp3"
                 },
                 {
                     "character": "宇佐見菫子",
-                    "keyword": "秘封ナイトメアダイアリー",
+                    "video_id": "vOqHedkZcpQ",
+                    "time": 741,
                     "name": "06. 燕石博物誌が連れてきた闇.mp3",
                     "path": "/audio/th16.5/06. 燕石博物誌が連れてきた闇.mp3"
                 }
@@ -2798,7 +2803,7 @@
             "songs": [
                 {
                     "character": "東方鬼形獣",
-                    "keyword": "東方鬼形獣",
+                    "keyword": "東方鬼形獣 PV",
                     "name": "01. 物言わぬ獣の霊.mp3",
                     "path": "/audio/th17/01. 物言わぬ獣の霊.mp3"
                 },
@@ -2902,13 +2907,13 @@
                 },
                 {
                     "character": "東方鬼形獣",
-                    "keyword": "東方鬼形獣",
+                    "keyword": "東方鬼形獣 ending",
                     "name": "16. 畜生達の休息.mp3",
                     "path": "/audio/th17/16. 畜生達の休息.mp3"
                 },
                 {
                     "character": "東方鬼形獣",
-                    "keyword": "東方鬼形獣",
+                    "keyword": "東方鬼形獣 PV",
                     "name": "17. 地下からの帰還.mp3",
                     "path": "/audio/th17/17. 地下からの帰還.mp3"
                 }
@@ -2926,13 +2931,13 @@
                 },
                 {
                     "character": "饕餮尤魔",
-                    "keyword": "東方剛欲異聞",
+                    "keyword": "東方剛欲異聞 会話集",
                     "name": "02. 東方剛欲異聞.mp3",
                     "path": "/audio/th17.5/02. 東方剛欲異聞.mp3"
                 },
                 {
                     "character": "饕餮尤魔",
-                    "keyword": "東方剛欲異聞",
+                    "keyword": "東方剛欲異聞 会話集 依神",
                     "name": "03. 天理人欲.mp3",
                     "path": "/audio/th17.5/03. 天理人欲.mp3"
                 },
@@ -3070,103 +3075,118 @@
             "songs": [
                 {
                     "character": "東方虹龍洞",
-                    "keyword": "東方虹龍洞",
+                    "keyword": "東方虹龍洞 PV",
                     "name": "01. 虹の架かる幻想郷.mp3",
                     "path": "/audio/th18/01. 虹の架かる幻想郷.mp3"
                 },
                 {
                     "character": "豪徳寺ミケ",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 92,
                     "name": "02. 妖異達の通り雨.mp3",
                     "path": "/audio/th18/02. 妖異達の通り雨.mp3"
                 },
                 {
                     "character": "豪徳寺ミケ",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 134,
                     "name": "03. 大吉キトゥン.mp3",
                     "path": "/audio/th18/03. 大吉キトゥン.mp3"
                 },
                 {
                     "character": "山城たかね",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 228,
                     "name": "04. 深緑に隠された断崖.mp3",
                     "path": "/audio/th18/04. 深緑に隠された断崖.mp3"
                 },
                 {
                     "character": "山城たかね",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 331,
                     "name": "05. バンデットリィテクノロジー.mp3",
                     "path": "/audio/th18/05. バンデットリィテクノロジー.mp3"
                 },
                 {
                     "character": "駒草山如",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 457,
                     "name": "06. 駒草咲くパーペチュアルスノー.mp3",
                     "path": "/audio/th18/06. 駒草咲くパーペチュアルスノー.mp3"
                 },
                 {
                     "character": "駒草山如",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 605,
                     "name": "07. スモーキングドラゴン.mp3",
                     "path": "/audio/th18/07. スモーキングドラゴン.mp3"
                 },
                 {
                     "character": "玉造魅須丸",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 747,
                     "name": "08. 廃れゆく産業遺構.mp3",
                     "path": "/audio/th18/08. 廃れゆく産業遺構.mp3"
                 },
                 {
                     "character": "玉造魅須丸",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 928,
                     "name": "09. 神代鉱石.mp3",
                     "path": "/audio/th18/09. 神代鉱石.mp3"
                 },
                 {
                     "character": "菅牧典",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 1140,
                     "name": "10. 待ちわびた逢魔が時.mp3",
                     "path": "/audio/th18/10. 待ちわびた逢魔が時.mp3"
                 },
                 {
                     "character": "飯綱丸龍",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 1261,
                     "name": "11. 星降る天魔の山.mp3",
                     "path": "/audio/th18/11. 星降る天魔の山.mp3"
                 },
                 {
                     "character": "菅牧典",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 1534,
                     "name": "12. ルナレインボー.mp3",
                     "path": "/audio/th18/12. ルナレインボー.mp3"
                 },
                 {
                     "character": "天弓千亦",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 1628,
                     "name": "13. あの賑やかな市場は今どこに　～ Immemorial Marketeers.mp3",
                     "path": "/audio/th18/13. あの賑やかな市場は今どこに　～ Immemorial Marketeers.mp3"
                 },
                 {
                     "character": "菅牧典",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "Qk78EtCvwXQ",
+                    "time": 122,
                     "name": "14. 幻想の地下大線路網.mp3",
                     "path": "/audio/th18/14. 幻想の地下大線路網.mp3"
                 },
                 {
                     "character": "姫虫百々世",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "Qk78EtCvwXQ",
+                    "time": 328,
                     "name": "15. 龍王殺しのプリンセス.mp3",
                     "path": "/audio/th18/15. 龍王殺しのプリンセス.mp3"
                 },
                 {
                     "character": "東方虹龍洞",
-                    "keyword": "東方虹龍洞",
+                    "keyword": "東方虹龍洞 ending",
                     "name": "16. 嵐の後の日曜日.mp3",
                     "path": "/audio/th18/16. 嵐の後の日曜日.mp3"
                 },
                 {
                     "character": "東方虹龍洞",
-                    "keyword": "東方虹龍洞",
+                    "video_id": "1PHXgAIkNx0",
+                    "time": 1987,
                     "name": "17. 虹色の世界.mp3",
                     "path": "/audio/th18/17. 虹色の世界.mp3"
                 }
