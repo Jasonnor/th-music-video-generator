@@ -595,18 +595,10 @@ function langChanged() {
    */
   let gameTitles = document.getElementsByClassName('playlist-title')
   axios.get("https://srv.thpatch.net/lang_en/stringdefs.js").then((res)=>{
-      for(let i = 0;i<gameTitles.length;i++){
-        let game = gameTitles[i];
-        console.log(game)
-        game.innerText = res.data[game.id]??game.innerText;
-      }
+    for(let i = 0;i<gameTitles.length;i++){
+      let game = gameTitles[i];
+      console.log(game)
+      game.innerText = res.data[game.id]??game.innerText;
+    }
   })
-  // for (let i = 0;i<divs.length;i++){
-  //   let div = divs[i]
-  //   getTranslatedSong(div.id, window.lang).then((song)=>{
-  //    if(song) div.innerText = song;
-
-  //   })
-  // }
-  
 }
