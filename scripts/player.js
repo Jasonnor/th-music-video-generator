@@ -38,6 +38,12 @@ var Player = function (playlist) {
   var ulth = 1;
   var pl = document.getElementById('playlist')
   // Setup the playlist display.
+
+  // hardcoded song names, might want to add these to the firebase json such that the "song" object contains the game number
+  // e.g. instead of { title: '東方妖々夢', file: null } we have { title: '東方妖々夢', file: 'th07' }
+  // instead of { title: '東方文花帖', file: null } we have { title: '東方文花帖', file: 'th095' } (no decimal point)
+  let songCodes = ["th01","th02","th03","th04","th05","th06","th07","th075","th08","th09","th095","th10","th105","th11","th12","th123","th125","th128","th13","th135","th14","th143","th145","th15","th155","th16","th165","th17","th175","th18"]
+
   playlist.forEach(function (song) {
     var li = document.createElement('li');
     li.className = 'pure-menu-item';
@@ -47,6 +53,7 @@ var Player = function (playlist) {
         pl.appendChild(ul);
       }
       li.innerHTML = song.title;
+      li.id = songCodes.shift()
       li.className += ' pure-menu-disabled playlist-title';
       ul = document.createElement('ul');
       ul.className = 'pure-menu-list';
@@ -581,5 +588,25 @@ function langChanged() {
   
       })
     }
+
+  /**
+   * Translating game titles
+   * This WILL need to be moved to firebase
+   */
+  let gameTitles = document.getElementsByClassName('playlist-title')
+  axios.get("https://srv.thpatch.net/lang_en/stringdefs.js").then((res)=>{
+      for(let i = 0;i<gameTitles.length;i++){
+        let game = gameTitles[i];
+        console.log(game)
+        game.innerText = res.data[game.id]??game.innerText;
+      }
+  })
+  // for (let i = 0;i<divs.length;i++){
+  //   let div = divs[i]
+  //   getTranslatedSong(div.id, window.lang).then((song)=>{
+  //    if(song) div.innerText = song;
+
+  //   })
+  // }
   
 }
