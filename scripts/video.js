@@ -53,11 +53,13 @@ const musicVideoTrigger = async () => {
             }
             break;
         case 6000:
+            // Trick: for video buffering
             if (imagesDurationValue * numOfImagesValue > 6) {
                 videoPlayer.play();
             }
             break;
         case 7000:
+            // Trick: for video buffering
             if (imagesDurationValue * numOfImagesValue > 7) {
                 videoPlayer.pause();
             }
@@ -73,61 +75,63 @@ var mvStage = -1;
 var mvInterval = 500;
 var mvTrigger = setInterval(musicVideoTrigger, mvInterval);
 var mvVid = '';
-var mvNumOfImages = numOfImages ? parseInt(numOfImages.value) - 1 : 1;
+var mvNumOfImages = (numOfImages) ? parseInt(numOfImages.value) - 1 : 1;
+let currentCharacter = '';
+let currentImageList = [];
+let currentImageIndex = 0;
 
 const changeImage = async (info) => {
-    console.log('Change image to character ' + info.character);
-    var imageList = [];
-    firebase
-        .database()
-        .ref('images')
-        .once('value')
-        .then(function (charas) {
-            // Read image path from firebase
-            charas.val().forEach((chara) => {
-                if (chara.name == info.character) {
-                    chara.images.forEach((image) => {
-                        imageList.push(image.path);
-                    });
+    // console.log('Change image to character ' + info.character);
+    firebase.database().ref('images').once('value').then(function (characters) {
+        // Read image path from firebase
+        characters.val().some(character => {
+            if (character.name === info.character) {
+                if (character.name === currentCharacter) {
+                    return true;
                 }
-            });
-            if (imageList.length > 0) {
-                // Get random image
-                var imageURL = '.' + imageList[Math.floor(Math.random() * imageList.length)];
-                var vp = document.getElementById('videoPlayer');
-                vp.style.display = 'none';
-                //videoPlayer.poster = imageURL;
-                var pidTemp = imageURL.split('/')[3].split('_')[0];
-                document.getElementById('pid').innerHTML = 'pid=' + pidTemp;
-                pidUrl = 'https://www.pixiv.net/member_illust.php?mode=medium&illust_id=' + pidTemp;
-                fadeInImage('background', imageURL, 'body');
-            } else {
-                var cx = '009797881502979873179:yxcz0y7drxo';
-                var a = info.character;
-                var url =
-                    'https://www.googleapis.com/customsearch/v1/siterestrict?key=' +
-                    googleAPI +
-                    '&cx=' +
-                    cx +
-                    '&q=' +
-                    a +
-                    '&searchType=image&imgSize=large&safe=medium';
-                fetch(url)
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (data) {
-                        var imageURL = data.items[Math.floor(Math.random() * data.items.length)].link;
-                        var vp = document.getElementById('videoPlayer');
-                        vp.style.display = 'none';
-                        videoPlayer.poster = imageURL;
-                        document.getElementById('pid').innerHTML = '';
-                        pidUrl = '';
-                        fadeInImage('background', imageURL, 'body');
-                    });
+                currentCharacter = character.name;
+                currentImageList = [];
+                currentImageIndex = 0;
+                character.images.forEach(image => {
+                    currentImageList.push(image.path);
+                });
+                currentImageList.sort(() => Math.random() - 0.5)
+                return true;
             }
+            return false;
         });
-};
+        if (currentImageList.length > 0) {
+            // Get random image
+            const imageURL = '.' + currentImageList[currentImageIndex % currentImageList.length];
+            currentImageIndex += 1;
+            let vp = document.getElementById('videoPlayer');
+            vp.style.display = 'none';
+            videoPlayer.poster = imageURL;
+            const pidTemp = imageURL.split('/')[3].split('_')[0];
+            document.getElementById('pid').innerHTML = 'pid=' + pidTemp;
+            pidUrl = 'https://www.pixiv.net/member_illust.php?mode=medium&illust_id=' + pidTemp;
+            fadeInImage('background', imageURL, 'body');
+        } else {
+            const cx = '009797881502979873179:yxcz0y7drxo';
+            const a = info.character;
+            const url = 'https://www.googleapis.com/customsearch/v1/siterestrict?key=' + googleAPI + '&cx=' + cx + '&q=' + a +
+                '&searchType=image&imgSize=large&safe=medium';
+            fetch(url).then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    // console.log(data);
+                    var imageURL = data.items[Math.floor(Math.random() * data.items.length)].link;
+                    var vp = document.getElementById('videoPlayer');
+                    vp.style.display = 'none';
+                    videoPlayer.poster = imageURL;
+                    document.getElementById('pid').innerHTML = '';
+                    pidUrl = '';
+                    fadeInImage('background', imageURL, 'body');
+                });
+        }
+    });
+}
 
 const changeVideo = async (info) => {
     if (info.keyword) {
