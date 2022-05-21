@@ -4,6 +4,10 @@ elms.forEach(function (elm) {
   window[elm] = document.getElementById(elm);
 });
 
+// For Japanese title cache
+let jpGameTitles = [];
+let jpSongTitles = [];
+
 /**
  * Player class containing the state of our playlist and where we are in it.
  * Includes all methods for playing, skipping, updating the display, etc.
@@ -38,12 +42,6 @@ var Player = function (playlist) {
   var ulth = 1;
   var pl = document.getElementById('playlist')
   // Setup the playlist display.
-
-  // hardcoded song names, might want to add these to the firebase json such that the "song" object contains the game number
-  // e.g. instead of { title: '東方妖々夢', file: null } we have { title: '東方妖々夢', file: 'th07' }
-  // instead of { title: '東方文花帖', file: null } we have { title: '東方文花帖', file: 'th095' } (no decimal point)
-  let songCodes = ["th01","th02","th03","th04","th05","th06","th07","th075","th08","th09","th095","th10","th105","th11","th12","th123","th125","th128","th13","th135","th14","th143","th145","th15","th155","th16","th165","th17","th175","th18"]
-
   playlist.forEach(function (song) {
     var li = document.createElement('li');
     li.className = 'pure-menu-item';
@@ -53,7 +51,8 @@ var Player = function (playlist) {
         pl.appendChild(ul);
       }
       li.innerHTML = song.title;
-      li.id = songCodes.shift()
+      jpGameTitles.push(song.title);
+      li.id = song.code;
       li.className += ' pure-menu-disabled playlist-title';
       ul = document.createElement('ul');
       ul.className = 'pure-menu-list';
@@ -65,6 +64,7 @@ var Player = function (playlist) {
       // Song
       var a = document.createElement('div');
       a.innerHTML = song.title;
+      jpSongTitles.push(song.title);
       a.className = 'pure-menu-link playlist-item';
       a.id = `${song.file}`
       a.onclick = function () {
@@ -428,7 +428,6 @@ Player.prototype = {
       getTranslatedSong(data.file, window.lang).then((song)=>{
         if(!song) track.innerHTML = data.title;
         else track.innerHTML =song;
-
       })
     }
   }
@@ -489,6 +488,7 @@ firebase.database().ref('games').once('value').then(function (games) {
     var songObj = {}
     songObj['title'] = game.name;
     songObj['file'] = null;
+    songObj['code'] = game.path.replace('/audio/', '').replace('.', '');
     songList.push(songObj);
     game.songs.forEach(song => {
       var songObj = {}
@@ -580,25 +580,41 @@ function langChanged() {
   window.lang = langSelect.value;
   player.updateTitle();
   let divs = document.getElementsByClassName('playlist-item')
-  
-    for (let i = 0;i<divs.length;i++){
-      let div = divs[i]
-      getTranslatedSong(div.id, window.lang).then((song)=>{
-       if(song) div.innerText = song;
-  
+  for (let i = 0; i < divs.length; i++) {
+    let div = divs[i];
+    if (window.lang === 'jp') {
+      div.innerText = jpSongTitles[i];
+    }
+    else {
+      getTranslatedSong(div.id, window.lang).then((song) => {
+        if (song) div.innerText = song;
       })
     }
+  }
 
-  /**
-   * Translating game titles
-   * This WILL need to be moved to firebase
-   */
-  let gameTitles = document.getElementsByClassName('playlist-title')
-  axios.get("https://srv.thpatch.net/lang_en/stringdefs.js").then((res)=>{
-    for(let i = 0;i<gameTitles.length;i++){
-      let game = gameTitles[i];
-      console.log(game)
-      game.innerText = res.data[game.id]??game.innerText;
-    }
-  })
+  // Translating game titles
+  firebase
+      .database()
+      .ref('i18n-titles')
+      .once('value')
+      .then(function (i18n) {
+        let gameTitles = document.getElementsByClassName('playlist-title');
+        let translatedTitles = i18n.val()[langSelect.value];
+        switch (langSelect.value) {
+          case 'jp':
+            for (let i = 0; i < gameTitles.length; i++) {
+              gameTitles[i].innerText = jpGameTitles[i];
+            }
+            break;
+          case 'en-gb':
+            translatedTitles = i18n.val()['en'];
+          default:
+            for (let i = 0; i < gameTitles.length; i++) {
+              let game = gameTitles[i];
+              if (game.id in translatedTitles) {
+                game.innerText = translatedTitles[game.id] ?? game.innerText;
+              }
+            }
+        }
+      });
 }
