@@ -4,6 +4,10 @@ elms.forEach(function (elm) {
   window[elm] = document.getElementById(elm);
 });
 
+// For Japanese title cache
+let jpGameTitles = [];
+let jpSongTitles = [];
+
 /**
  * Player class containing the state of our playlist and where we are in it.
  * Includes all methods for playing, skipping, updating the display, etc.
@@ -47,6 +51,8 @@ var Player = function (playlist) {
         pl.appendChild(ul);
       }
       li.innerHTML = song.title;
+      jpGameTitles.push(song.title);
+      li.id = song.code;
       li.className += ' pure-menu-disabled playlist-title';
       ul = document.createElement('ul');
       ul.className = 'pure-menu-list';
@@ -58,7 +64,9 @@ var Player = function (playlist) {
       // Song
       var a = document.createElement('div');
       a.innerHTML = song.title;
+      jpSongTitles.push(song.title);
       a.className = 'pure-menu-link playlist-item';
+      a.id = `${song.file}`
       a.onclick = function () {
         player.skipTo(playlist.indexOf(song));
       };
@@ -420,7 +428,6 @@ Player.prototype = {
       getTranslatedSong(data.file, window.lang).then((song)=>{
         if(!song) track.innerHTML = data.title;
         else track.innerHTML =song;
-
       })
     }
   }
@@ -473,11 +480,15 @@ var move = function (event) {
 volume.addEventListener('mousemove', move);
 volume.addEventListener('touchmove', move);
 
+let gameObj;
+
 firebase.database().ref('games').once('value').then(function (games) {
-  games.val().forEach(game => {
+  gameObj = games.val();
+  gameObj.forEach(game => {
     var songObj = {}
     songObj['title'] = game.name;
     songObj['file'] = null;
+    songObj['code'] = game.path.replace('/audio/', '').replace('.', '');
     songList.push(songObj);
     game.songs.forEach(song => {
       var songObj = {}
@@ -565,7 +576,45 @@ for (var i = 6; i < 27; i++) {
 
 // i18n loading
 function langChanged() {
-let langSelect = document.getElementById('langSelect');
+  let langSelect = document.getElementById('langSelect');
   window.lang = langSelect.value;
   player.updateTitle();
+  let divs = document.getElementsByClassName('playlist-item')
+  for (let i = 0; i < divs.length; i++) {
+    let div = divs[i];
+    if (window.lang === 'jp') {
+      div.innerText = jpSongTitles[i];
+    }
+    else {
+      getTranslatedSong(div.id, window.lang).then((song) => {
+        if (song) div.innerText = song;
+      })
+    }
+  }
+
+  // Translating game titles
+  firebase
+      .database()
+      .ref('i18n-titles')
+      .once('value')
+      .then(function (i18n) {
+        let gameTitles = document.getElementsByClassName('playlist-title');
+        let translatedTitles = i18n.val()[langSelect.value];
+        switch (langSelect.value) {
+          case 'jp':
+            for (let i = 0; i < gameTitles.length; i++) {
+              gameTitles[i].innerText = jpGameTitles[i];
+            }
+            break;
+          case 'en-gb':
+            translatedTitles = i18n.val()['en'];
+          default:
+            for (let i = 0; i < gameTitles.length; i++) {
+              let game = gameTitles[i];
+              if (game.id in translatedTitles) {
+                game.innerText = translatedTitles[game.id] ?? game.innerText;
+              }
+            }
+        }
+      });
 }

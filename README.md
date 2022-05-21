@@ -6,11 +6,11 @@ Touhou Project random music video generator/player, crawling image and video fro
 
 ## Feature
 
-- Random images and video mixture
-- Mobile friendly
-- Highly controllable MV generation options
-- Totally open [json database](https://github.com/Jasonnor/th-music-video-generator/blob/master/database/th-song.json)
-- Full :heart: of Touhou Project!
+-   Random images and video mixture
+-   Mobile friendly
+-   Highly controllable MV generation options
+-   Totally open [json database](https://github.com/Jasonnor/th-music-video-generator/blob/master/database/th-song.json)
+-   Full :heart: of Touhou Project!
 
 ## Preview
 
@@ -72,7 +72,7 @@ contributed to Touhou Project Music-Video Generator.
 
 Latious spent a lot of time completing the chorus time of songs from `永夜抄` to `天空璋`.
 
-Which helping us enjoy the beautiful and wonderful melodies from many Touhou songs! 🥰
+Which helps us enjoy the beautiful and wonderful melodies from many Touhou songs! 🥰
 
 ### <a href="https://github.com/hemisemidemipresent"><img src="https://avatars.githubusercontent.com/u/57880110?v=4" height="auto" width="50" style="border-radius:50%"></a> [hemi](https://github.com/hemisemidemipresent)
 
@@ -82,14 +82,14 @@ Anyone who speaks languages other than Japanese will benefit greatly. 😍
 
 ## Reference
 
-- [上海アリス幻樂団](http://www16.big.or.jp/~zun/)
-- howler.js - [https://howlerjs.com/](https://howlerjs.com/)
-- Plyr - [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
-- Firebase - [https://firebase.google.com/](https://firebase.google.com/)
-- Pure - [https://purecss.io/](https://purecss.io/)
-- Font Awesome - [https://fontawesome.com/](https://fontawesome.com/)
-- vudio.js - [https://github.com/margox/vudio.js](https://github.com/margox/vudio.js)
-- wavesurfer.js - [https://wavesurfer-js.org/](https://wavesurfer-js.org/)
+-   [上海アリス幻樂団](http://www16.big.or.jp/~zun/)
+-   howler.js - [https://howlerjs.com/](https://howlerjs.com/)
+-   Plyr - [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
+-   Firebase - [https://firebase.google.com/](https://firebase.google.com/)
+-   Pure - [https://purecss.io/](https://purecss.io/)
+-   Font Awesome - [https://fontawesome.com/](https://fontawesome.com/)
+-   vudio.js - [https://github.com/margox/vudio.js](https://github.com/margox/vudio.js)
+-   wavesurfer.js - [https://wavesurfer-js.org/](https://wavesurfer-js.org/)
 
 ## License
 

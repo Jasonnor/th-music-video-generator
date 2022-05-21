@@ -4,9 +4,12 @@ let langSelect = document.getElementById('langSelect');
 function getLangfile(lang) {
     return new Promise(function (resolve, reject) {
         if (cached[lang]) resolve(cached[lang]);
-        firebase.database().ref('i18n').once('value')
+        firebase
+            .database()
+            .ref('i18n')
+            .once('value')
             .then(function (i18n) {
-                let json = i18n.val()[lang]
+                let json = i18n.val()[lang];
                 if (typeof json === 'string') {
                     let newjson = '';
                     json.split(/\t/).forEach((str) => (newjson += str));
@@ -24,7 +27,6 @@ function getLangfile(lang) {
                     }
                     res[property] = item;
                 }
-                console.log(lang);
                 if (!cached) cached = {};
                 cached[lang] = res;
                 resolve(res);
@@ -39,13 +41,9 @@ function getLangfile(lang) {
 function getTranslatedSong(songFile, lang) {
     return new Promise((resolve, reject) => {
         let tokens = songFile.split('/');
-        console.log(tokens);
         let songF = tokens[2].replace('.', '') + '_' + tokens[3].slice(0, 2);
-        console.log(songF);
         getLangfile(lang)
             .then((json) => {
-                console.log(json);
-                console.log(json[songF]);
                 resolve(json[songF]);
             })
             .catch((e) => reject(e));
