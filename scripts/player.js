@@ -42,12 +42,6 @@ var Player = function (playlist) {
   var ulth = 1;
   var pl = document.getElementById('playlist')
   // Setup the playlist display.
-
-  // hardcoded song names, might want to add these to the firebase json such that the "song" object contains the game number
-  // e.g. instead of { title: '東方妖々夢', file: null } we have { title: '東方妖々夢', file: 'th07' }
-  // instead of { title: '東方文花帖', file: null } we have { title: '東方文花帖', file: 'th095' } (no decimal point)
-  let songCodes = ["th01","th02","th03","th04","th05","th06","th07","th075","th08","th09","th095","th10","th105","th11","th12","th123","th125","th128","th13","th135","th14","th143","th145","th15","th155","th16","th165","th17","th175","th18"]
-
   playlist.forEach(function (song) {
     var li = document.createElement('li');
     li.className = 'pure-menu-item';
